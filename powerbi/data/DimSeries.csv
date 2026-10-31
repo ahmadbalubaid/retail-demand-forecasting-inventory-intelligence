@@ -1,0 +1,1783 @@
+store_nbr,risk_category,action_priority,activity_status,volume_tier,family_id,series_key,series_label,risk_band
+1,Medium,P2 - Monitor,regular,Low,0,1|0,Store 1 · AUTOMOTIVE,60–70
+1,Low,P3 - Routine,never sold,Low,1,1|1,Store 1 · BABY CARE,10–20
+1,Medium,P2 - Monitor,regular,Low,2,1|2,Store 1 · BEAUTY,50–60
+1,Medium,P2 - Monitor,regular,High,3,1|3,Store 1 · BEVERAGES,40–50
+1,Low,P3 - Routine,intermittent,Low,4,1|4,Store 1 · BOOKS,30–40
+1,Medium,P2 - Monitor,regular,High,5,1|5,Store 1 · BREAD/BAKERY,40–50
+1,Medium,P2 - Monitor,regular,Medium,6,1|6,Store 1 · CELEBRATION,40–50
+1,Medium,P2 - Monitor,regular,High,7,1|7,Store 1 · CLEANING,40–50
+1,Medium,P2 - Monitor,regular,High,8,1|8,Store 1 · DAIRY,40–50
+1,Medium,P2 - Monitor,regular,Medium,9,1|9,Store 1 · DELI,40–50
+1,Low,P3 - Routine,regular,Medium,10,1|10,Store 1 · EGGS,20–30
+1,Low,P3 - Routine,regular,Medium,11,1|11,Store 1 · FROZEN FOODS,30–40
+1,Medium,P2 - Monitor,regular,High,12,1|12,Store 1 · GROCERY I,40–50
+1,Medium,P2 - Monitor,regular,Medium,13,1|13,Store 1 · GROCERY II,50–60
+1,Medium,P2 - Monitor,regular,Low,14,1|14,Store 1 · HARDWARE,40–50
+1,Medium,P2 - Monitor,regular,Medium,15,1|15,Store 1 · HOME AND KITCHEN I,60–70
+1,Medium,P2 - Monitor,regular,Medium,16,1|16,Store 1 · HOME AND KITCHEN II,50–60
+1,Medium,P2 - Monitor,intermittent,Low,17,1|17,Store 1 · HOME APPLIANCES,60–70
+1,Medium,P2 - Monitor,regular,Medium,18,1|18,Store 1 · HOME CARE,50–60
+1,Medium,P2 - Monitor,regular,Medium,19,1|19,Store 1 · LADIESWEAR,50–60
+1,Low,P3 - Routine,regular,Medium,20,1|20,Store 1 · LAWN AND GARDEN,30–40
+1,Medium,P2 - Monitor,regular,Low,21,1|21,Store 1 · LINGERIE,50–60
+1,Medium,P2 - Monitor,regular,Medium,22,1|22,"Store 1 · LIQUOR,WINE,BEER",40–50
+1,Medium,P2 - Monitor,regular,Low,23,1|23,Store 1 · MAGAZINES,50–60
+1,Medium,P2 - Monitor,regular,High,24,1|24,Store 1 · MEATS,40–50
+1,Low,P3 - Routine,regular,Medium,25,1|25,Store 1 · PERSONAL CARE,30–40
+1,Medium,P2 - Monitor,regular,Low,26,1|26,Store 1 · PET SUPPLIES,40–50
+1,Medium,P2 - Monitor,regular,Low,27,1|27,Store 1 · PLAYERS AND ELECTRONICS,40–50
+1,Low,P3 - Routine,regular,High,28,1|28,Store 1 · POULTRY,30–40
+1,Low,P3 - Routine,regular,Medium,29,1|29,Store 1 · PREPARED FOODS,30–40
+1,Medium,P2 - Monitor,regular,High,30,1|30,Store 1 · PRODUCE,40–50
+1,Medium,P2 - Monitor,intermittent,Low,31,1|31,Store 1 · SCHOOL AND OFFICE SUPPLIES,50–60
+1,Medium,P2 - Monitor,regular,Medium,32,1|32,Store 1 · SEAFOOD,50–60
+2,Medium,P2 - Monitor,regular,Low,0,2|0,Store 2 · AUTOMOTIVE,50–60
+2,Low,P3 - Routine,intermittent,Low,1,2|1,Store 2 · BABY CARE,20–30
+2,Medium,P2 - Monitor,regular,Low,2,2|2,Store 2 · BEAUTY,40–50
+2,Medium,P2 - Monitor,regular,High,3,2|3,Store 2 · BEVERAGES,40–50
+2,Low,P3 - Routine,dormant,Low,4,2|4,Store 2 · BOOKS,00–10
+2,Low,P3 - Routine,regular,High,5,2|5,Store 2 · BREAD/BAKERY,20–30
+2,Medium,P2 - Monitor,regular,Medium,6,2|6,Store 2 · CELEBRATION,40–50
+2,Medium,P2 - Monitor,regular,High,7,2|7,Store 2 · CLEANING,40–50
+2,Low,P3 - Routine,regular,High,8,2|8,Store 2 · DAIRY,30–40
+2,Low,P3 - Routine,regular,High,9,2|9,Store 2 · DELI,30–40
+2,Low,P3 - Routine,regular,Medium,10,2|10,Store 2 · EGGS,20–30
+2,Low,P3 - Routine,regular,Medium,11,2|11,Store 2 · FROZEN FOODS,30–40
+2,Low,P3 - Routine,regular,High,12,2|12,Store 2 · GROCERY I,30–40
+2,Medium,P2 - Monitor,regular,Medium,13,2|13,Store 2 · GROCERY II,60–70
+2,Medium,P2 - Monitor,regular,Low,14,2|14,Store 2 · HARDWARE,50–60
+2,Medium,P2 - Monitor,regular,Medium,15,2|15,Store 2 · HOME AND KITCHEN I,40–50
+2,Medium,P2 - Monitor,regular,Medium,16,2|16,Store 2 · HOME AND KITCHEN II,50–60
+2,Medium,P2 - Monitor,intermittent,Low,17,2|17,Store 2 · HOME APPLIANCES,40–50
+2,Medium,P2 - Monitor,regular,High,18,2|18,Store 2 · HOME CARE,50–60
+2,Medium,P2 - Monitor,regular,Medium,19,2|19,Store 2 · LADIESWEAR,50–60
+2,Low,P3 - Routine,regular,Medium,20,2|20,Store 2 · LAWN AND GARDEN,30–40
+2,Medium,P2 - Monitor,regular,Low,21,2|21,Store 2 · LINGERIE,60–70
+2,Medium,P2 - Monitor,regular,Medium,22,2|22,"Store 2 · LIQUOR,WINE,BEER",50–60
+2,Medium,P2 - Monitor,regular,Low,23,2|23,Store 2 · MAGAZINES,50–60
+2,Medium,P2 - Monitor,regular,High,24,2|24,Store 2 · MEATS,40–50
+2,Medium,P2 - Monitor,regular,High,25,2|25,Store 2 · PERSONAL CARE,40–50
+2,Low,P3 - Routine,regular,Low,26,2|26,Store 2 · PET SUPPLIES,20–30
+2,Medium,P2 - Monitor,regular,Low,27,2|27,Store 2 · PLAYERS AND ELECTRONICS,40–50
+2,Low,P3 - Routine,regular,High,28,2|28,Store 2 · POULTRY,20–30
+2,Low,P3 - Routine,regular,Medium,29,2|29,Store 2 · PREPARED FOODS,20–30
+2,Low,P3 - Routine,regular,High,30,2|30,Store 2 · PRODUCE,30–40
+2,Medium,P2 - Monitor,intermittent,Low,31,2|31,Store 2 · SCHOOL AND OFFICE SUPPLIES,50–60
+2,Low,P3 - Routine,regular,Medium,32,2|32,Store 2 · SEAFOOD,30–40
+3,Medium,P2 - Monitor,regular,Medium,0,3|0,Store 3 · AUTOMOTIVE,50–60
+3,Medium,P2 - Monitor,regular,Low,1,3|1,Store 3 · BABY CARE,60–70
+3,Medium,P2 - Monitor,regular,Medium,2,3|2,Store 3 · BEAUTY,50–60
+3,Medium,P2 - Monitor,regular,High,3,3|3,Store 3 · BEVERAGES,40–50
+3,Low,P3 - Routine,intermittent,Low,4,3|4,Store 3 · BOOKS,20–30
+3,Low,P3 - Routine,regular,High,5,3|5,Store 3 · BREAD/BAKERY,20–30
+3,High,P1 - Immediate review,regular,Medium,6,3|6,Store 3 · CELEBRATION,60–70
+3,Medium,P2 - Monitor,regular,High,7,3|7,Store 3 · CLEANING,40–50
+3,Low,P3 - Routine,regular,High,8,3|8,Store 3 · DAIRY,20–30
+3,Low,P3 - Routine,regular,High,9,3|9,Store 3 · DELI,20–30
+3,Low,P3 - Routine,regular,High,10,3|10,Store 3 · EGGS,20–30
+3,Low,P3 - Routine,regular,High,11,3|11,Store 3 · FROZEN FOODS,30–40
+3,Low,P3 - Routine,regular,High,12,3|12,Store 3 · GROCERY I,30–40
+3,Medium,P2 - Monitor,regular,Medium,13,3|13,Store 3 · GROCERY II,40–50
+3,Low,P3 - Routine,regular,Low,14,3|14,Store 3 · HARDWARE,30–40
+3,Medium,P2 - Monitor,regular,Medium,15,3|15,Store 3 · HOME AND KITCHEN I,50–60
+3,Medium,P2 - Monitor,regular,Medium,16,3|16,Store 3 · HOME AND KITCHEN II,40–50
+3,Medium,P2 - Monitor,regular,Low,17,3|17,Store 3 · HOME APPLIANCES,50–60
+3,Medium,P2 - Monitor,regular,High,18,3|18,Store 3 · HOME CARE,50–60
+3,Medium,P2 - Monitor,regular,Medium,19,3|19,Store 3 · LADIESWEAR,40–50
+3,Medium,P2 - Monitor,regular,Medium,20,3|20,Store 3 · LAWN AND GARDEN,40–50
+3,Medium,P2 - Monitor,regular,Medium,21,3|21,Store 3 · LINGERIE,40–50
+3,Medium,P2 - Monitor,regular,High,22,3|22,"Store 3 · LIQUOR,WINE,BEER",40–50
+3,Medium,P2 - Monitor,regular,Medium,23,3|23,Store 3 · MAGAZINES,40–50
+3,Low,P3 - Routine,regular,High,24,3|24,Store 3 · MEATS,30–40
+3,Medium,P2 - Monitor,regular,High,25,3|25,Store 3 · PERSONAL CARE,40–50
+3,Low,P3 - Routine,regular,Medium,26,3|26,Store 3 · PET SUPPLIES,20–30
+3,Low,P3 - Routine,regular,Medium,27,3|27,Store 3 · PLAYERS AND ELECTRONICS,30–40
+3,Low,P3 - Routine,regular,High,28,3|28,Store 3 · POULTRY,20–30
+3,Low,P3 - Routine,regular,High,29,3|29,Store 3 · PREPARED FOODS,10–20
+3,Low,P3 - Routine,regular,High,30,3|30,Store 3 · PRODUCE,30–40
+3,High,P2 - Monitor,regular,Low,31,3|31,Store 3 · SCHOOL AND OFFICE SUPPLIES,70–80
+3,Low,P3 - Routine,regular,Medium,32,3|32,Store 3 · SEAFOOD,30–40
+4,Medium,P2 - Monitor,regular,Low,0,4|0,Store 4 · AUTOMOTIVE,40–50
+4,Medium,P2 - Monitor,intermittent,Low,1,4|1,Store 4 · BABY CARE,60–70
+4,Medium,P2 - Monitor,regular,Low,2,4|2,Store 4 · BEAUTY,50–60
+4,Medium,P2 - Monitor,regular,High,3,4|3,Store 4 · BEVERAGES,40–50
+4,Low,P3 - Routine,intermittent,Low,4,4|4,Store 4 · BOOKS,30–40
+4,Low,P3 - Routine,regular,High,5,4|5,Store 4 · BREAD/BAKERY,30–40
+4,Low,P3 - Routine,regular,Low,6,4|6,Store 4 · CELEBRATION,30–40
+4,Medium,P2 - Monitor,regular,High,7,4|7,Store 4 · CLEANING,40–50
+4,Low,P3 - Routine,regular,High,8,4|8,Store 4 · DAIRY,30–40
+4,Medium,P2 - Monitor,regular,High,9,4|9,Store 4 · DELI,40–50
+4,Low,P3 - Routine,regular,Medium,10,4|10,Store 4 · EGGS,30–40
+4,Medium,P2 - Monitor,regular,Medium,11,4|11,Store 4 · FROZEN FOODS,40–50
+4,Medium,P2 - Monitor,regular,High,12,4|12,Store 4 · GROCERY I,40–50
+4,Medium,P2 - Monitor,regular,Medium,13,4|13,Store 4 · GROCERY II,50–60
+4,High,P2 - Monitor,regular,Low,14,4|14,Store 4 · HARDWARE,60–70
+4,Medium,P2 - Monitor,regular,Medium,15,4|15,Store 4 · HOME AND KITCHEN I,50–60
+4,Medium,P2 - Monitor,regular,Medium,16,4|16,Store 4 · HOME AND KITCHEN II,50–60
+4,Low,P3 - Routine,intermittent,Low,17,4|17,Store 4 · HOME APPLIANCES,20–30
+4,Medium,P2 - Monitor,regular,High,18,4|18,Store 4 · HOME CARE,60–70
+4,Medium,P2 - Monitor,regular,Medium,19,4|19,Store 4 · LADIESWEAR,40–50
+4,Low,P3 - Routine,regular,Medium,20,4|20,Store 4 · LAWN AND GARDEN,30–40
+4,Medium,P2 - Monitor,regular,Low,21,4|21,Store 4 · LINGERIE,50–60
+4,Medium,P2 - Monitor,regular,Medium,22,4|22,"Store 4 · LIQUOR,WINE,BEER",50–60
+4,Medium,P2 - Monitor,regular,Low,23,4|23,Store 4 · MAGAZINES,50–60
+4,Medium,P2 - Monitor,regular,High,24,4|24,Store 4 · MEATS,40–50
+4,Medium,P2 - Monitor,regular,High,25,4|25,Store 4 · PERSONAL CARE,50–60
+4,Low,P3 - Routine,regular,Low,26,4|26,Store 4 · PET SUPPLIES,30–40
+4,Medium,P2 - Monitor,regular,Low,27,4|27,Store 4 · PLAYERS AND ELECTRONICS,40–50
+4,Low,P3 - Routine,regular,High,28,4|28,Store 4 · POULTRY,20–30
+4,Low,P3 - Routine,regular,Medium,29,4|29,Store 4 · PREPARED FOODS,20–30
+4,Low,P3 - Routine,regular,High,30,4|30,Store 4 · PRODUCE,30–40
+4,High,P2 - Monitor,intermittent,Low,31,4|31,Store 4 · SCHOOL AND OFFICE SUPPLIES,70–80
+4,Medium,P2 - Monitor,regular,Medium,32,4|32,Store 4 · SEAFOOD,40–50
+5,Medium,P2 - Monitor,regular,Low,0,5|0,Store 5 · AUTOMOTIVE,40–50
+5,Medium,P2 - Monitor,intermittent,Low,1,5|1,Store 5 · BABY CARE,60–70
+5,High,P2 - Monitor,regular,Low,2,5|2,Store 5 · BEAUTY,60–70
+5,Medium,P2 - Monitor,regular,High,3,5|3,Store 5 · BEVERAGES,40–50
+5,Low,P3 - Routine,dormant,Low,4,5|4,Store 5 · BOOKS,10–20
+5,Low,P3 - Routine,regular,High,5,5|5,Store 5 · BREAD/BAKERY,20–30
+5,Medium,P2 - Monitor,regular,Medium,6,5|6,Store 5 · CELEBRATION,40–50
+5,Medium,P2 - Monitor,regular,High,7,5|7,Store 5 · CLEANING,40–50
+5,Low,P3 - Routine,regular,High,8,5|8,Store 5 · DAIRY,20–30
+5,Low,P3 - Routine,regular,High,9,5|9,Store 5 · DELI,30–40
+5,Low,P3 - Routine,regular,Medium,10,5|10,Store 5 · EGGS,30–40
+5,Medium,P2 - Monitor,regular,Medium,11,5|11,Store 5 · FROZEN FOODS,40–50
+5,Low,P3 - Routine,regular,High,12,5|12,Store 5 · GROCERY I,30–40
+5,Medium,P2 - Monitor,regular,Medium,13,5|13,Store 5 · GROCERY II,60–70
+5,High,P2 - Monitor,regular,Low,14,5|14,Store 5 · HARDWARE,60–70
+5,Medium,P2 - Monitor,regular,Medium,15,5|15,Store 5 · HOME AND KITCHEN I,50–60
+5,Medium,P2 - Monitor,regular,Medium,16,5|16,Store 5 · HOME AND KITCHEN II,40–50
+5,Medium,P2 - Monitor,intermittent,Low,17,5|17,Store 5 · HOME APPLIANCES,50–60
+5,Medium,P2 - Monitor,regular,High,18,5|18,Store 5 · HOME CARE,50–60
+5,Medium,P2 - Monitor,regular,Medium,19,5|19,Store 5 · LADIESWEAR,50–60
+5,Medium,P2 - Monitor,regular,Low,20,5|20,Store 5 · LAWN AND GARDEN,40–50
+5,Medium,P2 - Monitor,regular,Medium,21,5|21,Store 5 · LINGERIE,50–60
+5,Medium,P2 - Monitor,regular,Medium,22,5|22,"Store 5 · LIQUOR,WINE,BEER",60–70
+5,Medium,P2 - Monitor,regular,Low,23,5|23,Store 5 · MAGAZINES,40–50
+5,Low,P3 - Routine,regular,High,24,5|24,Store 5 · MEATS,30–40
+5,Medium,P2 - Monitor,regular,High,25,5|25,Store 5 · PERSONAL CARE,50–60
+5,Medium,P2 - Monitor,regular,Low,26,5|26,Store 5 · PET SUPPLIES,40–50
+5,Low,P3 - Routine,regular,Low,27,5|27,Store 5 · PLAYERS AND ELECTRONICS,30–40
+5,Low,P3 - Routine,regular,High,28,5|28,Store 5 · POULTRY,20–30
+5,Low,P3 - Routine,regular,Medium,29,5|29,Store 5 · PREPARED FOODS,10–20
+5,Low,P3 - Routine,regular,High,30,5|30,Store 5 · PRODUCE,30–40
+5,High,P2 - Monitor,regular,Low,31,5|31,Store 5 · SCHOOL AND OFFICE SUPPLIES,70–80
+5,Low,P3 - Routine,regular,Low,32,5|32,Store 5 · SEAFOOD,30–40
+6,Medium,P2 - Monitor,regular,Low,0,6|0,Store 6 · AUTOMOTIVE,50–60
+6,Low,P3 - Routine,intermittent,Low,1,6|1,Store 6 · BABY CARE,30–40
+6,Low,P3 - Routine,regular,Low,2,6|2,Store 6 · BEAUTY,30–40
+6,Medium,P2 - Monitor,regular,High,3,6|3,Store 6 · BEVERAGES,40–50
+6,Low,P3 - Routine,dormant,Low,4,6|4,Store 6 · BOOKS,00–10
+6,Low,P3 - Routine,regular,High,5,6|5,Store 6 · BREAD/BAKERY,20–30
+6,Medium,P2 - Monitor,regular,Medium,6,6|6,Store 6 · CELEBRATION,50–60
+6,Medium,P2 - Monitor,regular,High,7,6|7,Store 6 · CLEANING,50–60
+6,Low,P3 - Routine,regular,High,8,6|8,Store 6 · DAIRY,30–40
+6,Low,P3 - Routine,regular,High,9,6|9,Store 6 · DELI,30–40
+6,Low,P3 - Routine,regular,High,10,6|10,Store 6 · EGGS,30–40
+6,Medium,P2 - Monitor,regular,Medium,11,6|11,Store 6 · FROZEN FOODS,40–50
+6,Low,P3 - Routine,regular,High,12,6|12,Store 6 · GROCERY I,30–40
+6,Low,P3 - Routine,regular,Medium,13,6|13,Store 6 · GROCERY II,30–40
+6,High,P2 - Monitor,regular,Low,14,6|14,Store 6 · HARDWARE,60–70
+6,High,P1 - Immediate review,regular,Medium,15,6|15,Store 6 · HOME AND KITCHEN I,60–70
+6,High,P1 - Immediate review,regular,Medium,16,6|16,Store 6 · HOME AND KITCHEN II,70–80
+6,Low,P3 - Routine,intermittent,Low,17,6|17,Store 6 · HOME APPLIANCES,10–20
+6,High,P1 - Immediate review,regular,High,18,6|18,Store 6 · HOME CARE,60–70
+6,Medium,P2 - Monitor,regular,Medium,19,6|19,Store 6 · LADIESWEAR,50–60
+6,Low,P3 - Routine,regular,Medium,20,6|20,Store 6 · LAWN AND GARDEN,30–40
+6,High,P1 - Immediate review,regular,Medium,21,6|21,Store 6 · LINGERIE,70–80
+6,Medium,P2 - Monitor,regular,Medium,22,6|22,"Store 6 · LIQUOR,WINE,BEER",50–60
+6,Medium,P2 - Monitor,regular,Low,23,6|23,Store 6 · MAGAZINES,40–50
+6,Low,P3 - Routine,regular,High,24,6|24,Store 6 · MEATS,30–40
+6,Medium,P2 - Monitor,regular,High,25,6|25,Store 6 · PERSONAL CARE,40–50
+6,Low,P3 - Routine,regular,Low,26,6|26,Store 6 · PET SUPPLIES,20–30
+6,Medium,P2 - Monitor,regular,Medium,27,6|27,Store 6 · PLAYERS AND ELECTRONICS,40–50
+6,Low,P3 - Routine,regular,High,28,6|28,Store 6 · POULTRY,20–30
+6,Low,P3 - Routine,regular,Medium,29,6|29,Store 6 · PREPARED FOODS,10–20
+6,Low,P3 - Routine,regular,High,30,6|30,Store 6 · PRODUCE,30–40
+6,Medium,P2 - Monitor,intermittent,Low,31,6|31,Store 6 · SCHOOL AND OFFICE SUPPLIES,50–60
+6,Low,P3 - Routine,regular,Medium,32,6|32,Store 6 · SEAFOOD,30–40
+7,Medium,P2 - Monitor,regular,Low,0,7|0,Store 7 · AUTOMOTIVE,50–60
+7,Low,P3 - Routine,intermittent,Low,1,7|1,Store 7 · BABY CARE,30–40
+7,Medium,P2 - Monitor,regular,Low,2,7|2,Store 7 · BEAUTY,50–60
+7,Low,P3 - Routine,regular,High,3,7|3,Store 7 · BEVERAGES,30–40
+7,Medium,P2 - Monitor,intermittent,Low,4,7|4,Store 7 · BOOKS,40–50
+7,Low,P3 - Routine,regular,High,5,7|5,Store 7 · BREAD/BAKERY,30–40
+7,Medium,P2 - Monitor,regular,Medium,6,7|6,Store 7 · CELEBRATION,40–50
+7,Low,P3 - Routine,regular,High,7,7|7,Store 7 · CLEANING,30–40
+7,Low,P3 - Routine,regular,High,8,7|8,Store 7 · DAIRY,20–30
+7,Low,P3 - Routine,regular,High,9,7|9,Store 7 · DELI,30–40
+7,Low,P3 - Routine,regular,High,10,7|10,Store 7 · EGGS,10–20
+7,Low,P3 - Routine,regular,High,11,7|11,Store 7 · FROZEN FOODS,30–40
+7,Low,P3 - Routine,regular,High,12,7|12,Store 7 · GROCERY I,30–40
+7,Low,P3 - Routine,regular,Medium,13,7|13,Store 7 · GROCERY II,30–40
+7,Medium,P2 - Monitor,regular,Low,14,7|14,Store 7 · HARDWARE,40–50
+7,Medium,P2 - Monitor,regular,Medium,15,7|15,Store 7 · HOME AND KITCHEN I,50–60
+7,High,P1 - Immediate review,regular,Medium,16,7|16,Store 7 · HOME AND KITCHEN II,60–70
+7,Medium,P2 - Monitor,regular,Low,17,7|17,Store 7 · HOME APPLIANCES,50–60
+7,Low,P3 - Routine,regular,High,18,7|18,Store 7 · HOME CARE,30–40
+7,Medium,P2 - Monitor,regular,Medium,19,7|19,Store 7 · LADIESWEAR,40–50
+7,Medium,P2 - Monitor,regular,Medium,20,7|20,Store 7 · LAWN AND GARDEN,40–50
+7,Medium,P2 - Monitor,regular,Low,21,7|21,Store 7 · LINGERIE,50–60
+7,Medium,P2 - Monitor,regular,Medium,22,7|22,"Store 7 · LIQUOR,WINE,BEER",40–50
+7,Medium,P2 - Monitor,regular,Medium,23,7|23,Store 7 · MAGAZINES,40–50
+7,Low,P3 - Routine,regular,High,24,7|24,Store 7 · MEATS,20–30
+7,Medium,P2 - Monitor,regular,High,25,7|25,Store 7 · PERSONAL CARE,40–50
+7,Low,P3 - Routine,regular,Low,26,7|26,Store 7 · PET SUPPLIES,30–40
+7,Low,P3 - Routine,regular,Medium,27,7|27,Store 7 · PLAYERS AND ELECTRONICS,30–40
+7,Low,P3 - Routine,regular,High,28,7|28,Store 7 · POULTRY,10–20
+7,Low,P3 - Routine,regular,Medium,29,7|29,Store 7 · PREPARED FOODS,10–20
+7,Low,P3 - Routine,regular,High,30,7|30,Store 7 · PRODUCE,30–40
+7,High,P2 - Monitor,intermittent,Low,31,7|31,Store 7 · SCHOOL AND OFFICE SUPPLIES,70–80
+7,Low,P3 - Routine,regular,Medium,32,7|32,Store 7 · SEAFOOD,30–40
+8,Medium,P2 - Monitor,regular,Low,0,8|0,Store 8 · AUTOMOTIVE,60–70
+8,Medium,P2 - Monitor,intermittent,Low,1,8|1,Store 8 · BABY CARE,60–70
+8,Low,P3 - Routine,regular,Medium,2,8|2,Store 8 · BEAUTY,30–40
+8,Low,P3 - Routine,regular,High,3,8|3,Store 8 · BEVERAGES,30–40
+8,Low,P3 - Routine,intermittent,Low,4,8|4,Store 8 · BOOKS,30–40
+8,Low,P3 - Routine,regular,High,5,8|5,Store 8 · BREAD/BAKERY,20–30
+8,Low,P3 - Routine,regular,Medium,6,8|6,Store 8 · CELEBRATION,30–40
+8,Medium,P2 - Monitor,regular,High,7,8|7,Store 8 · CLEANING,40–50
+8,Low,P3 - Routine,regular,High,8,8|8,Store 8 · DAIRY,20–30
+8,Low,P3 - Routine,regular,High,9,8|9,Store 8 · DELI,30–40
+8,Low,P3 - Routine,regular,High,10,8|10,Store 8 · EGGS,30–40
+8,Low,P3 - Routine,regular,Medium,11,8|11,Store 8 · FROZEN FOODS,20–30
+8,Low,P3 - Routine,regular,High,12,8|12,Store 8 · GROCERY I,30–40
+8,Medium,P2 - Monitor,regular,Medium,13,8|13,Store 8 · GROCERY II,40–50
+8,Medium,P2 - Monitor,regular,Low,14,8|14,Store 8 · HARDWARE,60–70
+8,Medium,P2 - Monitor,regular,Medium,15,8|15,Store 8 · HOME AND KITCHEN I,50–60
+8,High,P1 - Immediate review,regular,Medium,16,8|16,Store 8 · HOME AND KITCHEN II,60–70
+8,Low,P3 - Routine,intermittent,Low,17,8|17,Store 8 · HOME APPLIANCES,20–30
+8,Medium,P2 - Monitor,regular,High,18,8|18,Store 8 · HOME CARE,40–50
+8,Medium,P2 - Monitor,regular,Medium,19,8|19,Store 8 · LADIESWEAR,40–50
+8,Low,P3 - Routine,regular,Medium,20,8|20,Store 8 · LAWN AND GARDEN,20–30
+8,Medium,P2 - Monitor,regular,Medium,21,8|21,Store 8 · LINGERIE,40–50
+8,Medium,P2 - Monitor,regular,Medium,22,8|22,"Store 8 · LIQUOR,WINE,BEER",40–50
+8,Medium,P2 - Monitor,regular,Medium,23,8|23,Store 8 · MAGAZINES,40–50
+8,Low,P3 - Routine,regular,High,24,8|24,Store 8 · MEATS,30–40
+8,Low,P3 - Routine,regular,High,25,8|25,Store 8 · PERSONAL CARE,30–40
+8,Low,P3 - Routine,regular,Medium,26,8|26,Store 8 · PET SUPPLIES,30–40
+8,Low,P3 - Routine,regular,Medium,27,8|27,Store 8 · PLAYERS AND ELECTRONICS,20–30
+8,Low,P3 - Routine,regular,High,28,8|28,Store 8 · POULTRY,20–30
+8,Low,P3 - Routine,regular,Medium,29,8|29,Store 8 · PREPARED FOODS,10–20
+8,Low,P3 - Routine,regular,High,30,8|30,Store 8 · PRODUCE,30–40
+8,High,P2 - Monitor,intermittent,Low,31,8|31,Store 8 · SCHOOL AND OFFICE SUPPLIES,70–80
+8,Medium,P2 - Monitor,regular,Medium,32,8|32,Store 8 · SEAFOOD,40–50
+9,Medium,P2 - Monitor,regular,Medium,0,9|0,Store 9 · AUTOMOTIVE,40–50
+9,Medium,P2 - Monitor,intermittent,Low,1,9|1,Store 9 · BABY CARE,50–60
+9,High,P2 - Monitor,regular,Low,2,9|2,Store 9 · BEAUTY,60–70
+9,Medium,P2 - Monitor,regular,High,3,9|3,Store 9 · BEVERAGES,50–60
+9,Low,P3 - Routine,never sold,Low,4,9|4,Store 9 · BOOKS,10–20
+9,Medium,P2 - Monitor,regular,High,5,9|5,Store 9 · BREAD/BAKERY,40–50
+9,Medium,P2 - Monitor,regular,Medium,6,9|6,Store 9 · CELEBRATION,40–50
+9,Medium,P2 - Monitor,regular,High,7,9|7,Store 9 · CLEANING,50–60
+9,Low,P3 - Routine,regular,High,8,9|8,Store 9 · DAIRY,30–40
+9,Medium,P2 - Monitor,regular,High,9,9|9,Store 9 · DELI,40–50
+9,High,P1 - Immediate review,regular,High,10,9|10,Store 9 · EGGS,60–70
+9,Medium,P2 - Monitor,regular,Medium,11,9|11,Store 9 · FROZEN FOODS,40–50
+9,Medium,P2 - Monitor,regular,High,12,9|12,Store 9 · GROCERY I,40–50
+9,Medium,P2 - Monitor,regular,Medium,13,9|13,Store 9 · GROCERY II,60–70
+9,Medium,P2 - Monitor,regular,Low,14,9|14,Store 9 · HARDWARE,50–60
+9,Medium,P2 - Monitor,regular,Medium,15,9|15,Store 9 · HOME AND KITCHEN I,40–50
+9,Medium,P2 - Monitor,regular,Medium,16,9|16,Store 9 · HOME AND KITCHEN II,40–50
+9,Low,P3 - Routine,intermittent,Low,17,9|17,Store 9 · HOME APPLIANCES,20–30
+9,Medium,P2 - Monitor,regular,High,18,9|18,Store 9 · HOME CARE,40–50
+9,Medium,P2 - Monitor,regular,Low,19,9|19,Store 9 · LADIESWEAR,60–70
+9,Medium,P2 - Monitor,regular,Low,20,9|20,Store 9 · LAWN AND GARDEN,40–50
+9,High,P2 - Monitor,regular,Low,21,9|21,Store 9 · LINGERIE,80–90
+9,Medium,P2 - Monitor,regular,Medium,22,9|22,"Store 9 · LIQUOR,WINE,BEER",50–60
+9,Medium,P2 - Monitor,regular,Low,23,9|23,Store 9 · MAGAZINES,50–60
+9,Low,P3 - Routine,regular,High,24,9|24,Store 9 · MEATS,20–30
+9,Medium,P2 - Monitor,regular,High,25,9|25,Store 9 · PERSONAL CARE,40–50
+9,Medium,P2 - Monitor,regular,Low,26,9|26,Store 9 · PET SUPPLIES,50–60
+9,Low,P3 - Routine,regular,Low,27,9|27,Store 9 · PLAYERS AND ELECTRONICS,30–40
+9,Medium,P2 - Monitor,regular,High,28,9|28,Store 9 · POULTRY,40–50
+9,Low,P3 - Routine,regular,Medium,29,9|29,Store 9 · PREPARED FOODS,20–30
+9,Medium,P2 - Monitor,regular,High,30,9|30,Store 9 · PRODUCE,40–50
+9,Critical,P1 - Immediate review,regular,Medium,31,9|31,Store 9 · SCHOOL AND OFFICE SUPPLIES,80–90
+9,Medium,P2 - Monitor,regular,Medium,32,9|32,Store 9 · SEAFOOD,40–50
+10,Medium,P2 - Monitor,regular,Low,0,10|0,Store 10 · AUTOMOTIVE,60–70
+10,Low,P3 - Routine,dormant,Low,1,10|1,Store 10 · BABY CARE,10–20
+10,High,P2 - Monitor,regular,Low,2,10|2,Store 10 · BEAUTY,70–80
+10,Medium,P2 - Monitor,regular,High,3,10|3,Store 10 · BEVERAGES,40–50
+10,Low,P3 - Routine,never sold,Low,4,10|4,Store 10 · BOOKS,10–20
+10,Medium,P2 - Monitor,regular,Medium,5,10|5,Store 10 · BREAD/BAKERY,40–50
+10,High,P2 - Monitor,regular,Low,6,10|6,Store 10 · CELEBRATION,60–70
+10,High,P1 - Immediate review,regular,High,7,10|7,Store 10 · CLEANING,70–80
+10,Low,P3 - Routine,regular,High,8,10|8,Store 10 · DAIRY,30–40
+10,Medium,P2 - Monitor,regular,High,9,10|9,Store 10 · DELI,40–50
+10,High,P1 - Immediate review,regular,Medium,10,10|10,Store 10 · EGGS,60–70
+10,Low,P3 - Routine,regular,Medium,11,10|11,Store 10 · FROZEN FOODS,30–40
+10,Low,P3 - Routine,regular,High,12,10|12,Store 10 · GROCERY I,30–40
+10,High,P2 - Monitor,regular,Low,13,10|13,Store 10 · GROCERY II,70–80
+10,Medium,P2 - Monitor,intermittent,Low,14,10|14,Store 10 · HARDWARE,50–60
+10,Medium,P2 - Monitor,regular,Low,15,10|15,Store 10 · HOME AND KITCHEN I,50–60
+10,Medium,P2 - Monitor,regular,Low,16,10|16,Store 10 · HOME AND KITCHEN II,40–50
+10,Medium,P2 - Monitor,intermittent,Low,17,10|17,Store 10 · HOME APPLIANCES,40–50
+10,Medium,P2 - Monitor,regular,Medium,18,10|18,Store 10 · HOME CARE,40–50
+10,High,P2 - Monitor,regular,Low,19,10|19,Store 10 · LADIESWEAR,70–80
+10,Low,P3 - Routine,dormant,Low,20,10|20,Store 10 · LAWN AND GARDEN,10–20
+10,Medium,P2 - Monitor,regular,Low,21,10|21,Store 10 · LINGERIE,50–60
+10,High,P1 - Immediate review,regular,Medium,22,10|22,"Store 10 · LIQUOR,WINE,BEER",60–70
+10,Medium,P2 - Monitor,intermittent,Low,23,10|23,Store 10 · MAGAZINES,50–60
+10,Low,P3 - Routine,regular,High,24,10|24,Store 10 · MEATS,20–30
+10,Medium,P2 - Monitor,regular,Medium,25,10|25,Store 10 · PERSONAL CARE,40–50
+10,Medium,P2 - Monitor,regular,Low,26,10|26,Store 10 · PET SUPPLIES,50–60
+10,High,P2 - Monitor,regular,Low,27,10|27,Store 10 · PLAYERS AND ELECTRONICS,60–70
+10,Low,P3 - Routine,regular,Medium,28,10|28,Store 10 · POULTRY,30–40
+10,Low,P3 - Routine,regular,Medium,29,10|29,Store 10 · PREPARED FOODS,30–40
+10,Medium,P2 - Monitor,regular,High,30,10|30,Store 10 · PRODUCE,50–60
+10,Critical,P1 - Immediate review,intermittent,Medium,31,10|31,Store 10 · SCHOOL AND OFFICE SUPPLIES,90–100
+10,High,P2 - Monitor,regular,Low,32,10|32,Store 10 · SEAFOOD,70–80
+11,Medium,P2 - Monitor,regular,Low,0,11|0,Store 11 · AUTOMOTIVE,60–70
+11,Medium,P2 - Monitor,intermittent,Low,1,11|1,Store 11 · BABY CARE,40–50
+11,Medium,P2 - Monitor,regular,Low,2,11|2,Store 11 · BEAUTY,40–50
+11,Low,P3 - Routine,regular,High,3,11|3,Store 11 · BEVERAGES,30–40
+11,Low,P3 - Routine,never sold,Low,4,11|4,Store 11 · BOOKS,10–20
+11,Medium,P2 - Monitor,regular,High,5,11|5,Store 11 · BREAD/BAKERY,50–60
+11,Medium,P2 - Monitor,regular,Medium,6,11|6,Store 11 · CELEBRATION,50–60
+11,Medium,P2 - Monitor,regular,High,7,11|7,Store 11 · CLEANING,40–50
+11,Low,P3 - Routine,regular,High,8,11|8,Store 11 · DAIRY,30–40
+11,Medium,P2 - Monitor,regular,High,9,11|9,Store 11 · DELI,40–50
+11,High,P1 - Immediate review,regular,High,10,11|10,Store 11 · EGGS,70–80
+11,Low,P3 - Routine,regular,Medium,11,11|11,Store 11 · FROZEN FOODS,30–40
+11,Medium,P2 - Monitor,regular,High,12,11|12,Store 11 · GROCERY I,40–50
+11,High,P1 - Immediate review,regular,Medium,13,11|13,Store 11 · GROCERY II,60–70
+11,High,P2 - Monitor,intermittent,Low,14,11|14,Store 11 · HARDWARE,60–70
+11,Medium,P2 - Monitor,regular,Medium,15,11|15,Store 11 · HOME AND KITCHEN I,50–60
+11,Medium,P2 - Monitor,regular,Medium,16,11|16,Store 11 · HOME AND KITCHEN II,50–60
+11,Medium,P2 - Monitor,intermittent,Low,17,11|17,Store 11 · HOME APPLIANCES,40–50
+11,Medium,P2 - Monitor,regular,High,18,11|18,Store 11 · HOME CARE,40–50
+11,High,P2 - Monitor,regular,Low,19,11|19,Store 11 · LADIESWEAR,60–70
+11,High,P2 - Monitor,regular,Low,20,11|20,Store 11 · LAWN AND GARDEN,70–80
+11,Medium,P2 - Monitor,regular,Low,21,11|21,Store 11 · LINGERIE,50–60
+11,Medium,P2 - Monitor,regular,Medium,22,11|22,"Store 11 · LIQUOR,WINE,BEER",50–60
+11,Medium,P2 - Monitor,regular,Low,23,11|23,Store 11 · MAGAZINES,40–50
+11,Low,P3 - Routine,regular,High,24,11|24,Store 11 · MEATS,20–30
+11,Medium,P2 - Monitor,regular,High,25,11|25,Store 11 · PERSONAL CARE,40–50
+11,Medium,P2 - Monitor,regular,Low,26,11|26,Store 11 · PET SUPPLIES,60–70
+11,Medium,P2 - Monitor,regular,Medium,27,11|27,Store 11 · PLAYERS AND ELECTRONICS,40–50
+11,Medium,P2 - Monitor,regular,High,28,11|28,Store 11 · POULTRY,40–50
+11,Low,P3 - Routine,regular,Medium,29,11|29,Store 11 · PREPARED FOODS,30–40
+11,Medium,P2 - Monitor,regular,High,30,11|30,Store 11 · PRODUCE,40–50
+11,Critical,P1 - Immediate review,regular,Medium,31,11|31,Store 11 · SCHOOL AND OFFICE SUPPLIES,90–100
+11,High,P2 - Monitor,regular,Low,32,11|32,Store 11 · SEAFOOD,60–70
+12,Medium,P2 - Monitor,regular,Low,0,12|0,Store 12 · AUTOMOTIVE,50–60
+12,Low,P3 - Routine,intermittent,Low,1,12|1,Store 12 · BABY CARE,10–20
+12,High,P2 - Monitor,regular,Low,2,12|2,Store 12 · BEAUTY,60–70
+12,Medium,P2 - Monitor,regular,High,3,12|3,Store 12 · BEVERAGES,40–50
+12,Low,P3 - Routine,never sold,Low,4,12|4,Store 12 · BOOKS,10–20
+12,Medium,P2 - Monitor,regular,High,5,12|5,Store 12 · BREAD/BAKERY,40–50
+12,High,P2 - Monitor,regular,Low,6,12|6,Store 12 · CELEBRATION,60–70
+12,High,P1 - Immediate review,regular,High,7,12|7,Store 12 · CLEANING,70–80
+12,Low,P3 - Routine,regular,High,8,12|8,Store 12 · DAIRY,30–40
+12,Low,P3 - Routine,regular,High,9,12|9,Store 12 · DELI,30–40
+12,Medium,P2 - Monitor,regular,Medium,10,12|10,Store 12 · EGGS,60–70
+12,Medium,P2 - Monitor,regular,Medium,11,12|11,Store 12 · FROZEN FOODS,50–60
+12,Medium,P2 - Monitor,regular,High,12,12|12,Store 12 · GROCERY I,40–50
+12,High,P2 - Monitor,regular,Low,13,12|13,Store 12 · GROCERY II,60–70
+12,Medium,P2 - Monitor,regular,Low,14,12|14,Store 12 · HARDWARE,40–50
+12,Medium,P2 - Monitor,regular,Medium,15,12|15,Store 12 · HOME AND KITCHEN I,50–60
+12,Medium,P2 - Monitor,regular,Medium,16,12|16,Store 12 · HOME AND KITCHEN II,40–50
+12,Medium,P2 - Monitor,intermittent,Low,17,12|17,Store 12 · HOME APPLIANCES,60–70
+12,Medium,P2 - Monitor,regular,Medium,18,12|18,Store 12 · HOME CARE,40–50
+12,Medium,P2 - Monitor,regular,Low,19,12|19,Store 12 · LADIESWEAR,50–60
+12,Low,P3 - Routine,dormant,Low,20,12|20,Store 12 · LAWN AND GARDEN,10–20
+12,High,P2 - Monitor,regular,Low,21,12|21,Store 12 · LINGERIE,80–90
+12,Medium,P2 - Monitor,regular,Medium,22,12|22,"Store 12 · LIQUOR,WINE,BEER",50–60
+12,Medium,P2 - Monitor,regular,Low,23,12|23,Store 12 · MAGAZINES,60–70
+12,Low,P3 - Routine,regular,Medium,24,12|24,Store 12 · MEATS,30–40
+12,Medium,P2 - Monitor,regular,Medium,25,12|25,Store 12 · PERSONAL CARE,40–50
+12,Medium,P2 - Monitor,regular,Low,26,12|26,Store 12 · PET SUPPLIES,60–70
+12,Medium,P2 - Monitor,regular,Low,27,12|27,Store 12 · PLAYERS AND ELECTRONICS,50–60
+12,Low,P3 - Routine,regular,Medium,28,12|28,Store 12 · POULTRY,30–40
+12,Low,P3 - Routine,regular,Medium,29,12|29,Store 12 · PREPARED FOODS,10–20
+12,Low,P3 - Routine,regular,High,30,12|30,Store 12 · PRODUCE,30–40
+12,Critical,P1 - Immediate review,intermittent,Medium,31,12|31,Store 12 · SCHOOL AND OFFICE SUPPLIES,90–100
+12,High,P2 - Monitor,regular,Low,32,12|32,Store 12 · SEAFOOD,70–80
+13,Medium,P2 - Monitor,regular,Low,0,13|0,Store 13 · AUTOMOTIVE,50–60
+13,Low,P3 - Routine,never sold,Low,1,13|1,Store 13 · BABY CARE,10–20
+13,High,P2 - Monitor,regular,Low,2,13|2,Store 13 · BEAUTY,70–80
+13,Medium,P2 - Monitor,regular,High,3,13|3,Store 13 · BEVERAGES,50–60
+13,Low,P3 - Routine,never sold,Low,4,13|4,Store 13 · BOOKS,10–20
+13,Medium,P2 - Monitor,regular,Medium,5,13|5,Store 13 · BREAD/BAKERY,40–50
+13,Medium,P2 - Monitor,regular,Low,6,13|6,Store 13 · CELEBRATION,50–60
+13,High,P1 - Immediate review,regular,High,7,13|7,Store 13 · CLEANING,70–80
+13,Medium,P2 - Monitor,regular,High,8,13|8,Store 13 · DAIRY,40–50
+13,Medium,P2 - Monitor,regular,Medium,9,13|9,Store 13 · DELI,50–60
+13,High,P1 - Immediate review,regular,Medium,10,13|10,Store 13 · EGGS,70–80
+13,Medium,P2 - Monitor,regular,Medium,11,13|11,Store 13 · FROZEN FOODS,40–50
+13,Medium,P2 - Monitor,regular,High,12,13|12,Store 13 · GROCERY I,40–50
+13,High,P2 - Monitor,regular,Low,13,13|13,Store 13 · GROCERY II,70–80
+13,Medium,P2 - Monitor,intermittent,Low,14,13|14,Store 13 · HARDWARE,50–60
+13,High,P1 - Immediate review,regular,Medium,15,13|15,Store 13 · HOME AND KITCHEN I,60–70
+13,Low,P3 - Routine,regular,Low,16,13|16,Store 13 · HOME AND KITCHEN II,30–40
+13,Medium,P2 - Monitor,intermittent,Low,17,13|17,Store 13 · HOME APPLIANCES,40–50
+13,Medium,P2 - Monitor,regular,Medium,18,13|18,Store 13 · HOME CARE,40–50
+13,High,P2 - Monitor,regular,Low,19,13|19,Store 13 · LADIESWEAR,60–70
+13,Low,P3 - Routine,dormant,Low,20,13|20,Store 13 · LAWN AND GARDEN,10–20
+13,High,P2 - Monitor,regular,Low,21,13|21,Store 13 · LINGERIE,70–80
+13,High,P1 - Immediate review,regular,Medium,22,13|22,"Store 13 · LIQUOR,WINE,BEER",60–70
+13,Medium,P2 - Monitor,regular,Low,23,13|23,Store 13 · MAGAZINES,60–70
+13,Low,P3 - Routine,regular,Medium,24,13|24,Store 13 · MEATS,30–40
+13,Medium,P2 - Monitor,regular,High,25,13|25,Store 13 · PERSONAL CARE,40–50
+13,Low,P3 - Routine,regular,Low,26,13|26,Store 13 · PET SUPPLIES,30–40
+13,Medium,P2 - Monitor,regular,Low,27,13|27,Store 13 · PLAYERS AND ELECTRONICS,50–60
+13,Medium,P2 - Monitor,regular,Medium,28,13|28,Store 13 · POULTRY,40–50
+13,Low,P3 - Routine,regular,Medium,29,13|29,Store 13 · PREPARED FOODS,30–40
+13,Low,P3 - Routine,regular,High,30,13|30,Store 13 · PRODUCE,30–40
+13,Critical,P1 - Immediate review,intermittent,Medium,31,13|31,Store 13 · SCHOOL AND OFFICE SUPPLIES,90–100
+13,High,P2 - Monitor,regular,Low,32,13|32,Store 13 · SEAFOOD,70–80
+14,Medium,P2 - Monitor,regular,Low,0,14|0,Store 14 · AUTOMOTIVE,50–60
+14,Low,P3 - Routine,dormant,Low,1,14|1,Store 14 · BABY CARE,10–20
+14,High,P2 - Monitor,regular,Low,2,14|2,Store 14 · BEAUTY,60–70
+14,Medium,P2 - Monitor,regular,High,3,14|3,Store 14 · BEVERAGES,40–50
+14,Low,P3 - Routine,never sold,Low,4,14|4,Store 14 · BOOKS,10–20
+14,Medium,P2 - Monitor,regular,Medium,5,14|5,Store 14 · BREAD/BAKERY,40–50
+14,High,P2 - Monitor,regular,Low,6,14|6,Store 14 · CELEBRATION,70–80
+14,High,P1 - Immediate review,regular,High,7,14|7,Store 14 · CLEANING,70–80
+14,Low,P3 - Routine,regular,High,8,14|8,Store 14 · DAIRY,20–30
+14,Medium,P2 - Monitor,regular,High,9,14|9,Store 14 · DELI,40–50
+14,High,P1 - Immediate review,regular,Medium,10,14|10,Store 14 · EGGS,70–80
+14,Medium,P2 - Monitor,regular,Medium,11,14|11,Store 14 · FROZEN FOODS,50–60
+14,Medium,P2 - Monitor,regular,High,12,14|12,Store 14 · GROCERY I,40–50
+14,High,P2 - Monitor,regular,Low,13,14|13,Store 14 · GROCERY II,70–80
+14,Medium,P2 - Monitor,intermittent,Low,14,14|14,Store 14 · HARDWARE,60–70
+14,High,P2 - Monitor,regular,Low,15,14|15,Store 14 · HOME AND KITCHEN I,70–80
+14,Medium,P2 - Monitor,regular,Medium,16,14|16,Store 14 · HOME AND KITCHEN II,40–50
+14,Medium,P2 - Monitor,intermittent,Low,17,14|17,Store 14 · HOME APPLIANCES,50–60
+14,Medium,P2 - Monitor,regular,High,18,14|18,Store 14 · HOME CARE,50–60
+14,High,P2 - Monitor,regular,Low,19,14|19,Store 14 · LADIESWEAR,60–70
+14,Low,P3 - Routine,never sold,Low,20,14|20,Store 14 · LAWN AND GARDEN,10–20
+14,Medium,P2 - Monitor,regular,Low,21,14|21,Store 14 · LINGERIE,40–50
+14,Medium,P2 - Monitor,regular,Medium,22,14|22,"Store 14 · LIQUOR,WINE,BEER",60–70
+14,High,P2 - Monitor,regular,Low,23,14|23,Store 14 · MAGAZINES,60–70
+14,Medium,P2 - Monitor,regular,High,24,14|24,Store 14 · MEATS,40–50
+14,Medium,P2 - Monitor,regular,High,25,14|25,Store 14 · PERSONAL CARE,40–50
+14,Medium,P2 - Monitor,regular,Low,26,14|26,Store 14 · PET SUPPLIES,60–70
+14,Low,P3 - Routine,regular,Low,27,14|27,Store 14 · PLAYERS AND ELECTRONICS,30–40
+14,Medium,P2 - Monitor,regular,Medium,28,14|28,Store 14 · POULTRY,50–60
+14,Low,P3 - Routine,regular,Medium,29,14|29,Store 14 · PREPARED FOODS,20–30
+14,Medium,P2 - Monitor,regular,High,30,14|30,Store 14 · PRODUCE,40–50
+14,Critical,P2 - Monitor,intermittent,Low,31,14|31,Store 14 · SCHOOL AND OFFICE SUPPLIES,90–100
+14,Medium,P2 - Monitor,regular,Low,32,14|32,Store 14 · SEAFOOD,60–70
+15,Medium,P2 - Monitor,regular,Low,0,15|0,Store 15 · AUTOMOTIVE,50–60
+15,Medium,P2 - Monitor,regular,Low,1,15|1,Store 15 · BABY CARE,60–70
+15,High,P2 - Monitor,regular,Low,2,15|2,Store 15 · BEAUTY,60–70
+15,Low,P3 - Routine,regular,High,3,15|3,Store 15 · BEVERAGES,30–40
+15,Low,P3 - Routine,never sold,Low,4,15|4,Store 15 · BOOKS,10–20
+15,Medium,P2 - Monitor,regular,Medium,5,15|5,Store 15 · BREAD/BAKERY,40–50
+15,High,P2 - Monitor,regular,Low,6,15|6,Store 15 · CELEBRATION,60–70
+15,Medium,P2 - Monitor,regular,High,7,15|7,Store 15 · CLEANING,50–60
+15,Low,P3 - Routine,regular,High,8,15|8,Store 15 · DAIRY,30–40
+15,Low,P3 - Routine,regular,High,9,15|9,Store 15 · DELI,30–40
+15,Medium,P2 - Monitor,regular,Medium,10,15|10,Store 15 · EGGS,50–60
+15,Medium,P2 - Monitor,regular,Medium,11,15|11,Store 15 · FROZEN FOODS,40–50
+15,Low,P3 - Routine,regular,High,12,15|12,Store 15 · GROCERY I,30–40
+15,High,P2 - Monitor,regular,Low,13,15|13,Store 15 · GROCERY II,60–70
+15,High,P2 - Monitor,intermittent,Low,14,15|14,Store 15 · HARDWARE,70–80
+15,Medium,P2 - Monitor,regular,Medium,15,15|15,Store 15 · HOME AND KITCHEN I,50–60
+15,Low,P3 - Routine,regular,Medium,16,15|16,Store 15 · HOME AND KITCHEN II,30–40
+15,Medium,P2 - Monitor,intermittent,Low,17,15|17,Store 15 · HOME APPLIANCES,50–60
+15,Medium,P2 - Monitor,regular,High,18,15|18,Store 15 · HOME CARE,40–50
+15,Medium,P2 - Monitor,regular,Low,19,15|19,Store 15 · LADIESWEAR,50–60
+15,Low,P3 - Routine,dormant,Low,20,15|20,Store 15 · LAWN AND GARDEN,10–20
+15,High,P2 - Monitor,regular,Low,21,15|21,Store 15 · LINGERIE,70–80
+15,Medium,P2 - Monitor,regular,Medium,22,15|22,"Store 15 · LIQUOR,WINE,BEER",60–70
+15,Medium,P2 - Monitor,regular,Low,23,15|23,Store 15 · MAGAZINES,60–70
+15,Low,P3 - Routine,regular,Medium,24,15|24,Store 15 · MEATS,20–30
+15,Medium,P2 - Monitor,regular,High,25,15|25,Store 15 · PERSONAL CARE,40–50
+15,Medium,P2 - Monitor,regular,Low,26,15|26,Store 15 · PET SUPPLIES,40–50
+15,Medium,P2 - Monitor,regular,Low,27,15|27,Store 15 · PLAYERS AND ELECTRONICS,50–60
+15,Low,P3 - Routine,regular,Medium,28,15|28,Store 15 · POULTRY,20–30
+15,Low,P3 - Routine,regular,Medium,29,15|29,Store 15 · PREPARED FOODS,30–40
+15,Low,P3 - Routine,regular,High,30,15|30,Store 15 · PRODUCE,30–40
+15,Critical,P1 - Immediate review,intermittent,Medium,31,15|31,Store 15 · SCHOOL AND OFFICE SUPPLIES,90–100
+15,Medium,P2 - Monitor,regular,Low,32,15|32,Store 15 · SEAFOOD,60–70
+16,Medium,P2 - Monitor,regular,Low,0,16|0,Store 16 · AUTOMOTIVE,60–70
+16,Medium,P2 - Monitor,intermittent,Low,1,16|1,Store 16 · BABY CARE,50–60
+16,High,P2 - Monitor,regular,Low,2,16|2,Store 16 · BEAUTY,70–80
+16,Medium,P2 - Monitor,regular,High,3,16|3,Store 16 · BEVERAGES,40–50
+16,Low,P3 - Routine,never sold,Low,4,16|4,Store 16 · BOOKS,10–20
+16,Medium,P2 - Monitor,regular,Medium,5,16|5,Store 16 · BREAD/BAKERY,40–50
+16,Medium,P2 - Monitor,regular,Low,6,16|6,Store 16 · CELEBRATION,50–60
+16,Medium,P2 - Monitor,regular,High,7,16|7,Store 16 · CLEANING,60–70
+16,Medium,P2 - Monitor,regular,High,8,16|8,Store 16 · DAIRY,40–50
+16,Medium,P2 - Monitor,regular,Medium,9,16|9,Store 16 · DELI,50–60
+16,High,P1 - Immediate review,regular,Medium,10,16|10,Store 16 · EGGS,60–70
+16,Medium,P2 - Monitor,regular,Medium,11,16|11,Store 16 · FROZEN FOODS,50–60
+16,Medium,P2 - Monitor,regular,High,12,16|12,Store 16 · GROCERY I,40–50
+16,Medium,P2 - Monitor,regular,Low,13,16|13,Store 16 · GROCERY II,60–70
+16,Medium,P2 - Monitor,intermittent,Low,14,16|14,Store 16 · HARDWARE,60–70
+16,Medium,P2 - Monitor,regular,Medium,15,16|15,Store 16 · HOME AND KITCHEN I,40–50
+16,Medium,P2 - Monitor,regular,Medium,16,16|16,Store 16 · HOME AND KITCHEN II,50–60
+16,Medium,P2 - Monitor,intermittent,Low,17,16|17,Store 16 · HOME APPLIANCES,60–70
+16,Medium,P2 - Monitor,regular,Medium,18,16|18,Store 16 · HOME CARE,40–50
+16,Low,P3 - Routine,never sold,Low,19,16|19,Store 16 · LADIESWEAR,10–20
+16,Low,P3 - Routine,dormant,Low,20,16|20,Store 16 · LAWN AND GARDEN,10–20
+16,Medium,P2 - Monitor,regular,Low,21,16|21,Store 16 · LINGERIE,60–70
+16,Medium,P2 - Monitor,regular,Medium,22,16|22,"Store 16 · LIQUOR,WINE,BEER",60–70
+16,High,P2 - Monitor,regular,Low,23,16|23,Store 16 · MAGAZINES,60–70
+16,Low,P3 - Routine,regular,Medium,24,16|24,Store 16 · MEATS,30–40
+16,Medium,P2 - Monitor,regular,Medium,25,16|25,Store 16 · PERSONAL CARE,50–60
+16,Medium,P2 - Monitor,regular,Low,26,16|26,Store 16 · PET SUPPLIES,60–70
+16,Medium,P2 - Monitor,regular,Low,27,16|27,Store 16 · PLAYERS AND ELECTRONICS,50–60
+16,Low,P3 - Routine,regular,Medium,28,16|28,Store 16 · POULTRY,30–40
+16,Low,P3 - Routine,regular,Medium,29,16|29,Store 16 · PREPARED FOODS,30–40
+16,Low,P3 - Routine,regular,High,30,16|30,Store 16 · PRODUCE,30–40
+16,Medium,P2 - Monitor,intermittent,Low,31,16|31,Store 16 · SCHOOL AND OFFICE SUPPLIES,50–60
+16,High,P2 - Monitor,regular,Low,32,16|32,Store 16 · SEAFOOD,60–70
+17,Medium,P2 - Monitor,regular,Low,0,17|0,Store 17 · AUTOMOTIVE,60–70
+17,Medium,P2 - Monitor,intermittent,Low,1,17|1,Store 17 · BABY CARE,60–70
+17,Medium,P2 - Monitor,regular,Low,2,17|2,Store 17 · BEAUTY,50–60
+17,Low,P3 - Routine,regular,High,3,17|3,Store 17 · BEVERAGES,40–50
+17,Low,P3 - Routine,never sold,Low,4,17|4,Store 17 · BOOKS,10–20
+17,Medium,P2 - Monitor,regular,High,5,17|5,Store 17 · BREAD/BAKERY,40–50
+17,Medium,P2 - Monitor,regular,Low,6,17|6,Store 17 · CELEBRATION,60–70
+17,Medium,P2 - Monitor,regular,High,7,17|7,Store 17 · CLEANING,50–60
+17,Low,P3 - Routine,regular,High,8,17|8,Store 17 · DAIRY,30–40
+17,Medium,P2 - Monitor,regular,High,9,17|9,Store 17 · DELI,40–50
+17,Medium,P2 - Monitor,regular,High,10,17|10,Store 17 · EGGS,50–60
+17,Low,P3 - Routine,regular,Medium,11,17|11,Store 17 · FROZEN FOODS,30–40
+17,Medium,P2 - Monitor,regular,High,12,17|12,Store 17 · GROCERY I,40–50
+17,Medium,P2 - Monitor,regular,Medium,13,17|13,Store 17 · GROCERY II,60–70
+17,High,P2 - Monitor,regular,Low,14,17|14,Store 17 · HARDWARE,70–80
+17,Medium,P2 - Monitor,regular,Medium,15,17|15,Store 17 · HOME AND KITCHEN I,50–60
+17,Medium,P2 - Monitor,regular,Medium,16,17|16,Store 17 · HOME AND KITCHEN II,40–50
+17,Medium,P2 - Monitor,intermittent,Low,17,17|17,Store 17 · HOME APPLIANCES,60–70
+17,Medium,P2 - Monitor,regular,High,18,17|18,Store 17 · HOME CARE,40–50
+17,High,P2 - Monitor,intermittent,Low,19,17|19,Store 17 · LADIESWEAR,60–70
+17,Low,P3 - Routine,dormant,Low,20,17|20,Store 17 · LAWN AND GARDEN,10–20
+17,High,P2 - Monitor,regular,Low,21,17|21,Store 17 · LINGERIE,60–70
+17,High,P1 - Immediate review,regular,Medium,22,17|22,"Store 17 · LIQUOR,WINE,BEER",60–70
+17,High,P2 - Monitor,regular,Low,23,17|23,Store 17 · MAGAZINES,60–70
+17,Low,P3 - Routine,regular,High,24,17|24,Store 17 · MEATS,20–30
+17,Medium,P2 - Monitor,regular,High,25,17|25,Store 17 · PERSONAL CARE,40–50
+17,Medium,P2 - Monitor,regular,Low,26,17|26,Store 17 · PET SUPPLIES,50–60
+17,Medium,P2 - Monitor,regular,Low,27,17|27,Store 17 · PLAYERS AND ELECTRONICS,40–50
+17,Medium,P2 - Monitor,regular,High,28,17|28,Store 17 · POULTRY,40–50
+17,Low,P3 - Routine,regular,Medium,29,17|29,Store 17 · PREPARED FOODS,20–30
+17,Low,P3 - Routine,regular,High,30,17|30,Store 17 · PRODUCE,30–40
+17,Critical,P1 - Immediate review,intermittent,Medium,31,17|31,Store 17 · SCHOOL AND OFFICE SUPPLIES,90–100
+17,Medium,P2 - Monitor,regular,Medium,32,17|32,Store 17 · SEAFOOD,60–70
+18,Medium,P2 - Monitor,regular,Low,0,18|0,Store 18 · AUTOMOTIVE,50–60
+18,Medium,P2 - Monitor,intermittent,Low,1,18|1,Store 18 · BABY CARE,40–50
+18,Medium,P2 - Monitor,regular,Low,2,18|2,Store 18 · BEAUTY,50–60
+18,Medium,P2 - Monitor,regular,High,3,18|3,Store 18 · BEVERAGES,40–50
+18,Low,P3 - Routine,never sold,Low,4,18|4,Store 18 · BOOKS,10–20
+18,Medium,P2 - Monitor,regular,High,5,18|5,Store 18 · BREAD/BAKERY,40–50
+18,Medium,P2 - Monitor,regular,Low,6,18|6,Store 18 · CELEBRATION,50–60
+18,Medium,P2 - Monitor,regular,High,7,18|7,Store 18 · CLEANING,40–50
+18,Medium,P2 - Monitor,regular,High,8,18|8,Store 18 · DAIRY,40–50
+18,Medium,P2 - Monitor,regular,High,9,18|9,Store 18 · DELI,40–50
+18,Medium,P2 - Monitor,regular,High,10,18|10,Store 18 · EGGS,50–60
+18,Medium,P2 - Monitor,regular,Medium,11,18|11,Store 18 · FROZEN FOODS,40–50
+18,Low,P3 - Routine,regular,High,12,18|12,Store 18 · GROCERY I,30–40
+18,Medium,P2 - Monitor,regular,Medium,13,18|13,Store 18 · GROCERY II,60–70
+18,Medium,P2 - Monitor,regular,Low,14,18|14,Store 18 · HARDWARE,50–60
+18,High,P1 - Immediate review,regular,Medium,15,18|15,Store 18 · HOME AND KITCHEN I,70–80
+18,Medium,P2 - Monitor,regular,Medium,16,18|16,Store 18 · HOME AND KITCHEN II,40–50
+18,Medium,P2 - Monitor,intermittent,Low,17,18|17,Store 18 · HOME APPLIANCES,60–70
+18,Medium,P2 - Monitor,regular,High,18,18|18,Store 18 · HOME CARE,40–50
+18,High,P2 - Monitor,regular,Low,19,18|19,Store 18 · LADIESWEAR,60–70
+18,High,P2 - Monitor,regular,Low,20,18|20,Store 18 · LAWN AND GARDEN,60–70
+18,High,P2 - Monitor,regular,Low,21,18|21,Store 18 · LINGERIE,70–80
+18,Medium,P2 - Monitor,regular,Medium,22,18|22,"Store 18 · LIQUOR,WINE,BEER",50–60
+18,Medium,P2 - Monitor,regular,Low,23,18|23,Store 18 · MAGAZINES,60–70
+18,Medium,P2 - Monitor,regular,Medium,24,18|24,Store 18 · MEATS,40–50
+18,Medium,P2 - Monitor,regular,Medium,25,18|25,Store 18 · PERSONAL CARE,40–50
+18,Medium,P2 - Monitor,regular,Low,26,18|26,Store 18 · PET SUPPLIES,50–60
+18,Medium,P2 - Monitor,regular,Low,27,18|27,Store 18 · PLAYERS AND ELECTRONICS,40–50
+18,Medium,P2 - Monitor,regular,High,28,18|28,Store 18 · POULTRY,50–60
+18,Low,P3 - Routine,regular,Medium,29,18|29,Store 18 · PREPARED FOODS,20–30
+18,Medium,P2 - Monitor,regular,High,30,18|30,Store 18 · PRODUCE,50–60
+18,High,P1 - Immediate review,regular,Medium,31,18|31,Store 18 · SCHOOL AND OFFICE SUPPLIES,80–90
+18,Medium,P2 - Monitor,regular,Medium,32,18|32,Store 18 · SEAFOOD,60–70
+19,Medium,P2 - Monitor,regular,Low,0,19|0,Store 19 · AUTOMOTIVE,50–60
+19,High,P2 - Monitor,intermittent,Low,1,19|1,Store 19 · BABY CARE,60–70
+19,Medium,P2 - Monitor,regular,Low,2,19|2,Store 19 · BEAUTY,50–60
+19,Medium,P2 - Monitor,regular,High,3,19|3,Store 19 · BEVERAGES,40–50
+19,Low,P3 - Routine,never sold,Low,4,19|4,Store 19 · BOOKS,10–20
+19,Medium,P2 - Monitor,regular,Medium,5,19|5,Store 19 · BREAD/BAKERY,50–60
+19,Medium,P2 - Monitor,regular,Low,6,19|6,Store 19 · CELEBRATION,60–70
+19,Medium,P2 - Monitor,regular,High,7,19|7,Store 19 · CLEANING,60–70
+19,Medium,P2 - Monitor,regular,High,8,19|8,Store 19 · DAIRY,40–50
+19,Medium,P2 - Monitor,regular,High,9,19|9,Store 19 · DELI,40–50
+19,Medium,P2 - Monitor,regular,Medium,10,19|10,Store 19 · EGGS,40–50
+19,Low,P3 - Routine,regular,Medium,11,19|11,Store 19 · FROZEN FOODS,30–40
+19,Medium,P2 - Monitor,regular,High,12,19|12,Store 19 · GROCERY I,40–50
+19,High,P1 - Immediate review,regular,Medium,13,19|13,Store 19 · GROCERY II,70–80
+19,Medium,P2 - Monitor,regular,Low,14,19|14,Store 19 · HARDWARE,60–70
+19,Medium,P2 - Monitor,regular,Medium,15,19|15,Store 19 · HOME AND KITCHEN I,50–60
+19,High,P1 - Immediate review,regular,Medium,16,19|16,Store 19 · HOME AND KITCHEN II,70–80
+19,Low,P3 - Routine,intermittent,Low,17,19|17,Store 19 · HOME APPLIANCES,30–40
+19,Medium,P2 - Monitor,regular,High,18,19|18,Store 19 · HOME CARE,50–60
+19,Medium,P2 - Monitor,regular,Low,19,19|19,Store 19 · LADIESWEAR,60–70
+19,Low,P3 - Routine,dormant,Low,20,19|20,Store 19 · LAWN AND GARDEN,10–20
+19,Medium,P2 - Monitor,regular,Low,21,19|21,Store 19 · LINGERIE,50–60
+19,High,P1 - Immediate review,regular,Medium,22,19|22,"Store 19 · LIQUOR,WINE,BEER",70–80
+19,High,P2 - Monitor,regular,Low,23,19|23,Store 19 · MAGAZINES,60–70
+19,Low,P3 - Routine,regular,Medium,24,19|24,Store 19 · MEATS,30–40
+19,Medium,P2 - Monitor,regular,High,25,19|25,Store 19 · PERSONAL CARE,40–50
+19,Medium,P2 - Monitor,regular,Low,26,19|26,Store 19 · PET SUPPLIES,50–60
+19,Medium,P2 - Monitor,regular,Low,27,19|27,Store 19 · PLAYERS AND ELECTRONICS,50–60
+19,Medium,P2 - Monitor,regular,Medium,28,19|28,Store 19 · POULTRY,50–60
+19,Low,P3 - Routine,regular,Medium,29,19|29,Store 19 · PREPARED FOODS,30–40
+19,Low,P3 - Routine,regular,High,30,19|30,Store 19 · PRODUCE,30–40
+19,Critical,P1 - Immediate review,intermittent,Medium,31,19|31,Store 19 · SCHOOL AND OFFICE SUPPLIES,90–100
+19,High,P2 - Monitor,regular,Low,32,19|32,Store 19 · SEAFOOD,60–70
+20,Medium,P2 - Monitor,regular,Low,0,20|0,Store 20 · AUTOMOTIVE,60–70
+20,Medium,P2 - Monitor,intermittent,Low,1,20|1,Store 20 · BABY CARE,60–70
+20,High,P2 - Monitor,regular,Low,2,20|2,Store 20 · BEAUTY,70–80
+20,Medium,P2 - Monitor,regular,High,3,20|3,Store 20 · BEVERAGES,60–70
+20,Low,P3 - Routine,never sold,Low,4,20|4,Store 20 · BOOKS,10–20
+20,Medium,P2 - Monitor,regular,High,5,20|5,Store 20 · BREAD/BAKERY,50–60
+20,Medium,P2 - Monitor,regular,Low,6,20|6,Store 20 · CELEBRATION,60–70
+20,High,P1 - Immediate review,regular,High,7,20|7,Store 20 · CLEANING,80–90
+20,Medium,P2 - Monitor,regular,High,8,20|8,Store 20 · DAIRY,40–50
+20,Medium,P2 - Monitor,regular,High,9,20|9,Store 20 · DELI,50–60
+20,Medium,P2 - Monitor,regular,Medium,10,20|10,Store 20 · EGGS,60–70
+20,Medium,P2 - Monitor,regular,Medium,11,20|11,Store 20 · FROZEN FOODS,40–50
+20,Medium,P2 - Monitor,regular,High,12,20|12,Store 20 · GROCERY I,50–60
+20,Medium,P2 - Monitor,regular,Medium,13,20|13,Store 20 · GROCERY II,50–60
+20,High,P2 - Monitor,regular,Low,14,20|14,Store 20 · HARDWARE,70–80
+20,High,P1 - Immediate review,regular,Medium,15,20|15,Store 20 · HOME AND KITCHEN I,70–80
+20,Medium,P2 - Monitor,regular,Medium,16,20|16,Store 20 · HOME AND KITCHEN II,50–60
+20,Low,P3 - Routine,intermittent,Low,17,20|17,Store 20 · HOME APPLIANCES,20–30
+20,Medium,P2 - Monitor,regular,High,18,20|18,Store 20 · HOME CARE,50–60
+20,High,P2 - Monitor,regular,Low,19,20|19,Store 20 · LADIESWEAR,60–70
+20,Medium,P2 - Monitor,regular,Low,20,20|20,Store 20 · LAWN AND GARDEN,40–50
+20,High,P2 - Monitor,regular,Low,21,20|21,Store 20 · LINGERIE,80–90
+20,Medium,P2 - Monitor,regular,Medium,22,20|22,"Store 20 · LIQUOR,WINE,BEER",60–70
+20,High,P2 - Monitor,regular,Low,23,20|23,Store 20 · MAGAZINES,70–80
+20,Medium,P2 - Monitor,regular,High,24,20|24,Store 20 · MEATS,40–50
+20,Medium,P2 - Monitor,regular,High,25,20|25,Store 20 · PERSONAL CARE,50–60
+20,Medium,P2 - Monitor,regular,Low,26,20|26,Store 20 · PET SUPPLIES,40–50
+20,High,P2 - Monitor,regular,Low,27,20|27,Store 20 · PLAYERS AND ELECTRONICS,60–70
+20,Medium,P2 - Monitor,regular,High,28,20|28,Store 20 · POULTRY,50–60
+20,Medium,P2 - Monitor,regular,Medium,29,20|29,Store 20 · PREPARED FOODS,40–50
+20,Medium,P2 - Monitor,regular,High,30,20|30,Store 20 · PRODUCE,50–60
+20,Critical,P1 - Immediate review,regular,Medium,31,20|31,Store 20 · SCHOOL AND OFFICE SUPPLIES,90–100
+20,Medium,P2 - Monitor,regular,Medium,32,20|32,Store 20 · SEAFOOD,60–70
+21,Medium,P2 - Monitor,regular,Low,0,21|0,Store 21 · AUTOMOTIVE,50–60
+21,Medium,P2 - Monitor,intermittent,Low,1,21|1,Store 21 · BABY CARE,60–70
+21,Medium,P2 - Monitor,regular,Low,2,21|2,Store 21 · BEAUTY,50–60
+21,Medium,P2 - Monitor,regular,High,3,21|3,Store 21 · BEVERAGES,50–60
+21,Low,P3 - Routine,never sold,Low,4,21|4,Store 21 · BOOKS,10–20
+21,Medium,P2 - Monitor,regular,High,5,21|5,Store 21 · BREAD/BAKERY,40–50
+21,High,P2 - Monitor,regular,Low,6,21|6,Store 21 · CELEBRATION,60–70
+21,High,P1 - Immediate review,regular,High,7,21|7,Store 21 · CLEANING,70–80
+21,Medium,P2 - Monitor,regular,High,8,21|8,Store 21 · DAIRY,40–50
+21,Medium,P2 - Monitor,regular,High,9,21|9,Store 21 · DELI,50–60
+21,Medium,P2 - Monitor,regular,High,10,21|10,Store 21 · EGGS,60–70
+21,Medium,P2 - Monitor,regular,Medium,11,21|11,Store 21 · FROZEN FOODS,50–60
+21,Medium,P2 - Monitor,regular,High,12,21|12,Store 21 · GROCERY I,50–60
+21,High,P1 - Immediate review,regular,Medium,13,21|13,Store 21 · GROCERY II,60–70
+21,Medium,P2 - Monitor,regular,Low,14,21|14,Store 21 · HARDWARE,50–60
+21,Medium,P2 - Monitor,regular,Medium,15,21|15,Store 21 · HOME AND KITCHEN I,50–60
+21,Medium,P2 - Monitor,regular,Medium,16,21|16,Store 21 · HOME AND KITCHEN II,50–60
+21,Medium,P2 - Monitor,intermittent,Low,17,21|17,Store 21 · HOME APPLIANCES,60–70
+21,Medium,P2 - Monitor,regular,High,18,21|18,Store 21 · HOME CARE,60–70
+21,Medium,P2 - Monitor,regular,Low,19,21|19,Store 21 · LADIESWEAR,50–60
+21,High,P2 - Monitor,regular,Low,20,21|20,Store 21 · LAWN AND GARDEN,70–80
+21,High,P2 - Monitor,regular,Low,21,21|21,Store 21 · LINGERIE,60–70
+21,Medium,P2 - Monitor,regular,Medium,22,21|22,"Store 21 · LIQUOR,WINE,BEER",60–70
+21,High,P2 - Monitor,regular,Low,23,21|23,Store 21 · MAGAZINES,60–70
+21,Medium,P2 - Monitor,regular,Medium,24,21|24,Store 21 · MEATS,40–50
+21,Medium,P2 - Monitor,regular,High,25,21|25,Store 21 · PERSONAL CARE,60–70
+21,Medium,P2 - Monitor,regular,Low,26,21|26,Store 21 · PET SUPPLIES,60–70
+21,Medium,P2 - Monitor,regular,Low,27,21|27,Store 21 · PLAYERS AND ELECTRONICS,50–60
+21,Medium,P2 - Monitor,regular,Medium,28,21|28,Store 21 · POULTRY,40–50
+21,Low,P3 - Routine,regular,Medium,29,21|29,Store 21 · PREPARED FOODS,30–40
+21,Medium,P2 - Monitor,regular,High,30,21|30,Store 21 · PRODUCE,50–60
+21,High,P2 - Monitor,intermittent,Low,31,21|31,Store 21 · SCHOOL AND OFFICE SUPPLIES,80–90
+21,High,P2 - Monitor,regular,Low,32,21|32,Store 21 · SEAFOOD,70–80
+22,Medium,P2 - Monitor,regular,Low,0,22|0,Store 22 · AUTOMOTIVE,60–70
+22,Medium,P2 - Monitor,intermittent,Low,1,22|1,Store 22 · BABY CARE,60–70
+22,High,P2 - Monitor,regular,Low,2,22|2,Store 22 · BEAUTY,70–80
+22,Medium,P2 - Monitor,regular,High,3,22|3,Store 22 · BEVERAGES,50–60
+22,Low,P3 - Routine,never sold,Low,4,22|4,Store 22 · BOOKS,10–20
+22,Medium,P2 - Monitor,regular,Medium,5,22|5,Store 22 · BREAD/BAKERY,60–70
+22,High,P2 - Monitor,regular,Low,6,22|6,Store 22 · CELEBRATION,60–70
+22,High,P1 - Immediate review,regular,High,7,22|7,Store 22 · CLEANING,60–70
+22,Low,P3 - Routine,regular,High,8,22|8,Store 22 · DAIRY,30–40
+22,Low,P3 - Routine,regular,Medium,9,22|9,Store 22 · DELI,30–40
+22,High,P1 - Immediate review,regular,Medium,10,22|10,Store 22 · EGGS,60–70
+22,Medium,P2 - Monitor,regular,Medium,11,22|11,Store 22 · FROZEN FOODS,50–60
+22,Low,P3 - Routine,regular,High,12,22|12,Store 22 · GROCERY I,30–40
+22,High,P2 - Monitor,regular,Low,13,22|13,Store 22 · GROCERY II,70–80
+22,Medium,P2 - Monitor,intermittent,Low,14,22|14,Store 22 · HARDWARE,50–60
+22,Medium,P2 - Monitor,regular,Medium,15,22|15,Store 22 · HOME AND KITCHEN I,40–50
+22,Medium,P2 - Monitor,regular,Medium,16,22|16,Store 22 · HOME AND KITCHEN II,40–50
+22,Low,P3 - Routine,intermittent,Low,17,22|17,Store 22 · HOME APPLIANCES,20–30
+22,Low,P3 - Routine,regular,Medium,18,22|18,Store 22 · HOME CARE,30–40
+22,High,P2 - Monitor,regular,Low,19,22|19,Store 22 · LADIESWEAR,70–80
+22,Low,P3 - Routine,dormant,Low,20,22|20,Store 22 · LAWN AND GARDEN,10–20
+22,Medium,P2 - Monitor,regular,Low,21,22|21,Store 22 · LINGERIE,50–60
+22,Critical,P1 - Immediate review,regular,Medium,22,22|22,"Store 22 · LIQUOR,WINE,BEER",80–90
+22,Medium,P2 - Monitor,regular,Low,23,22|23,Store 22 · MAGAZINES,50–60
+22,Low,P3 - Routine,regular,Medium,24,22|24,Store 22 · MEATS,20–30
+22,Medium,P2 - Monitor,regular,Medium,25,22|25,Store 22 · PERSONAL CARE,40–50
+22,Medium,P2 - Monitor,regular,Low,26,22|26,Store 22 · PET SUPPLIES,60–70
+22,Medium,P2 - Monitor,regular,Low,27,22|27,Store 22 · PLAYERS AND ELECTRONICS,40–50
+22,Medium,P2 - Monitor,regular,Medium,28,22|28,Store 22 · POULTRY,50–60
+22,Low,P3 - Routine,regular,Medium,29,22|29,Store 22 · PREPARED FOODS,20–30
+22,Medium,P2 - Monitor,regular,High,30,22|30,Store 22 · PRODUCE,60–70
+22,Critical,P1 - Immediate review,intermittent,Medium,31,22|31,Store 22 · SCHOOL AND OFFICE SUPPLIES,90–100
+22,High,P2 - Monitor,regular,Low,32,22|32,Store 22 · SEAFOOD,70–80
+23,Medium,P2 - Monitor,regular,Low,0,23|0,Store 23 · AUTOMOTIVE,50–60
+23,Low,P3 - Routine,never sold,Low,1,23|1,Store 23 · BABY CARE,10–20
+23,High,P2 - Monitor,regular,Low,2,23|2,Store 23 · BEAUTY,80–90
+23,Low,P3 - Routine,regular,High,3,23|3,Store 23 · BEVERAGES,30–40
+23,Medium,P2 - Monitor,intermittent,Low,4,23|4,Store 23 · BOOKS,40–50
+23,Low,P3 - Routine,regular,High,5,23|5,Store 23 · BREAD/BAKERY,20–30
+23,High,P1 - Immediate review,regular,Medium,6,23|6,Store 23 · CELEBRATION,60–70
+23,Medium,P2 - Monitor,regular,High,7,23|7,Store 23 · CLEANING,40–50
+23,Low,P3 - Routine,regular,High,8,23|8,Store 23 · DAIRY,30–40
+23,Low,P3 - Routine,regular,Medium,9,23|9,Store 23 · DELI,20–30
+23,Low,P3 - Routine,regular,Medium,10,23|10,Store 23 · EGGS,30–40
+23,Low,P3 - Routine,regular,Medium,11,23|11,Store 23 · FROZEN FOODS,20–30
+23,Low,P3 - Routine,regular,High,12,23|12,Store 23 · GROCERY I,30–40
+23,Medium,P2 - Monitor,regular,Medium,13,23|13,Store 23 · GROCERY II,40–50
+23,Medium,P2 - Monitor,intermittent,Low,14,23|14,Store 23 · HARDWARE,40–50
+23,Medium,P2 - Monitor,regular,Medium,15,23|15,Store 23 · HOME AND KITCHEN I,50–60
+23,Medium,P2 - Monitor,regular,Medium,16,23|16,Store 23 · HOME AND KITCHEN II,60–70
+23,Medium,P2 - Monitor,intermittent,Low,17,23|17,Store 23 · HOME APPLIANCES,50–60
+23,Medium,P2 - Monitor,regular,Medium,18,23|18,Store 23 · HOME CARE,50–60
+23,Medium,P2 - Monitor,regular,Medium,19,23|19,Store 23 · LADIESWEAR,40–50
+23,Medium,P2 - Monitor,regular,Low,20,23|20,Store 23 · LAWN AND GARDEN,60–70
+23,High,P2 - Monitor,regular,Low,21,23|21,Store 23 · LINGERIE,80–90
+23,Medium,P2 - Monitor,regular,Medium,22,23|22,"Store 23 · LIQUOR,WINE,BEER",50–60
+23,Medium,P2 - Monitor,regular,Low,23,23|23,Store 23 · MAGAZINES,40–50
+23,Medium,P2 - Monitor,regular,High,24,23|24,Store 23 · MEATS,40–50
+23,Low,P3 - Routine,regular,Medium,25,23|25,Store 23 · PERSONAL CARE,30–40
+23,Medium,P2 - Monitor,regular,Low,26,23|26,Store 23 · PET SUPPLIES,40–50
+23,Medium,P2 - Monitor,regular,Low,27,23|27,Store 23 · PLAYERS AND ELECTRONICS,50–60
+23,Low,P3 - Routine,regular,High,28,23|28,Store 23 · POULTRY,20–30
+23,Low,P3 - Routine,regular,Medium,29,23|29,Store 23 · PREPARED FOODS,30–40
+23,Low,P3 - Routine,regular,High,30,23|30,Store 23 · PRODUCE,20–30
+23,Medium,P2 - Monitor,intermittent,Low,31,23|31,Store 23 · SCHOOL AND OFFICE SUPPLIES,50–60
+23,Medium,P2 - Monitor,regular,Low,32,23|32,Store 23 · SEAFOOD,50–60
+24,Medium,P2 - Monitor,regular,Low,0,24|0,Store 24 · AUTOMOTIVE,50–60
+24,Medium,P2 - Monitor,intermittent,Low,1,24|1,Store 24 · BABY CARE,50–60
+24,Medium,P2 - Monitor,regular,Low,2,24|2,Store 24 · BEAUTY,60–70
+24,Low,P3 - Routine,regular,High,3,24|3,Store 24 · BEVERAGES,30–40
+24,Low,P3 - Routine,intermittent,Low,4,24|4,Store 24 · BOOKS,20–30
+24,Low,P3 - Routine,regular,High,5,24|5,Store 24 · BREAD/BAKERY,20–30
+24,Medium,P2 - Monitor,regular,Medium,6,24|6,Store 24 · CELEBRATION,50–60
+24,Low,P3 - Routine,regular,High,7,24|7,Store 24 · CLEANING,30–40
+24,Low,P3 - Routine,regular,High,8,24|8,Store 24 · DAIRY,20–30
+24,Low,P3 - Routine,regular,High,9,24|9,Store 24 · DELI,30–40
+24,Low,P3 - Routine,regular,High,10,24|10,Store 24 · EGGS,20–30
+24,Low,P3 - Routine,regular,Medium,11,24|11,Store 24 · FROZEN FOODS,30–40
+24,Low,P3 - Routine,regular,High,12,24|12,Store 24 · GROCERY I,30–40
+24,Medium,P2 - Monitor,regular,Medium,13,24|13,Store 24 · GROCERY II,40–50
+24,Medium,P2 - Monitor,regular,Low,14,24|14,Store 24 · HARDWARE,50–60
+24,Low,P3 - Routine,regular,Medium,15,24|15,Store 24 · HOME AND KITCHEN I,30–40
+24,Medium,P2 - Monitor,regular,Medium,16,24|16,Store 24 · HOME AND KITCHEN II,40–50
+24,Low,P3 - Routine,intermittent,Low,17,24|17,Store 24 · HOME APPLIANCES,20–30
+24,Medium,P2 - Monitor,regular,High,18,24|18,Store 24 · HOME CARE,40–50
+24,Medium,P2 - Monitor,regular,Medium,19,24|19,Store 24 · LADIESWEAR,50–60
+24,Low,P3 - Routine,regular,Medium,20,24|20,Store 24 · LAWN AND GARDEN,30–40
+24,Medium,P2 - Monitor,regular,Low,21,24|21,Store 24 · LINGERIE,50–60
+24,Medium,P2 - Monitor,regular,Medium,22,24|22,"Store 24 · LIQUOR,WINE,BEER",40–50
+24,Medium,P2 - Monitor,regular,Medium,23,24|23,Store 24 · MAGAZINES,40–50
+24,Low,P3 - Routine,regular,High,24,24|24,Store 24 · MEATS,30–40
+24,Low,P3 - Routine,regular,High,25,24|25,Store 24 · PERSONAL CARE,30–40
+24,Low,P3 - Routine,regular,Medium,26,24|26,Store 24 · PET SUPPLIES,20–30
+24,Low,P3 - Routine,regular,Low,27,24|27,Store 24 · PLAYERS AND ELECTRONICS,20–30
+24,Low,P3 - Routine,regular,High,28,24|28,Store 24 · POULTRY,20–30
+24,Low,P3 - Routine,regular,Medium,29,24|29,Store 24 · PREPARED FOODS,10–20
+24,Low,P3 - Routine,regular,High,30,24|30,Store 24 · PRODUCE,30–40
+24,Medium,P2 - Monitor,intermittent,Low,31,24|31,Store 24 · SCHOOL AND OFFICE SUPPLIES,50–60
+24,Low,P3 - Routine,regular,Medium,32,24|32,Store 24 · SEAFOOD,20–30
+25,Medium,P2 - Monitor,regular,Low,0,25|0,Store 25 · AUTOMOTIVE,60–70
+25,Medium,P2 - Monitor,intermittent,Low,1,25|1,Store 25 · BABY CARE,50–60
+25,High,P2 - Monitor,regular,Low,2,25|2,Store 25 · BEAUTY,70–80
+25,High,P1 - Immediate review,regular,High,3,25|3,Store 25 · BEVERAGES,70–80
+25,Low,P3 - Routine,intermittent,Low,4,25|4,Store 25 · BOOKS,10–20
+25,Medium,P2 - Monitor,regular,High,5,25|5,Store 25 · BREAD/BAKERY,50–60
+25,High,P2 - Monitor,regular,Low,6,25|6,Store 25 · CELEBRATION,70–80
+25,High,P1 - Immediate review,regular,High,7,25|7,Store 25 · CLEANING,60–70
+25,Medium,P2 - Monitor,regular,High,8,25|8,Store 25 · DAIRY,60–70
+25,Medium,P2 - Monitor,regular,Medium,9,25|9,Store 25 · DELI,50–60
+25,Medium,P2 - Monitor,regular,Medium,10,25|10,Store 25 · EGGS,60–70
+25,High,P1 - Immediate review,regular,Medium,11,25|11,Store 25 · FROZEN FOODS,60–70
+25,Medium,P2 - Monitor,regular,High,12,25|12,Store 25 · GROCERY I,60–70
+25,High,P1 - Immediate review,regular,Medium,13,25|13,Store 25 · GROCERY II,60–70
+25,High,P2 - Monitor,regular,Low,14,25|14,Store 25 · HARDWARE,70–80
+25,High,P1 - Immediate review,regular,Medium,15,25|15,Store 25 · HOME AND KITCHEN I,60–70
+25,High,P1 - Immediate review,regular,Medium,16,25|16,Store 25 · HOME AND KITCHEN II,70–80
+25,Medium,P2 - Monitor,intermittent,Low,17,25|17,Store 25 · HOME APPLIANCES,40–50
+25,Medium,P2 - Monitor,regular,Medium,18,25|18,Store 25 · HOME CARE,50–60
+25,Low,P3 - Routine,never sold,Low,19,25|19,Store 25 · LADIESWEAR,10–20
+25,Medium,P2 - Monitor,regular,Medium,20,25|20,Store 25 · LAWN AND GARDEN,60–70
+25,High,P2 - Monitor,regular,Low,21,25|21,Store 25 · LINGERIE,70–80
+25,Critical,P1 - Immediate review,regular,High,22,25|22,"Store 25 · LIQUOR,WINE,BEER",80–90
+25,High,P2 - Monitor,regular,Low,23,25|23,Store 25 · MAGAZINES,70–80
+25,Medium,P2 - Monitor,regular,High,24,25|24,Store 25 · MEATS,50–60
+25,Medium,P2 - Monitor,regular,Medium,25,25|25,Store 25 · PERSONAL CARE,50–60
+25,Medium,P2 - Monitor,regular,Low,26,25|26,Store 25 · PET SUPPLIES,60–70
+25,Medium,P2 - Monitor,regular,Low,27,25|27,Store 25 · PLAYERS AND ELECTRONICS,60–70
+25,Medium,P2 - Monitor,regular,High,28,25|28,Store 25 · POULTRY,50–60
+25,Medium,P2 - Monitor,regular,Medium,29,25|29,Store 25 · PREPARED FOODS,50–60
+25,Medium,P2 - Monitor,regular,High,30,25|30,Store 25 · PRODUCE,60–70
+25,High,P2 - Monitor,regular,Low,31,25|31,Store 25 · SCHOOL AND OFFICE SUPPLIES,70–80
+25,High,P2 - Monitor,regular,Low,32,25|32,Store 25 · SEAFOOD,70–80
+26,High,P2 - Monitor,regular,Low,0,26|0,Store 26 · AUTOMOTIVE,60–70
+26,Low,P3 - Routine,dormant,Low,1,26|1,Store 26 · BABY CARE,10–20
+26,High,P2 - Monitor,intermittent,Low,2,26|2,Store 26 · BEAUTY,70–80
+26,High,P1 - Immediate review,regular,High,3,26|3,Store 26 · BEVERAGES,70–80
+26,Low,P3 - Routine,dormant,Low,4,26|4,Store 26 · BOOKS,10–20
+26,Medium,P2 - Monitor,regular,High,5,26|5,Store 26 · BREAD/BAKERY,40–50
+26,Medium,P2 - Monitor,regular,Low,6,26|6,Store 26 · CELEBRATION,60–70
+26,High,P1 - Immediate review,regular,High,7,26|7,Store 26 · CLEANING,70–80
+26,Medium,P2 - Monitor,regular,High,8,26|8,Store 26 · DAIRY,40–50
+26,Medium,P2 - Monitor,regular,Medium,9,26|9,Store 26 · DELI,60–70
+26,Medium,P2 - Monitor,regular,Medium,10,26|10,Store 26 · EGGS,50–60
+26,Medium,P2 - Monitor,regular,Medium,11,26|11,Store 26 · FROZEN FOODS,40–50
+26,High,P1 - Immediate review,regular,High,12,26|12,Store 26 · GROCERY I,60–70
+26,High,P2 - Monitor,regular,Low,13,26|13,Store 26 · GROCERY II,70–80
+26,High,P2 - Monitor,intermittent,Low,14,26|14,Store 26 · HARDWARE,60–70
+26,High,P2 - Monitor,regular,Low,15,26|15,Store 26 · HOME AND KITCHEN I,60–70
+26,High,P2 - Monitor,regular,Low,16,26|16,Store 26 · HOME AND KITCHEN II,60–70
+26,High,P2 - Monitor,intermittent,Low,17,26|17,Store 26 · HOME APPLIANCES,60–70
+26,High,P1 - Immediate review,regular,Medium,18,26|18,Store 26 · HOME CARE,70–80
+26,Medium,P2 - Monitor,intermittent,Low,19,26|19,Store 26 · LADIESWEAR,40–50
+26,High,P2 - Monitor,regular,Low,20,26|20,Store 26 · LAWN AND GARDEN,70–80
+26,High,P2 - Monitor,regular,Low,21,26|21,Store 26 · LINGERIE,80–90
+26,Medium,P2 - Monitor,regular,Medium,22,26|22,"Store 26 · LIQUOR,WINE,BEER",50–60
+26,Medium,P2 - Monitor,intermittent,Low,23,26|23,Store 26 · MAGAZINES,50–60
+26,Medium,P2 - Monitor,regular,High,24,26|24,Store 26 · MEATS,50–60
+26,High,P1 - Immediate review,regular,Medium,25,26|25,Store 26 · PERSONAL CARE,70–80
+26,High,P2 - Monitor,regular,Low,26,26|26,Store 26 · PET SUPPLIES,60–70
+26,Medium,P2 - Monitor,regular,Low,27,26|27,Store 26 · PLAYERS AND ELECTRONICS,50–60
+26,Medium,P2 - Monitor,regular,Medium,28,26|28,Store 26 · POULTRY,50–60
+26,Medium,P2 - Monitor,regular,Medium,29,26|29,Store 26 · PREPARED FOODS,50–60
+26,Medium,P2 - Monitor,regular,High,30,26|30,Store 26 · PRODUCE,50–60
+26,High,P2 - Monitor,regular,Low,31,26|31,Store 26 · SCHOOL AND OFFICE SUPPLIES,80–90
+26,High,P2 - Monitor,regular,Low,32,26|32,Store 26 · SEAFOOD,70–80
+27,Medium,P2 - Monitor,regular,Low,0,27|0,Store 27 · AUTOMOTIVE,50–60
+27,Medium,P2 - Monitor,intermittent,Low,1,27|1,Store 27 · BABY CARE,50–60
+27,High,P2 - Monitor,regular,Low,2,27|2,Store 27 · BEAUTY,60–70
+27,Medium,P2 - Monitor,regular,High,3,27|3,Store 27 · BEVERAGES,40–50
+27,Medium,P2 - Monitor,intermittent,Low,4,27|4,Store 27 · BOOKS,40–50
+27,Low,P3 - Routine,regular,High,5,27|5,Store 27 · BREAD/BAKERY,30–40
+27,Medium,P2 - Monitor,regular,Medium,6,27|6,Store 27 · CELEBRATION,40–50
+27,Medium,P2 - Monitor,regular,High,7,27|7,Store 27 · CLEANING,40–50
+27,Low,P3 - Routine,regular,High,8,27|8,Store 27 · DAIRY,30–40
+27,Low,P3 - Routine,regular,High,9,27|9,Store 27 · DELI,30–40
+27,Low,P3 - Routine,regular,High,10,27|10,Store 27 · EGGS,30–40
+27,Medium,P2 - Monitor,regular,Medium,11,27|11,Store 27 · FROZEN FOODS,40–50
+27,Medium,P2 - Monitor,regular,High,12,27|12,Store 27 · GROCERY I,40–50
+27,Medium,P2 - Monitor,regular,Medium,13,27|13,Store 27 · GROCERY II,50–60
+27,Medium,P2 - Monitor,regular,Low,14,27|14,Store 27 · HARDWARE,60–70
+27,Medium,P2 - Monitor,regular,Medium,15,27|15,Store 27 · HOME AND KITCHEN I,50–60
+27,Medium,P2 - Monitor,regular,Medium,16,27|16,Store 27 · HOME AND KITCHEN II,40–50
+27,Medium,P2 - Monitor,intermittent,Low,17,27|17,Store 27 · HOME APPLIANCES,40–50
+27,Medium,P2 - Monitor,regular,High,18,27|18,Store 27 · HOME CARE,50–60
+27,Medium,P2 - Monitor,regular,Low,19,27|19,Store 27 · LADIESWEAR,60–70
+27,Low,P3 - Routine,regular,Medium,20,27|20,Store 27 · LAWN AND GARDEN,30–40
+27,High,P2 - Monitor,regular,Low,21,27|21,Store 27 · LINGERIE,60–70
+27,High,P1 - Immediate review,regular,Medium,22,27|22,"Store 27 · LIQUOR,WINE,BEER",70–80
+27,Medium,P2 - Monitor,regular,Low,23,27|23,Store 27 · MAGAZINES,50–60
+27,Low,P3 - Routine,regular,High,24,27|24,Store 27 · MEATS,20–30
+27,Medium,P2 - Monitor,regular,High,25,27|25,Store 27 · PERSONAL CARE,50–60
+27,Low,P3 - Routine,regular,Medium,26,27|26,Store 27 · PET SUPPLIES,30–40
+27,Medium,P2 - Monitor,regular,Low,27,27|27,Store 27 · PLAYERS AND ELECTRONICS,40–50
+27,Low,P3 - Routine,regular,High,28,27|28,Store 27 · POULTRY,20–30
+27,Low,P3 - Routine,regular,Medium,29,27|29,Store 27 · PREPARED FOODS,10–20
+27,Low,P3 - Routine,regular,High,30,27|30,Store 27 · PRODUCE,30–40
+27,High,P2 - Monitor,regular,Low,31,27|31,Store 27 · SCHOOL AND OFFICE SUPPLIES,60–70
+27,Medium,P2 - Monitor,regular,Medium,32,27|32,Store 27 · SEAFOOD,40–50
+28,High,P2 - Monitor,regular,Low,0,28|0,Store 28 · AUTOMOTIVE,60–70
+28,Low,P3 - Routine,intermittent,Low,1,28|1,Store 28 · BABY CARE,20–30
+28,High,P2 - Monitor,regular,Low,2,28|2,Store 28 · BEAUTY,70–80
+28,Medium,P2 - Monitor,regular,High,3,28|3,Store 28 · BEVERAGES,40–50
+28,Low,P3 - Routine,never sold,Low,4,28|4,Store 28 · BOOKS,10–20
+28,Medium,P2 - Monitor,regular,High,5,28|5,Store 28 · BREAD/BAKERY,40–50
+28,Medium,P2 - Monitor,regular,Medium,6,28|6,Store 28 · CELEBRATION,60–70
+28,Medium,P2 - Monitor,regular,High,7,28|7,Store 28 · CLEANING,50–60
+28,Medium,P2 - Monitor,regular,High,8,28|8,Store 28 · DAIRY,50–60
+28,Medium,P2 - Monitor,regular,High,9,28|9,Store 28 · DELI,40–50
+28,Medium,P2 - Monitor,regular,High,10,28|10,Store 28 · EGGS,50–60
+28,Medium,P2 - Monitor,regular,Medium,11,28|11,Store 28 · FROZEN FOODS,40–50
+28,Medium,P2 - Monitor,regular,High,12,28|12,Store 28 · GROCERY I,60–70
+28,Medium,P2 - Monitor,regular,Medium,13,28|13,Store 28 · GROCERY II,60–70
+28,High,P2 - Monitor,regular,Low,14,28|14,Store 28 · HARDWARE,60–70
+28,Medium,P2 - Monitor,regular,Medium,15,28|15,Store 28 · HOME AND KITCHEN I,50–60
+28,Medium,P2 - Monitor,regular,Medium,16,28|16,Store 28 · HOME AND KITCHEN II,50–60
+28,Medium,P2 - Monitor,regular,Low,17,28|17,Store 28 · HOME APPLIANCES,60–70
+28,Medium,P2 - Monitor,regular,High,18,28|18,Store 28 · HOME CARE,50–60
+28,Low,P3 - Routine,never sold,Low,19,28|19,Store 28 · LADIESWEAR,10–20
+28,Medium,P2 - Monitor,regular,Low,20,28|20,Store 28 · LAWN AND GARDEN,50–60
+28,Medium,P2 - Monitor,regular,Low,21,28|21,Store 28 · LINGERIE,50–60
+28,Medium,P2 - Monitor,regular,Medium,22,28|22,"Store 28 · LIQUOR,WINE,BEER",50–60
+28,High,P2 - Monitor,regular,Low,23,28|23,Store 28 · MAGAZINES,60–70
+28,Low,P3 - Routine,regular,High,24,28|24,Store 28 · MEATS,20–30
+28,Medium,P2 - Monitor,regular,High,25,28|25,Store 28 · PERSONAL CARE,40–50
+28,Medium,P2 - Monitor,regular,Low,26,28|26,Store 28 · PET SUPPLIES,40–50
+28,Medium,P2 - Monitor,regular,Low,27,28|27,Store 28 · PLAYERS AND ELECTRONICS,50–60
+28,Medium,P2 - Monitor,regular,High,28,28|28,Store 28 · POULTRY,40–50
+28,Low,P3 - Routine,regular,Medium,29,28|29,Store 28 · PREPARED FOODS,30–40
+28,Medium,P2 - Monitor,regular,High,30,28|30,Store 28 · PRODUCE,40–50
+28,High,P2 - Monitor,regular,Low,31,28|31,Store 28 · SCHOOL AND OFFICE SUPPLIES,70–80
+28,Medium,P2 - Monitor,regular,Low,32,28|32,Store 28 · SEAFOOD,40–50
+29,Medium,P2 - Monitor,regular,Low,0,29|0,Store 29 · AUTOMOTIVE,50–60
+29,Medium,P2 - Monitor,intermittent,Low,1,29|1,Store 29 · BABY CARE,40–50
+29,Medium,P2 - Monitor,regular,Low,2,29|2,Store 29 · BEAUTY,50–60
+29,Low,P3 - Routine,regular,High,3,29|3,Store 29 · BEVERAGES,30–40
+29,Low,P3 - Routine,never sold,Low,4,29|4,Store 29 · BOOKS,10–20
+29,Medium,P2 - Monitor,regular,High,5,29|5,Store 29 · BREAD/BAKERY,40–50
+29,Low,P3 - Routine,regular,Medium,6,29|6,Store 29 · CELEBRATION,30–40
+29,Medium,P2 - Monitor,regular,High,7,29|7,Store 29 · CLEANING,50–60
+29,Medium,P2 - Monitor,regular,High,8,29|8,Store 29 · DAIRY,40–50
+29,Low,P3 - Routine,regular,High,9,29|9,Store 29 · DELI,30–40
+29,Medium,P2 - Monitor,regular,High,10,29|10,Store 29 · EGGS,50–60
+29,Medium,P2 - Monitor,regular,Medium,11,29|11,Store 29 · FROZEN FOODS,40–50
+29,Medium,P2 - Monitor,regular,High,12,29|12,Store 29 · GROCERY I,40–50
+29,Medium,P2 - Monitor,regular,Medium,13,29|13,Store 29 · GROCERY II,50–60
+29,High,P2 - Monitor,regular,Low,14,29|14,Store 29 · HARDWARE,60–70
+29,Medium,P2 - Monitor,regular,Medium,15,29|15,Store 29 · HOME AND KITCHEN I,50–60
+29,Medium,P2 - Monitor,regular,Medium,16,29|16,Store 29 · HOME AND KITCHEN II,40–50
+29,Low,P3 - Routine,intermittent,Low,17,29|17,Store 29 · HOME APPLIANCES,20–30
+29,Medium,P2 - Monitor,regular,High,18,29|18,Store 29 · HOME CARE,40–50
+29,Low,P3 - Routine,never sold,Low,19,29|19,Store 29 · LADIESWEAR,10–20
+29,Medium,P2 - Monitor,regular,Low,20,29|20,Store 29 · LAWN AND GARDEN,40–50
+29,Medium,P2 - Monitor,regular,Low,21,29|21,Store 29 · LINGERIE,60–70
+29,High,P1 - Immediate review,regular,Medium,22,29|22,"Store 29 · LIQUOR,WINE,BEER",60–70
+29,Medium,P2 - Monitor,regular,Low,23,29|23,Store 29 · MAGAZINES,50–60
+29,Low,P3 - Routine,regular,Medium,24,29|24,Store 29 · MEATS,20–30
+29,High,P1 - Immediate review,regular,High,25,29|25,Store 29 · PERSONAL CARE,60–70
+29,Medium,P2 - Monitor,regular,Low,26,29|26,Store 29 · PET SUPPLIES,60–70
+29,Medium,P2 - Monitor,regular,Low,27,29|27,Store 29 · PLAYERS AND ELECTRONICS,50–60
+29,Medium,P2 - Monitor,regular,High,28,29|28,Store 29 · POULTRY,40–50
+29,Low,P3 - Routine,regular,Medium,29,29|29,Store 29 · PREPARED FOODS,30–40
+29,Medium,P2 - Monitor,regular,High,30,29|30,Store 29 · PRODUCE,40–50
+29,High,P2 - Monitor,regular,Low,31,29|31,Store 29 · SCHOOL AND OFFICE SUPPLIES,70–80
+29,Medium,P2 - Monitor,regular,Low,32,29|32,Store 29 · SEAFOOD,60–70
+30,Medium,P2 - Monitor,regular,Low,0,30|0,Store 30 · AUTOMOTIVE,60–70
+30,Medium,P2 - Monitor,intermittent,Low,1,30|1,Store 30 · BABY CARE,50–60
+30,High,P2 - Monitor,regular,Low,2,30|2,Store 30 · BEAUTY,70–80
+30,Medium,P2 - Monitor,regular,High,3,30|3,Store 30 · BEVERAGES,50–60
+30,Low,P3 - Routine,never sold,Low,4,30|4,Store 30 · BOOKS,10–20
+30,Low,P3 - Routine,regular,Medium,5,30|5,Store 30 · BREAD/BAKERY,30–40
+30,High,P2 - Monitor,regular,Low,6,30|6,Store 30 · CELEBRATION,60–70
+30,High,P1 - Immediate review,regular,High,7,30|7,Store 30 · CLEANING,60–70
+30,Low,P3 - Routine,regular,High,8,30|8,Store 30 · DAIRY,30–40
+30,Low,P3 - Routine,regular,Medium,9,30|9,Store 30 · DELI,30–40
+30,High,P1 - Immediate review,regular,Medium,10,30|10,Store 30 · EGGS,60–70
+30,Medium,P2 - Monitor,regular,Medium,11,30|11,Store 30 · FROZEN FOODS,40–50
+30,Medium,P2 - Monitor,regular,High,12,30|12,Store 30 · GROCERY I,40–50
+30,High,P2 - Monitor,regular,Low,13,30|13,Store 30 · GROCERY II,70–80
+30,Medium,P2 - Monitor,intermittent,Low,14,30|14,Store 30 · HARDWARE,40–50
+30,Medium,P2 - Monitor,regular,Medium,15,30|15,Store 30 · HOME AND KITCHEN I,50–60
+30,Medium,P2 - Monitor,regular,Low,16,30|16,Store 30 · HOME AND KITCHEN II,50–60
+30,High,P2 - Monitor,intermittent,Low,17,30|17,Store 30 · HOME APPLIANCES,60–70
+30,High,P1 - Immediate review,regular,Medium,18,30|18,Store 30 · HOME CARE,60–70
+30,Medium,P2 - Monitor,intermittent,Low,19,30|19,Store 30 · LADIESWEAR,60–70
+30,Low,P3 - Routine,never sold,Low,20,30|20,Store 30 · LAWN AND GARDEN,10–20
+30,High,P2 - Monitor,regular,Low,21,30|21,Store 30 · LINGERIE,70–80
+30,High,P1 - Immediate review,regular,Medium,22,30|22,"Store 30 · LIQUOR,WINE,BEER",60–70
+30,High,P2 - Monitor,regular,Low,23,30|23,Store 30 · MAGAZINES,60–70
+30,Low,P3 - Routine,regular,Medium,24,30|24,Store 30 · MEATS,30–40
+30,Medium,P2 - Monitor,regular,Medium,25,30|25,Store 30 · PERSONAL CARE,40–50
+30,Medium,P2 - Monitor,regular,Low,26,30|26,Store 30 · PET SUPPLIES,50–60
+30,Medium,P2 - Monitor,regular,Low,27,30|27,Store 30 · PLAYERS AND ELECTRONICS,40–50
+30,Low,P3 - Routine,regular,Medium,28,30|28,Store 30 · POULTRY,20–30
+30,Low,P3 - Routine,regular,Medium,29,30|29,Store 30 · PREPARED FOODS,30–40
+30,Low,P3 - Routine,regular,High,30,30|30,Store 30 · PRODUCE,30–40
+30,High,P2 - Monitor,intermittent,Low,31,30|31,Store 30 · SCHOOL AND OFFICE SUPPLIES,80–90
+30,High,P2 - Monitor,regular,Low,32,30|32,Store 30 · SEAFOOD,60–70
+31,Medium,P2 - Monitor,regular,Low,0,31|0,Store 31 · AUTOMOTIVE,40–50
+31,Medium,P2 - Monitor,intermittent,Low,1,31|1,Store 31 · BABY CARE,50–60
+31,High,P2 - Monitor,regular,Low,2,31|2,Store 31 · BEAUTY,70–80
+31,Medium,P2 - Monitor,regular,High,3,31|3,Store 31 · BEVERAGES,40–50
+31,Low,P3 - Routine,never sold,Low,4,31|4,Store 31 · BOOKS,10–20
+31,Medium,P2 - Monitor,regular,High,5,31|5,Store 31 · BREAD/BAKERY,40–50
+31,Low,P3 - Routine,regular,Low,6,31|6,Store 31 · CELEBRATION,30–40
+31,High,P1 - Immediate review,regular,High,7,31|7,Store 31 · CLEANING,60–70
+31,Medium,P2 - Monitor,regular,High,8,31|8,Store 31 · DAIRY,40–50
+31,Medium,P2 - Monitor,regular,High,9,31|9,Store 31 · DELI,40–50
+31,Medium,P2 - Monitor,regular,High,10,31|10,Store 31 · EGGS,50–60
+31,Medium,P2 - Monitor,regular,Medium,11,31|11,Store 31 · FROZEN FOODS,40–50
+31,Medium,P2 - Monitor,regular,High,12,31|12,Store 31 · GROCERY I,40–50
+31,Medium,P2 - Monitor,regular,Medium,13,31|13,Store 31 · GROCERY II,50–60
+31,Medium,P2 - Monitor,intermittent,Low,14,31|14,Store 31 · HARDWARE,60–70
+31,High,P1 - Immediate review,regular,Medium,15,31|15,Store 31 · HOME AND KITCHEN I,60–70
+31,Medium,P2 - Monitor,regular,Medium,16,31|16,Store 31 · HOME AND KITCHEN II,40–50
+31,Medium,P2 - Monitor,intermittent,Low,17,31|17,Store 31 · HOME APPLIANCES,40–50
+31,Medium,P2 - Monitor,regular,High,18,31|18,Store 31 · HOME CARE,50–60
+31,High,P2 - Monitor,regular,Low,19,31|19,Store 31 · LADIESWEAR,60–70
+31,Medium,P2 - Monitor,regular,Low,20,31|20,Store 31 · LAWN AND GARDEN,40–50
+31,Medium,P2 - Monitor,regular,Low,21,31|21,Store 31 · LINGERIE,60–70
+31,Medium,P2 - Monitor,regular,Medium,22,31|22,"Store 31 · LIQUOR,WINE,BEER",60–70
+31,Medium,P2 - Monitor,regular,Low,23,31|23,Store 31 · MAGAZINES,50–60
+31,Low,P3 - Routine,regular,High,24,31|24,Store 31 · MEATS,30–40
+31,Medium,P2 - Monitor,regular,High,25,31|25,Store 31 · PERSONAL CARE,60–70
+31,Medium,P2 - Monitor,regular,Low,26,31|26,Store 31 · PET SUPPLIES,50–60
+31,Medium,P2 - Monitor,regular,Low,27,31|27,Store 31 · PLAYERS AND ELECTRONICS,50–60
+31,Medium,P2 - Monitor,regular,Medium,28,31|28,Store 31 · POULTRY,40–50
+31,Low,P3 - Routine,regular,Medium,29,31|29,Store 31 · PREPARED FOODS,30–40
+31,Medium,P2 - Monitor,regular,High,30,31|30,Store 31 · PRODUCE,50–60
+31,High,P2 - Monitor,regular,Low,31,31|31,Store 31 · SCHOOL AND OFFICE SUPPLIES,70–80
+31,Medium,P2 - Monitor,regular,Low,32,31|32,Store 31 · SEAFOOD,60–70
+32,High,P2 - Monitor,regular,Low,0,32|0,Store 32 · AUTOMOTIVE,60–70
+32,Low,P3 - Routine,dormant,Low,1,32|1,Store 32 · BABY CARE,10–20
+32,High,P2 - Monitor,intermittent,Low,2,32|2,Store 32 · BEAUTY,70–80
+32,Medium,P2 - Monitor,regular,High,3,32|3,Store 32 · BEVERAGES,50–60
+32,Low,P3 - Routine,never sold,Low,4,32|4,Store 32 · BOOKS,10–20
+32,Medium,P2 - Monitor,regular,Medium,5,32|5,Store 32 · BREAD/BAKERY,40–50
+32,High,P2 - Monitor,regular,Low,6,32|6,Store 32 · CELEBRATION,70–80
+32,High,P1 - Immediate review,regular,High,7,32|7,Store 32 · CLEANING,70–80
+32,Medium,P2 - Monitor,regular,Medium,8,32|8,Store 32 · DAIRY,40–50
+32,Low,P3 - Routine,regular,Medium,9,32|9,Store 32 · DELI,30–40
+32,Medium,P2 - Monitor,regular,High,10,32|10,Store 32 · EGGS,60–70
+32,Low,P3 - Routine,regular,Medium,11,32|11,Store 32 · FROZEN FOODS,30–40
+32,Medium,P2 - Monitor,regular,High,12,32|12,Store 32 · GROCERY I,40–50
+32,Medium,P2 - Monitor,regular,Low,13,32|13,Store 32 · GROCERY II,60–70
+32,Medium,P2 - Monitor,intermittent,Low,14,32|14,Store 32 · HARDWARE,50–60
+32,High,P2 - Monitor,regular,Low,15,32|15,Store 32 · HOME AND KITCHEN I,60–70
+32,High,P2 - Monitor,regular,Low,16,32|16,Store 32 · HOME AND KITCHEN II,60–70
+32,Medium,P2 - Monitor,intermittent,Low,17,32|17,Store 32 · HOME APPLIANCES,40–50
+32,Low,P3 - Routine,regular,Medium,18,32|18,Store 32 · HOME CARE,30–40
+32,Low,P3 - Routine,never sold,Low,19,32|19,Store 32 · LADIESWEAR,10–20
+32,Low,P3 - Routine,dormant,Low,20,32|20,Store 32 · LAWN AND GARDEN,10–20
+32,High,P2 - Monitor,intermittent,Low,21,32|21,Store 32 · LINGERIE,80–90
+32,High,P1 - Immediate review,regular,Medium,22,32|22,"Store 32 · LIQUOR,WINE,BEER",70–80
+32,Medium,P2 - Monitor,intermittent,Low,23,32|23,Store 32 · MAGAZINES,60–70
+32,Low,P3 - Routine,regular,Medium,24,32|24,Store 32 · MEATS,30–40
+32,Low,P3 - Routine,regular,Medium,25,32|25,Store 32 · PERSONAL CARE,30–40
+32,Medium,P2 - Monitor,intermittent,Low,26,32|26,Store 32 · PET SUPPLIES,50–60
+32,Medium,P2 - Monitor,regular,Low,27,32|27,Store 32 · PLAYERS AND ELECTRONICS,60–70
+32,Low,P3 - Routine,regular,Medium,28,32|28,Store 32 · POULTRY,30–40
+32,Medium,P2 - Monitor,regular,Medium,29,32|29,Store 32 · PREPARED FOODS,40–50
+32,Medium,P2 - Monitor,regular,High,30,32|30,Store 32 · PRODUCE,40–50
+32,Medium,P2 - Monitor,intermittent,Low,31,32|31,Store 32 · SCHOOL AND OFFICE SUPPLIES,60–70
+32,High,P2 - Monitor,regular,Low,32,32|32,Store 32 · SEAFOOD,60–70
+33,Medium,P2 - Monitor,regular,Low,0,33|0,Store 33 · AUTOMOTIVE,40–50
+33,Low,P3 - Routine,dormant,Low,1,33|1,Store 33 · BABY CARE,10–20
+33,High,P2 - Monitor,regular,Low,2,33|2,Store 33 · BEAUTY,70–80
+33,Medium,P2 - Monitor,regular,High,3,33|3,Store 33 · BEVERAGES,50–60
+33,Low,P3 - Routine,never sold,Low,4,33|4,Store 33 · BOOKS,10–20
+33,Low,P3 - Routine,regular,High,5,33|5,Store 33 · BREAD/BAKERY,30–40
+33,High,P2 - Monitor,regular,Low,6,33|6,Store 33 · CELEBRATION,60–70
+33,Medium,P2 - Monitor,regular,High,7,33|7,Store 33 · CLEANING,50–60
+33,Low,P3 - Routine,regular,High,8,33|8,Store 33 · DAIRY,30–40
+33,Low,P3 - Routine,regular,High,9,33|9,Store 33 · DELI,30–40
+33,High,P1 - Immediate review,regular,High,10,33|10,Store 33 · EGGS,70–80
+33,Medium,P2 - Monitor,regular,Medium,11,33|11,Store 33 · FROZEN FOODS,50–60
+33,Low,P3 - Routine,regular,High,12,33|12,Store 33 · GROCERY I,30–40
+33,Medium,P2 - Monitor,regular,Low,13,33|13,Store 33 · GROCERY II,60–70
+33,High,P2 - Monitor,intermittent,Low,14,33|14,Store 33 · HARDWARE,60–70
+33,Medium,P2 - Monitor,regular,Medium,15,33|15,Store 33 · HOME AND KITCHEN I,60–70
+33,Low,P3 - Routine,regular,Medium,16,33|16,Store 33 · HOME AND KITCHEN II,30–40
+33,Medium,P2 - Monitor,intermittent,Low,17,33|17,Store 33 · HOME APPLIANCES,60–70
+33,Medium,P2 - Monitor,regular,High,18,33|18,Store 33 · HOME CARE,50–60
+33,Low,P3 - Routine,never sold,Low,19,33|19,Store 33 · LADIESWEAR,10–20
+33,Low,P3 - Routine,dormant,Low,20,33|20,Store 33 · LAWN AND GARDEN,10–20
+33,Low,P3 - Routine,regular,Medium,21,33|21,Store 33 · LINGERIE,30–40
+33,Medium,P2 - Monitor,regular,Medium,22,33|22,"Store 33 · LIQUOR,WINE,BEER",50–60
+33,Medium,P2 - Monitor,regular,Low,23,33|23,Store 33 · MAGAZINES,60–70
+33,Low,P3 - Routine,regular,High,24,33|24,Store 33 · MEATS,20–30
+33,Medium,P2 - Monitor,regular,High,25,33|25,Store 33 · PERSONAL CARE,40–50
+33,Medium,P2 - Monitor,regular,Low,26,33|26,Store 33 · PET SUPPLIES,50–60
+33,Medium,P2 - Monitor,regular,Low,27,33|27,Store 33 · PLAYERS AND ELECTRONICS,50–60
+33,Medium,P2 - Monitor,regular,High,28,33|28,Store 33 · POULTRY,40–50
+33,Low,P3 - Routine,regular,Medium,29,33|29,Store 33 · PREPARED FOODS,20–30
+33,Medium,P2 - Monitor,regular,High,30,33|30,Store 33 · PRODUCE,40–50
+33,Medium,P2 - Monitor,intermittent,Low,31,33|31,Store 33 · SCHOOL AND OFFICE SUPPLIES,50–60
+33,Medium,P2 - Monitor,regular,Low,32,33|32,Store 33 · SEAFOOD,40–50
+34,Medium,P2 - Monitor,regular,Low,0,34|0,Store 34 · AUTOMOTIVE,50–60
+34,Medium,P2 - Monitor,intermittent,Low,1,34|1,Store 34 · BABY CARE,50–60
+34,Medium,P2 - Monitor,regular,Low,2,34|2,Store 34 · BEAUTY,60–70
+34,Low,P3 - Routine,regular,High,3,34|3,Store 34 · BEVERAGES,30–40
+34,Low,P3 - Routine,never sold,Low,4,34|4,Store 34 · BOOKS,10–20
+34,Low,P3 - Routine,regular,High,5,34|5,Store 34 · BREAD/BAKERY,30–40
+34,Medium,P2 - Monitor,regular,Low,6,34|6,Store 34 · CELEBRATION,60–70
+34,Medium,P2 - Monitor,regular,High,7,34|7,Store 34 · CLEANING,40–50
+34,Low,P3 - Routine,regular,High,8,34|8,Store 34 · DAIRY,30–40
+34,Low,P3 - Routine,regular,High,9,34|9,Store 34 · DELI,30–40
+34,Medium,P2 - Monitor,regular,Medium,10,34|10,Store 34 · EGGS,60–70
+34,Low,P3 - Routine,regular,Medium,11,34|11,Store 34 · FROZEN FOODS,30–40
+34,Low,P3 - Routine,regular,High,12,34|12,Store 34 · GROCERY I,30–40
+34,High,P2 - Monitor,regular,Low,13,34|13,Store 34 · GROCERY II,60–70
+34,High,P2 - Monitor,regular,Low,14,34|14,Store 34 · HARDWARE,60–70
+34,High,P1 - Immediate review,regular,Medium,15,34|15,Store 34 · HOME AND KITCHEN I,60–70
+34,Low,P3 - Routine,regular,Medium,16,34|16,Store 34 · HOME AND KITCHEN II,30–40
+34,Medium,P2 - Monitor,intermittent,Low,17,34|17,Store 34 · HOME APPLIANCES,40–50
+34,Low,P3 - Routine,regular,High,18,34|18,Store 34 · HOME CARE,30–40
+34,Medium,P2 - Monitor,regular,Low,19,34|19,Store 34 · LADIESWEAR,60–70
+34,Medium,P2 - Monitor,regular,Low,20,34|20,Store 34 · LAWN AND GARDEN,60–70
+34,High,P2 - Monitor,regular,Low,21,34|21,Store 34 · LINGERIE,60–70
+34,Medium,P2 - Monitor,regular,Medium,22,34|22,"Store 34 · LIQUOR,WINE,BEER",60–70
+34,Medium,P2 - Monitor,regular,Low,23,34|23,Store 34 · MAGAZINES,50–60
+34,Low,P3 - Routine,regular,High,24,34|24,Store 34 · MEATS,20–30
+34,Medium,P2 - Monitor,regular,High,25,34|25,Store 34 · PERSONAL CARE,40–50
+34,Low,P3 - Routine,regular,Low,26,34|26,Store 34 · PET SUPPLIES,30–40
+34,Medium,P2 - Monitor,regular,Low,27,34|27,Store 34 · PLAYERS AND ELECTRONICS,40–50
+34,Low,P3 - Routine,regular,Medium,28,34|28,Store 34 · POULTRY,30–40
+34,Low,P3 - Routine,regular,Medium,29,34|29,Store 34 · PREPARED FOODS,20–30
+34,Low,P3 - Routine,regular,High,30,34|30,Store 34 · PRODUCE,20–30
+34,High,P1 - Immediate review,regular,Medium,31,34|31,Store 34 · SCHOOL AND OFFICE SUPPLIES,60–70
+34,High,P2 - Monitor,regular,Low,32,34|32,Store 34 · SEAFOOD,60–70
+35,Medium,P2 - Monitor,regular,Low,0,35|0,Store 35 · AUTOMOTIVE,60–70
+35,Low,P3 - Routine,intermittent,Low,1,35|1,Store 35 · BABY CARE,10–20
+35,High,P2 - Monitor,intermittent,Low,2,35|2,Store 35 · BEAUTY,70–80
+35,Medium,P2 - Monitor,regular,High,3,35|3,Store 35 · BEVERAGES,40–50
+35,Low,P3 - Routine,never sold,Low,4,35|4,Store 35 · BOOKS,10–20
+35,Medium,P2 - Monitor,regular,Medium,5,35|5,Store 35 · BREAD/BAKERY,50–60
+35,High,P2 - Monitor,regular,Low,6,35|6,Store 35 · CELEBRATION,70–80
+35,Medium,P2 - Monitor,regular,High,7,35|7,Store 35 · CLEANING,40–50
+35,Medium,P2 - Monitor,regular,High,8,35|8,Store 35 · DAIRY,40–50
+35,Medium,P2 - Monitor,regular,Medium,9,35|9,Store 35 · DELI,40–50
+35,Medium,P2 - Monitor,regular,Medium,10,35|10,Store 35 · EGGS,50–60
+35,High,P1 - Immediate review,regular,Medium,11,35|11,Store 35 · FROZEN FOODS,60–70
+35,Medium,P2 - Monitor,regular,High,12,35|12,Store 35 · GROCERY I,40–50
+35,High,P2 - Monitor,regular,Low,13,35|13,Store 35 · GROCERY II,70–80
+35,High,P2 - Monitor,intermittent,Low,14,35|14,Store 35 · HARDWARE,60–70
+35,Low,P3 - Routine,regular,Medium,15,35|15,Store 35 · HOME AND KITCHEN I,30–40
+35,High,P2 - Monitor,regular,Low,16,35|16,Store 35 · HOME AND KITCHEN II,70–80
+35,Medium,P2 - Monitor,intermittent,Low,17,35|17,Store 35 · HOME APPLIANCES,50–60
+35,Medium,P2 - Monitor,regular,Medium,18,35|18,Store 35 · HOME CARE,40–50
+35,Low,P3 - Routine,never sold,Low,19,35|19,Store 35 · LADIESWEAR,10–20
+35,Low,P3 - Routine,dormant,Low,20,35|20,Store 35 · LAWN AND GARDEN,10–20
+35,High,P2 - Monitor,intermittent,Low,21,35|21,Store 35 · LINGERIE,70–80
+35,High,P1 - Immediate review,regular,Medium,22,35|22,"Store 35 · LIQUOR,WINE,BEER",80–90
+35,High,P2 - Monitor,intermittent,Low,23,35|23,Store 35 · MAGAZINES,60–70
+35,Low,P3 - Routine,regular,High,24,35|24,Store 35 · MEATS,30–40
+35,Medium,P2 - Monitor,regular,Medium,25,35|25,Store 35 · PERSONAL CARE,50–60
+35,Medium,P2 - Monitor,regular,Low,26,35|26,Store 35 · PET SUPPLIES,60–70
+35,High,P2 - Monitor,regular,Low,27,35|27,Store 35 · PLAYERS AND ELECTRONICS,70–80
+35,Medium,P2 - Monitor,regular,Medium,28,35|28,Store 35 · POULTRY,40–50
+35,Medium,P2 - Monitor,regular,Medium,29,35|29,Store 35 · PREPARED FOODS,40–50
+35,Medium,P2 - Monitor,regular,High,30,35|30,Store 35 · PRODUCE,40–50
+35,High,P2 - Monitor,intermittent,Low,31,35|31,Store 35 · SCHOOL AND OFFICE SUPPLIES,80–90
+35,High,P2 - Monitor,intermittent,Low,32,35|32,Store 35 · SEAFOOD,70–80
+36,Medium,P2 - Monitor,regular,Low,0,36|0,Store 36 · AUTOMOTIVE,50–60
+36,Low,P3 - Routine,intermittent,Low,1,36|1,Store 36 · BABY CARE,20–30
+36,High,P2 - Monitor,regular,Low,2,36|2,Store 36 · BEAUTY,70–80
+36,Medium,P2 - Monitor,regular,High,3,36|3,Store 36 · BEVERAGES,40–50
+36,Low,P3 - Routine,never sold,Low,4,36|4,Store 36 · BOOKS,10–20
+36,Medium,P2 - Monitor,regular,High,5,36|5,Store 36 · BREAD/BAKERY,40–50
+36,Medium,P2 - Monitor,regular,Low,6,36|6,Store 36 · CELEBRATION,60–70
+36,Medium,P2 - Monitor,regular,High,7,36|7,Store 36 · CLEANING,40–50
+36,Low,P3 - Routine,regular,High,8,36|8,Store 36 · DAIRY,30–40
+36,Low,P3 - Routine,regular,High,9,36|9,Store 36 · DELI,30–40
+36,Medium,P2 - Monitor,regular,Medium,10,36|10,Store 36 · EGGS,40–50
+36,Medium,P2 - Monitor,regular,Medium,11,36|11,Store 36 · FROZEN FOODS,60–70
+36,Low,P3 - Routine,regular,High,12,36|12,Store 36 · GROCERY I,30–40
+36,High,P2 - Monitor,regular,Low,13,36|13,Store 36 · GROCERY II,60–70
+36,Medium,P2 - Monitor,intermittent,Low,14,36|14,Store 36 · HARDWARE,40–50
+36,High,P1 - Immediate review,regular,Medium,15,36|15,Store 36 · HOME AND KITCHEN I,70–80
+36,Medium,P2 - Monitor,regular,Medium,16,36|16,Store 36 · HOME AND KITCHEN II,50–60
+36,Medium,P2 - Monitor,intermittent,Low,17,36|17,Store 36 · HOME APPLIANCES,60–70
+36,Low,P3 - Routine,regular,High,18,36|18,Store 36 · HOME CARE,30–40
+36,Low,P3 - Routine,dormant,Low,19,36|19,Store 36 · LADIESWEAR,10–20
+36,Low,P3 - Routine,regular,Medium,20,36|20,Store 36 · LAWN AND GARDEN,30–40
+36,High,P2 - Monitor,regular,Low,21,36|21,Store 36 · LINGERIE,60–70
+36,High,P1 - Immediate review,regular,Medium,22,36|22,"Store 36 · LIQUOR,WINE,BEER",60–70
+36,High,P2 - Monitor,regular,Low,23,36|23,Store 36 · MAGAZINES,70–80
+36,Low,P3 - Routine,regular,High,24,36|24,Store 36 · MEATS,20–30
+36,Medium,P2 - Monitor,regular,High,25,36|25,Store 36 · PERSONAL CARE,40–50
+36,Medium,P2 - Monitor,regular,Low,26,36|26,Store 36 · PET SUPPLIES,40–50
+36,Medium,P2 - Monitor,regular,Low,27,36|27,Store 36 · PLAYERS AND ELECTRONICS,50–60
+36,Low,P3 - Routine,regular,Medium,28,36|28,Store 36 · POULTRY,20–30
+36,Low,P3 - Routine,regular,Medium,29,36|29,Store 36 · PREPARED FOODS,20–30
+36,Medium,P2 - Monitor,regular,High,30,36|30,Store 36 · PRODUCE,40–50
+36,High,P2 - Monitor,intermittent,Low,31,36|31,Store 36 · SCHOOL AND OFFICE SUPPLIES,80–90
+36,High,P2 - Monitor,regular,Low,32,36|32,Store 36 · SEAFOOD,70–80
+37,Medium,P2 - Monitor,regular,Low,0,37|0,Store 37 · AUTOMOTIVE,40–50
+37,Low,P3 - Routine,dormant,Low,1,37|1,Store 37 · BABY CARE,10–20
+37,High,P2 - Monitor,regular,Low,2,37|2,Store 37 · BEAUTY,60–70
+37,Medium,P2 - Monitor,regular,High,3,37|3,Store 37 · BEVERAGES,50–60
+37,Low,P3 - Routine,intermittent,Low,4,37|4,Store 37 · BOOKS,10–20
+37,Low,P3 - Routine,regular,High,5,37|5,Store 37 · BREAD/BAKERY,30–40
+37,Medium,P2 - Monitor,regular,Low,6,37|6,Store 37 · CELEBRATION,40–50
+37,Medium,P2 - Monitor,regular,High,7,37|7,Store 37 · CLEANING,50–60
+37,Low,P3 - Routine,regular,High,8,37|8,Store 37 · DAIRY,30–40
+37,Low,P3 - Routine,regular,Medium,9,37|9,Store 37 · DELI,30–40
+37,Low,P3 - Routine,regular,Medium,10,37|10,Store 37 · EGGS,30–40
+37,Low,P3 - Routine,regular,Medium,11,37|11,Store 37 · FROZEN FOODS,20–30
+37,Medium,P2 - Monitor,regular,High,12,37|12,Store 37 · GROCERY I,40–50
+37,Medium,P2 - Monitor,regular,Medium,13,37|13,Store 37 · GROCERY II,50–60
+37,Medium,P2 - Monitor,regular,Low,14,37|14,Store 37 · HARDWARE,50–60
+37,Medium,P2 - Monitor,regular,Medium,15,37|15,Store 37 · HOME AND KITCHEN I,50–60
+37,Medium,P2 - Monitor,regular,Medium,16,37|16,Store 37 · HOME AND KITCHEN II,60–70
+37,Medium,P2 - Monitor,intermittent,Low,17,37|17,Store 37 · HOME APPLIANCES,60–70
+37,Medium,P2 - Monitor,regular,High,18,37|18,Store 37 · HOME CARE,50–60
+37,Medium,P2 - Monitor,regular,Medium,19,37|19,Store 37 · LADIESWEAR,50–60
+37,Medium,P2 - Monitor,regular,Medium,20,37|20,Store 37 · LAWN AND GARDEN,40–50
+37,High,P2 - Monitor,regular,Low,21,37|21,Store 37 · LINGERIE,70–80
+37,Medium,P2 - Monitor,regular,Medium,22,37|22,"Store 37 · LIQUOR,WINE,BEER",50–60
+37,Medium,P2 - Monitor,regular,Low,23,37|23,Store 37 · MAGAZINES,40–50
+37,Low,P3 - Routine,regular,High,24,37|24,Store 37 · MEATS,30–40
+37,Medium,P2 - Monitor,regular,High,25,37|25,Store 37 · PERSONAL CARE,50–60
+37,Medium,P2 - Monitor,regular,Medium,26,37|26,Store 37 · PET SUPPLIES,40–50
+37,Low,P3 - Routine,regular,Medium,27,37|27,Store 37 · PLAYERS AND ELECTRONICS,30–40
+37,Low,P3 - Routine,regular,High,28,37|28,Store 37 · POULTRY,20–30
+37,Low,P3 - Routine,regular,Medium,29,37|29,Store 37 · PREPARED FOODS,10–20
+37,Low,P3 - Routine,regular,High,30,37|30,Store 37 · PRODUCE,30–40
+37,Medium,P2 - Monitor,intermittent,Low,31,37|31,Store 37 · SCHOOL AND OFFICE SUPPLIES,50–60
+37,Low,P3 - Routine,regular,Medium,32,37|32,Store 37 · SEAFOOD,30–40
+38,Medium,P2 - Monitor,regular,Low,0,38|0,Store 38 · AUTOMOTIVE,40–50
+38,Low,P3 - Routine,dormant,Low,1,38|1,Store 38 · BABY CARE,10–20
+38,Medium,P2 - Monitor,regular,Low,2,38|2,Store 38 · BEAUTY,50–60
+38,High,P1 - Immediate review,regular,High,3,38|3,Store 38 · BEVERAGES,60–70
+38,Low,P3 - Routine,intermittent,Low,4,38|4,Store 38 · BOOKS,10–20
+38,Low,P3 - Routine,regular,High,5,38|5,Store 38 · BREAD/BAKERY,30–40
+38,Medium,P2 - Monitor,regular,Medium,6,38|6,Store 38 · CELEBRATION,40–50
+38,High,P1 - Immediate review,regular,High,7,38|7,Store 38 · CLEANING,70–80
+38,Low,P3 - Routine,regular,High,8,38|8,Store 38 · DAIRY,20–30
+38,Low,P3 - Routine,regular,Medium,9,38|9,Store 38 · DELI,20–30
+38,Medium,P2 - Monitor,regular,Medium,10,38|10,Store 38 · EGGS,40–50
+38,Low,P3 - Routine,regular,Medium,11,38|11,Store 38 · FROZEN FOODS,20–30
+38,Medium,P2 - Monitor,regular,High,12,38|12,Store 38 · GROCERY I,50–60
+38,Medium,P2 - Monitor,regular,Medium,13,38|13,Store 38 · GROCERY II,40–50
+38,Medium,P2 - Monitor,regular,Low,14,38|14,Store 38 · HARDWARE,40–50
+38,Medium,P2 - Monitor,regular,Medium,15,38|15,Store 38 · HOME AND KITCHEN I,60–70
+38,High,P1 - Immediate review,regular,Medium,16,38|16,Store 38 · HOME AND KITCHEN II,70–80
+38,Low,P3 - Routine,intermittent,Low,17,38|17,Store 38 · HOME APPLIANCES,10–20
+38,Medium,P2 - Monitor,regular,High,18,38|18,Store 38 · HOME CARE,60–70
+38,Medium,P2 - Monitor,regular,Medium,19,38|19,Store 38 · LADIESWEAR,40–50
+38,Medium,P2 - Monitor,regular,Medium,20,38|20,Store 38 · LAWN AND GARDEN,40–50
+38,Medium,P2 - Monitor,regular,Low,21,38|21,Store 38 · LINGERIE,50–60
+38,High,P1 - Immediate review,regular,Medium,22,38|22,"Store 38 · LIQUOR,WINE,BEER",70–80
+38,Medium,P2 - Monitor,regular,Low,23,38|23,Store 38 · MAGAZINES,50–60
+38,Medium,P2 - Monitor,regular,Medium,24,38|24,Store 38 · MEATS,40–50
+38,High,P1 - Immediate review,regular,High,25,38|25,Store 38 · PERSONAL CARE,60–70
+38,Medium,P2 - Monitor,regular,Low,26,38|26,Store 38 · PET SUPPLIES,40–50
+38,Low,P3 - Routine,regular,Medium,27,38|27,Store 38 · PLAYERS AND ELECTRONICS,30–40
+38,Low,P3 - Routine,regular,Medium,28,38|28,Store 38 · POULTRY,20–30
+38,Low,P3 - Routine,regular,Medium,29,38|29,Store 38 · PREPARED FOODS,20–30
+38,Low,P3 - Routine,regular,High,30,38|30,Store 38 · PRODUCE,30–40
+38,High,P2 - Monitor,intermittent,Low,31,38|31,Store 38 · SCHOOL AND OFFICE SUPPLIES,70–80
+38,Low,P3 - Routine,regular,Medium,32,38|32,Store 38 · SEAFOOD,30–40
+39,Medium,P2 - Monitor,regular,Low,0,39|0,Store 39 · AUTOMOTIVE,50–60
+39,Low,P3 - Routine,intermittent,Low,1,39|1,Store 39 · BABY CARE,20–30
+39,High,P2 - Monitor,regular,Low,2,39|2,Store 39 · BEAUTY,70–80
+39,Medium,P2 - Monitor,regular,High,3,39|3,Store 39 · BEVERAGES,50–60
+39,Low,P3 - Routine,never sold,Low,4,39|4,Store 39 · BOOKS,10–20
+39,Low,P3 - Routine,regular,High,5,39|5,Store 39 · BREAD/BAKERY,30–40
+39,Medium,P2 - Monitor,regular,Low,6,39|6,Store 39 · CELEBRATION,50–60
+39,High,P1 - Immediate review,regular,High,7,39|7,Store 39 · CLEANING,70–80
+39,Low,P3 - Routine,regular,High,8,39|8,Store 39 · DAIRY,30–40
+39,Low,P3 - Routine,regular,High,9,39|9,Store 39 · DELI,30–40
+39,High,P1 - Immediate review,regular,High,10,39|10,Store 39 · EGGS,60–70
+39,Medium,P2 - Monitor,regular,Medium,11,39|11,Store 39 · FROZEN FOODS,40–50
+39,Medium,P2 - Monitor,regular,High,12,39|12,Store 39 · GROCERY I,40–50
+39,Medium,P2 - Monitor,regular,Medium,13,39|13,Store 39 · GROCERY II,40–50
+39,High,P2 - Monitor,regular,Low,14,39|14,Store 39 · HARDWARE,70–80
+39,Medium,P2 - Monitor,regular,Medium,15,39|15,Store 39 · HOME AND KITCHEN I,50–60
+39,Medium,P2 - Monitor,regular,Medium,16,39|16,Store 39 · HOME AND KITCHEN II,40–50
+39,Medium,P2 - Monitor,intermittent,Low,17,39|17,Store 39 · HOME APPLIANCES,40–50
+39,Medium,P2 - Monitor,regular,High,18,39|18,Store 39 · HOME CARE,40–50
+39,Medium,P2 - Monitor,regular,Low,19,39|19,Store 39 · LADIESWEAR,50–60
+39,Low,P3 - Routine,regular,Medium,20,39|20,Store 39 · LAWN AND GARDEN,30–40
+39,High,P2 - Monitor,regular,Low,21,39|21,Store 39 · LINGERIE,60–70
+39,Medium,P2 - Monitor,regular,Medium,22,39|22,"Store 39 · LIQUOR,WINE,BEER",50–60
+39,Medium,P2 - Monitor,regular,Low,23,39|23,Store 39 · MAGAZINES,50–60
+39,Low,P3 - Routine,regular,High,24,39|24,Store 39 · MEATS,20–30
+39,Medium,P2 - Monitor,regular,High,25,39|25,Store 39 · PERSONAL CARE,50–60
+39,Medium,P2 - Monitor,regular,Low,26,39|26,Store 39 · PET SUPPLIES,50–60
+39,Medium,P2 - Monitor,regular,Low,27,39|27,Store 39 · PLAYERS AND ELECTRONICS,40–50
+39,Medium,P2 - Monitor,regular,High,28,39|28,Store 39 · POULTRY,40–50
+39,Low,P3 - Routine,regular,Medium,29,39|29,Store 39 · PREPARED FOODS,20–30
+39,Medium,P2 - Monitor,regular,High,30,39|30,Store 39 · PRODUCE,40–50
+39,Critical,P1 - Immediate review,regular,Medium,31,39|31,Store 39 · SCHOOL AND OFFICE SUPPLIES,90–100
+39,Medium,P2 - Monitor,regular,Medium,32,39|32,Store 39 · SEAFOOD,50–60
+40,Medium,P2 - Monitor,regular,Low,0,40|0,Store 40 · AUTOMOTIVE,60–70
+40,Medium,P2 - Monitor,intermittent,Low,1,40|1,Store 40 · BABY CARE,50–60
+40,High,P2 - Monitor,regular,Low,2,40|2,Store 40 · BEAUTY,70–80
+40,Medium,P2 - Monitor,regular,High,3,40|3,Store 40 · BEVERAGES,50–60
+40,Low,P3 - Routine,never sold,Low,4,40|4,Store 40 · BOOKS,10–20
+40,Low,P3 - Routine,regular,High,5,40|5,Store 40 · BREAD/BAKERY,30–40
+40,High,P2 - Monitor,regular,Low,6,40|6,Store 40 · CELEBRATION,70–80
+40,High,P1 - Immediate review,regular,High,7,40|7,Store 40 · CLEANING,70–80
+40,Low,P3 - Routine,regular,High,8,40|8,Store 40 · DAIRY,30–40
+40,Low,P3 - Routine,regular,High,9,40|9,Store 40 · DELI,30–40
+40,Medium,P2 - Monitor,regular,High,10,40|10,Store 40 · EGGS,40–50
+40,Medium,P2 - Monitor,regular,Medium,11,40|11,Store 40 · FROZEN FOODS,40–50
+40,Medium,P2 - Monitor,regular,High,12,40|12,Store 40 · GROCERY I,40–50
+40,Medium,P2 - Monitor,regular,Low,13,40|13,Store 40 · GROCERY II,60–70
+40,High,P2 - Monitor,regular,Low,14,40|14,Store 40 · HARDWARE,60–70
+40,Medium,P2 - Monitor,regular,Medium,15,40|15,Store 40 · HOME AND KITCHEN I,40–50
+40,Low,P3 - Routine,regular,Medium,16,40|16,Store 40 · HOME AND KITCHEN II,20–30
+40,Medium,P2 - Monitor,intermittent,Low,17,40|17,Store 40 · HOME APPLIANCES,60–70
+40,High,P1 - Immediate review,regular,High,18,40|18,Store 40 · HOME CARE,60–70
+40,Low,P3 - Routine,never sold,Low,19,40|19,Store 40 · LADIESWEAR,10–20
+40,High,P2 - Monitor,intermittent,Low,20,40|20,Store 40 · LAWN AND GARDEN,70–80
+40,Medium,P2 - Monitor,regular,Low,21,40|21,Store 40 · LINGERIE,50–60
+40,High,P1 - Immediate review,regular,Medium,22,40|22,"Store 40 · LIQUOR,WINE,BEER",70–80
+40,Medium,P2 - Monitor,regular,Low,23,40|23,Store 40 · MAGAZINES,60–70
+40,Low,P3 - Routine,regular,Medium,24,40|24,Store 40 · MEATS,20–30
+40,Medium,P2 - Monitor,regular,High,25,40|25,Store 40 · PERSONAL CARE,50–60
+40,Low,P3 - Routine,regular,Low,26,40|26,Store 40 · PET SUPPLIES,30–40
+40,Medium,P2 - Monitor,regular,Low,27,40|27,Store 40 · PLAYERS AND ELECTRONICS,40–50
+40,Medium,P2 - Monitor,regular,Medium,28,40|28,Store 40 · POULTRY,40–50
+40,Low,P3 - Routine,regular,Medium,29,40|29,Store 40 · PREPARED FOODS,30–40
+40,Medium,P2 - Monitor,regular,High,30,40|30,Store 40 · PRODUCE,40–50
+40,Medium,P2 - Monitor,intermittent,Low,31,40|31,Store 40 · SCHOOL AND OFFICE SUPPLIES,50–60
+40,High,P2 - Monitor,regular,Low,32,40|32,Store 40 · SEAFOOD,60–70
+41,Medium,P2 - Monitor,regular,Low,0,41|0,Store 41 · AUTOMOTIVE,50–60
+41,Low,P3 - Routine,intermittent,Low,1,41|1,Store 41 · BABY CARE,30–40
+41,High,P2 - Monitor,regular,Low,2,41|2,Store 41 · BEAUTY,60–70
+41,High,P1 - Immediate review,regular,High,3,41|3,Store 41 · BEVERAGES,70–80
+41,Low,P3 - Routine,intermittent,Low,4,41|4,Store 41 · BOOKS,10–20
+41,Low,P3 - Routine,regular,High,5,41|5,Store 41 · BREAD/BAKERY,30–40
+41,Low,P3 - Routine,regular,Medium,6,41|6,Store 41 · CELEBRATION,20–30
+41,High,P1 - Immediate review,regular,High,7,41|7,Store 41 · CLEANING,60–70
+41,Low,P3 - Routine,regular,High,8,41|8,Store 41 · DAIRY,30–40
+41,Medium,P2 - Monitor,regular,High,9,41|9,Store 41 · DELI,40–50
+41,Low,P3 - Routine,regular,Medium,10,41|10,Store 41 · EGGS,30–40
+41,Medium,P2 - Monitor,regular,Medium,11,41|11,Store 41 · FROZEN FOODS,40–50
+41,Medium,P2 - Monitor,regular,High,12,41|12,Store 41 · GROCERY I,50–60
+41,High,P1 - Immediate review,regular,Medium,13,41|13,Store 41 · GROCERY II,60–70
+41,High,P2 - Monitor,regular,Low,14,41|14,Store 41 · HARDWARE,60–70
+41,Medium,P2 - Monitor,regular,Medium,15,41|15,Store 41 · HOME AND KITCHEN I,60–70
+41,Medium,P2 - Monitor,regular,Medium,16,41|16,Store 41 · HOME AND KITCHEN II,60–70
+41,Medium,P2 - Monitor,intermittent,Low,17,41|17,Store 41 · HOME APPLIANCES,40–50
+41,Medium,P2 - Monitor,regular,High,18,41|18,Store 41 · HOME CARE,60–70
+41,Medium,P2 - Monitor,regular,Medium,19,41|19,Store 41 · LADIESWEAR,50–60
+41,Medium,P2 - Monitor,regular,Medium,20,41|20,Store 41 · LAWN AND GARDEN,50–60
+41,Medium,P2 - Monitor,regular,Low,21,41|21,Store 41 · LINGERIE,50–60
+41,Critical,P1 - Immediate review,regular,Medium,22,41|22,"Store 41 · LIQUOR,WINE,BEER",80–90
+41,Medium,P2 - Monitor,regular,Medium,23,41|23,Store 41 · MAGAZINES,50–60
+41,Low,P3 - Routine,regular,High,24,41|24,Store 41 · MEATS,30–40
+41,High,P1 - Immediate review,regular,High,25,41|25,Store 41 · PERSONAL CARE,70–80
+41,Medium,P2 - Monitor,regular,Medium,26,41|26,Store 41 · PET SUPPLIES,40–50
+41,Low,P3 - Routine,regular,Low,27,41|27,Store 41 · PLAYERS AND ELECTRONICS,30–40
+41,Low,P3 - Routine,regular,High,28,41|28,Store 41 · POULTRY,30–40
+41,Low,P3 - Routine,regular,Medium,29,41|29,Store 41 · PREPARED FOODS,30–40
+41,Low,P3 - Routine,regular,High,30,41|30,Store 41 · PRODUCE,30–40
+41,High,P2 - Monitor,regular,Low,31,41|31,Store 41 · SCHOOL AND OFFICE SUPPLIES,70–80
+41,Medium,P2 - Monitor,regular,Low,32,41|32,Store 41 · SEAFOOD,40–50
+42,Medium,P2 - Monitor,regular,Low,0,42|0,Store 42 · AUTOMOTIVE,40–50
+42,Low,P3 - Routine,dormant,Low,1,42|1,Store 42 · BABY CARE,10–20
+42,Medium,P2 - Monitor,regular,Low,2,42|2,Store 42 · BEAUTY,50–60
+42,Medium,P2 - Monitor,regular,High,3,42|3,Store 42 · BEVERAGES,60–70
+42,Low,P3 - Routine,dormant,Low,4,42|4,Store 42 · BOOKS,00–10
+42,Low,P3 - Routine,regular,High,5,42|5,Store 42 · BREAD/BAKERY,30–40
+42,Medium,P2 - Monitor,regular,Low,6,42|6,Store 42 · CELEBRATION,40–50
+42,Medium,P2 - Monitor,regular,High,7,42|7,Store 42 · CLEANING,40–50
+42,Low,P3 - Routine,regular,High,8,42|8,Store 42 · DAIRY,30–40
+42,Low,P3 - Routine,regular,Medium,9,42|9,Store 42 · DELI,30–40
+42,Low,P3 - Routine,regular,Medium,10,42|10,Store 42 · EGGS,30–40
+42,Medium,P2 - Monitor,regular,Medium,11,42|11,Store 42 · FROZEN FOODS,40–50
+42,Medium,P2 - Monitor,regular,High,12,42|12,Store 42 · GROCERY I,40–50
+42,Medium,P2 - Monitor,regular,Medium,13,42|13,Store 42 · GROCERY II,40–50
+42,Medium,P2 - Monitor,regular,Low,14,42|14,Store 42 · HARDWARE,50–60
+42,Medium,P2 - Monitor,regular,Medium,15,42|15,Store 42 · HOME AND KITCHEN I,60–70
+42,Medium,P2 - Monitor,regular,Medium,16,42|16,Store 42 · HOME AND KITCHEN II,60–70
+42,Low,P3 - Routine,intermittent,Low,17,42|17,Store 42 · HOME APPLIANCES,30–40
+42,Medium,P2 - Monitor,regular,High,18,42|18,Store 42 · HOME CARE,50–60
+42,Medium,P2 - Monitor,regular,Medium,19,42|19,Store 42 · LADIESWEAR,50–60
+42,Low,P3 - Routine,regular,Medium,20,42|20,Store 42 · LAWN AND GARDEN,20–30
+42,Medium,P2 - Monitor,regular,Low,21,42|21,Store 42 · LINGERIE,50–60
+42,Medium,P2 - Monitor,regular,Medium,22,42|22,"Store 42 · LIQUOR,WINE,BEER",40–50
+42,Medium,P2 - Monitor,regular,Low,23,42|23,Store 42 · MAGAZINES,40–50
+42,Low,P3 - Routine,regular,High,24,42|24,Store 42 · MEATS,30–40
+42,Medium,P2 - Monitor,regular,High,25,42|25,Store 42 · PERSONAL CARE,50–60
+42,Low,P3 - Routine,regular,Low,26,42|26,Store 42 · PET SUPPLIES,30–40
+42,Low,P3 - Routine,regular,Low,27,42|27,Store 42 · PLAYERS AND ELECTRONICS,20–30
+42,Low,P3 - Routine,regular,High,28,42|28,Store 42 · POULTRY,20–30
+42,Low,P3 - Routine,regular,Medium,29,42|29,Store 42 · PREPARED FOODS,20–30
+42,Low,P3 - Routine,regular,High,30,42|30,Store 42 · PRODUCE,30–40
+42,High,P2 - Monitor,intermittent,Low,31,42|31,Store 42 · SCHOOL AND OFFICE SUPPLIES,70–80
+42,Medium,P2 - Monitor,regular,Medium,32,42|32,Store 42 · SEAFOOD,40–50
+43,High,P2 - Monitor,regular,Low,0,43|0,Store 43 · AUTOMOTIVE,60–70
+43,Medium,P2 - Monitor,intermittent,Low,1,43|1,Store 43 · BABY CARE,50–60
+43,High,P2 - Monitor,regular,Low,2,43|2,Store 43 · BEAUTY,60–70
+43,Medium,P2 - Monitor,regular,High,3,43|3,Store 43 · BEVERAGES,40–50
+43,Low,P3 - Routine,never sold,Low,4,43|4,Store 43 · BOOKS,10–20
+43,Medium,P2 - Monitor,regular,High,5,43|5,Store 43 · BREAD/BAKERY,40–50
+43,Medium,P2 - Monitor,regular,Medium,6,43|6,Store 43 · CELEBRATION,60–70
+43,Medium,P2 - Monitor,regular,High,7,43|7,Store 43 · CLEANING,40–50
+43,Medium,P2 - Monitor,regular,High,8,43|8,Store 43 · DAIRY,40–50
+43,Low,P3 - Routine,regular,High,9,43|9,Store 43 · DELI,30–40
+43,High,P1 - Immediate review,regular,High,10,43|10,Store 43 · EGGS,60–70
+43,Medium,P2 - Monitor,regular,Medium,11,43|11,Store 43 · FROZEN FOODS,50–60
+43,Medium,P2 - Monitor,regular,High,12,43|12,Store 43 · GROCERY I,40–50
+43,Medium,P2 - Monitor,regular,Low,13,43|13,Store 43 · GROCERY II,50–60
+43,Low,P3 - Routine,intermittent,Low,14,43|14,Store 43 · HARDWARE,30–40
+43,Medium,P2 - Monitor,regular,Medium,15,43|15,Store 43 · HOME AND KITCHEN I,50–60
+43,Medium,P2 - Monitor,regular,Medium,16,43|16,Store 43 · HOME AND KITCHEN II,40–50
+43,Medium,P2 - Monitor,intermittent,Low,17,43|17,Store 43 · HOME APPLIANCES,40–50
+43,Medium,P2 - Monitor,regular,High,18,43|18,Store 43 · HOME CARE,40–50
+43,Low,P3 - Routine,never sold,Low,19,43|19,Store 43 · LADIESWEAR,10–20
+43,Medium,P2 - Monitor,regular,Low,20,43|20,Store 43 · LAWN AND GARDEN,40–50
+43,High,P2 - Monitor,regular,Low,21,43|21,Store 43 · LINGERIE,80–90
+43,High,P1 - Immediate review,regular,Medium,22,43|22,"Store 43 · LIQUOR,WINE,BEER",60–70
+43,High,P2 - Monitor,regular,Low,23,43|23,Store 43 · MAGAZINES,70–80
+43,Low,P3 - Routine,regular,High,24,43|24,Store 43 · MEATS,10–20
+43,Medium,P2 - Monitor,regular,High,25,43|25,Store 43 · PERSONAL CARE,40–50
+43,Medium,P2 - Monitor,regular,Low,26,43|26,Store 43 · PET SUPPLIES,50–60
+43,High,P2 - Monitor,regular,Low,27,43|27,Store 43 · PLAYERS AND ELECTRONICS,60–70
+43,Low,P3 - Routine,regular,High,28,43|28,Store 43 · POULTRY,30–40
+43,Medium,P2 - Monitor,regular,Medium,29,43|29,Store 43 · PREPARED FOODS,40–50
+43,Medium,P2 - Monitor,regular,High,30,43|30,Store 43 · PRODUCE,40–50
+43,High,P2 - Monitor,regular,Low,31,43|31,Store 43 · SCHOOL AND OFFICE SUPPLIES,70–80
+43,High,P2 - Monitor,regular,Low,32,43|32,Store 43 · SEAFOOD,70–80
+44,Low,P3 - Routine,regular,Medium,0,44|0,Store 44 · AUTOMOTIVE,30–40
+44,Low,P3 - Routine,never sold,Low,1,44|1,Store 44 · BABY CARE,10–20
+44,Medium,P2 - Monitor,regular,Medium,2,44|2,Store 44 · BEAUTY,50–60
+44,Medium,P2 - Monitor,regular,High,3,44|3,Store 44 · BEVERAGES,40–50
+44,Low,P3 - Routine,intermittent,Low,4,44|4,Store 44 · BOOKS,20–30
+44,Low,P3 - Routine,regular,High,5,44|5,Store 44 · BREAD/BAKERY,30–40
+44,Low,P3 - Routine,regular,Medium,6,44|6,Store 44 · CELEBRATION,20–30
+44,Medium,P2 - Monitor,regular,High,7,44|7,Store 44 · CLEANING,50–60
+44,Low,P3 - Routine,regular,High,8,44|8,Store 44 · DAIRY,30–40
+44,Medium,P2 - Monitor,regular,High,9,44|9,Store 44 · DELI,40–50
+44,Low,P3 - Routine,regular,High,10,44|10,Store 44 · EGGS,30–40
+44,Medium,P2 - Monitor,regular,High,11,44|11,Store 44 · FROZEN FOODS,40–50
+44,Medium,P2 - Monitor,regular,High,12,44|12,Store 44 · GROCERY I,40–50
+44,Medium,P2 - Monitor,regular,Medium,13,44|13,Store 44 · GROCERY II,40–50
+44,Medium,P2 - Monitor,regular,Low,14,44|14,Store 44 · HARDWARE,40–50
+44,Medium,P2 - Monitor,regular,Medium,15,44|15,Store 44 · HOME AND KITCHEN I,50–60
+44,Low,P3 - Routine,regular,Medium,16,44|16,Store 44 · HOME AND KITCHEN II,30–40
+44,Medium,P2 - Monitor,regular,Low,17,44|17,Store 44 · HOME APPLIANCES,50–60
+44,Medium,P2 - Monitor,regular,High,18,44|18,Store 44 · HOME CARE,60–70
+44,Medium,P2 - Monitor,regular,Medium,19,44|19,Store 44 · LADIESWEAR,50–60
+44,Low,P3 - Routine,regular,Medium,20,44|20,Store 44 · LAWN AND GARDEN,20–30
+44,High,P1 - Immediate review,regular,Medium,21,44|21,Store 44 · LINGERIE,80–90
+44,Medium,P2 - Monitor,regular,High,22,44|22,"Store 44 · LIQUOR,WINE,BEER",50–60
+44,Low,P3 - Routine,regular,Medium,23,44|23,Store 44 · MAGAZINES,30–40
+44,Low,P3 - Routine,regular,High,24,44|24,Store 44 · MEATS,30–40
+44,Medium,P2 - Monitor,regular,High,25,44|25,Store 44 · PERSONAL CARE,60–70
+44,Low,P3 - Routine,regular,Medium,26,44|26,Store 44 · PET SUPPLIES,30–40
+44,Low,P3 - Routine,regular,Medium,27,44|27,Store 44 · PLAYERS AND ELECTRONICS,20–30
+44,Low,P3 - Routine,regular,High,28,44|28,Store 44 · POULTRY,30–40
+44,Low,P3 - Routine,regular,High,29,44|29,Store 44 · PREPARED FOODS,10–20
+44,Low,P3 - Routine,regular,High,30,44|30,Store 44 · PRODUCE,30–40
+44,High,P1 - Immediate review,regular,High,31,44|31,Store 44 · SCHOOL AND OFFICE SUPPLIES,80–90
+44,Low,P3 - Routine,regular,Medium,32,44|32,Store 44 · SEAFOOD,30–40
+45,Medium,P2 - Monitor,regular,Medium,0,45|0,Store 45 · AUTOMOTIVE,40–50
+45,Low,P3 - Routine,never sold,Low,1,45|1,Store 45 · BABY CARE,10–20
+45,Medium,P2 - Monitor,regular,Medium,2,45|2,Store 45 · BEAUTY,40–50
+45,Medium,P2 - Monitor,regular,High,3,45|3,Store 45 · BEVERAGES,40–50
+45,Low,P3 - Routine,intermittent,Low,4,45|4,Store 45 · BOOKS,30–40
+45,Low,P3 - Routine,regular,High,5,45|5,Store 45 · BREAD/BAKERY,30–40
+45,Low,P3 - Routine,regular,Medium,6,45|6,Store 45 · CELEBRATION,20–30
+45,Medium,P2 - Monitor,regular,High,7,45|7,Store 45 · CLEANING,50–60
+45,Low,P3 - Routine,regular,High,8,45|8,Store 45 · DAIRY,30–40
+45,Medium,P2 - Monitor,regular,High,9,45|9,Store 45 · DELI,40–50
+45,Low,P3 - Routine,regular,High,10,45|10,Store 45 · EGGS,30–40
+45,Low,P3 - Routine,regular,High,11,45|11,Store 45 · FROZEN FOODS,30–40
+45,Medium,P2 - Monitor,regular,High,12,45|12,Store 45 · GROCERY I,50–60
+45,Medium,P2 - Monitor,regular,Medium,13,45|13,Store 45 · GROCERY II,50–60
+45,Medium,P2 - Monitor,regular,Low,14,45|14,Store 45 · HARDWARE,50–60
+45,Medium,P2 - Monitor,regular,Medium,15,45|15,Store 45 · HOME AND KITCHEN I,50–60
+45,Medium,P2 - Monitor,regular,Medium,16,45|16,Store 45 · HOME AND KITCHEN II,40–50
+45,Medium,P2 - Monitor,regular,Low,17,45|17,Store 45 · HOME APPLIANCES,60–70
+45,Medium,P2 - Monitor,regular,High,18,45|18,Store 45 · HOME CARE,60–70
+45,High,P1 - Immediate review,regular,Medium,19,45|19,Store 45 · LADIESWEAR,60–70
+45,Low,P3 - Routine,regular,Medium,20,45|20,Store 45 · LAWN AND GARDEN,30–40
+45,Critical,P1 - Immediate review,regular,Medium,21,45|21,Store 45 · LINGERIE,80–90
+45,Medium,P2 - Monitor,regular,High,22,45|22,"Store 45 · LIQUOR,WINE,BEER",60–70
+45,Medium,P2 - Monitor,regular,Medium,23,45|23,Store 45 · MAGAZINES,40–50
+45,Medium,P2 - Monitor,regular,High,24,45|24,Store 45 · MEATS,40–50
+45,Medium,P2 - Monitor,regular,High,25,45|25,Store 45 · PERSONAL CARE,50–60
+45,Medium,P2 - Monitor,regular,Medium,26,45|26,Store 45 · PET SUPPLIES,40–50
+45,Medium,P2 - Monitor,regular,Medium,27,45|27,Store 45 · PLAYERS AND ELECTRONICS,40–50
+45,Low,P3 - Routine,regular,High,28,45|28,Store 45 · POULTRY,30–40
+45,Low,P3 - Routine,regular,High,29,45|29,Store 45 · PREPARED FOODS,20–30
+45,Low,P3 - Routine,regular,High,30,45|30,Store 45 · PRODUCE,30–40
+45,High,P1 - Immediate review,regular,High,31,45|31,Store 45 · SCHOOL AND OFFICE SUPPLIES,70–80
+45,Low,P3 - Routine,regular,Medium,32,45|32,Store 45 · SEAFOOD,30–40
+46,Medium,P2 - Monitor,regular,Medium,0,46|0,Store 46 · AUTOMOTIVE,40–50
+46,Low,P3 - Routine,never sold,Low,1,46|1,Store 46 · BABY CARE,10–20
+46,High,P1 - Immediate review,regular,Medium,2,46|2,Store 46 · BEAUTY,60–70
+46,Medium,P2 - Monitor,regular,High,3,46|3,Store 46 · BEVERAGES,60–70
+46,Medium,P2 - Monitor,intermittent,Low,4,46|4,Store 46 · BOOKS,40–50
+46,Low,P3 - Routine,regular,High,5,46|5,Store 46 · BREAD/BAKERY,30–40
+46,Low,P3 - Routine,regular,Medium,6,46|6,Store 46 · CELEBRATION,30–40
+46,Medium,P2 - Monitor,regular,High,7,46|7,Store 46 · CLEANING,60–70
+46,Medium,P2 - Monitor,regular,High,8,46|8,Store 46 · DAIRY,50–60
+46,Medium,P2 - Monitor,regular,High,9,46|9,Store 46 · DELI,50–60
+46,Medium,P2 - Monitor,regular,Medium,10,46|10,Store 46 · EGGS,50–60
+46,Medium,P2 - Monitor,regular,High,11,46|11,Store 46 · FROZEN FOODS,40–50
+46,Medium,P2 - Monitor,regular,High,12,46|12,Store 46 · GROCERY I,50–60
+46,Medium,P2 - Monitor,regular,Medium,13,46|13,Store 46 · GROCERY II,50–60
+46,High,P2 - Monitor,regular,Low,14,46|14,Store 46 · HARDWARE,60–70
+46,High,P1 - Immediate review,regular,Medium,15,46|15,Store 46 · HOME AND KITCHEN I,60–70
+46,Medium,P2 - Monitor,regular,Medium,16,46|16,Store 46 · HOME AND KITCHEN II,60–70
+46,Medium,P2 - Monitor,regular,Low,17,46|17,Store 46 · HOME APPLIANCES,50–60
+46,Medium,P2 - Monitor,regular,High,18,46|18,Store 46 · HOME CARE,60–70
+46,Medium,P2 - Monitor,regular,Medium,19,46|19,Store 46 · LADIESWEAR,40–50
+46,Low,P3 - Routine,regular,Medium,20,46|20,Store 46 · LAWN AND GARDEN,30–40
+46,High,P1 - Immediate review,regular,Medium,21,46|21,Store 46 · LINGERIE,70–80
+46,Medium,P2 - Monitor,regular,Medium,22,46|22,"Store 46 · LIQUOR,WINE,BEER",50–60
+46,Medium,P2 - Monitor,regular,Medium,23,46|23,Store 46 · MAGAZINES,50–60
+46,Low,P3 - Routine,regular,High,24,46|24,Store 46 · MEATS,30–40
+46,Medium,P2 - Monitor,regular,High,25,46|25,Store 46 · PERSONAL CARE,50–60
+46,Medium,P2 - Monitor,regular,Medium,26,46|26,Store 46 · PET SUPPLIES,40–50
+46,Medium,P2 - Monitor,regular,Medium,27,46|27,Store 46 · PLAYERS AND ELECTRONICS,40–50
+46,Medium,P2 - Monitor,regular,High,28,46|28,Store 46 · POULTRY,40–50
+46,Low,P3 - Routine,regular,Medium,29,46|29,Store 46 · PREPARED FOODS,20–30
+46,Medium,P2 - Monitor,regular,High,30,46|30,Store 46 · PRODUCE,40–50
+46,Medium,P2 - Monitor,regular,High,31,46|31,Store 46 · SCHOOL AND OFFICE SUPPLIES,60–70
+46,Medium,P2 - Monitor,regular,Medium,32,46|32,Store 46 · SEAFOOD,50–60
+47,Medium,P2 - Monitor,regular,Medium,0,47|0,Store 47 · AUTOMOTIVE,50–60
+47,Low,P3 - Routine,never sold,Low,1,47|1,Store 47 · BABY CARE,10–20
+47,Medium,P2 - Monitor,regular,Medium,2,47|2,Store 47 · BEAUTY,50–60
+47,Medium,P2 - Monitor,regular,High,3,47|3,Store 47 · BEVERAGES,50–60
+47,Low,P3 - Routine,intermittent,Low,4,47|4,Store 47 · BOOKS,30–40
+47,Low,P3 - Routine,regular,High,5,47|5,Store 47 · BREAD/BAKERY,30–40
+47,Low,P3 - Routine,regular,Medium,6,47|6,Store 47 · CELEBRATION,30–40
+47,Medium,P2 - Monitor,regular,High,7,47|7,Store 47 · CLEANING,50–60
+47,Low,P3 - Routine,regular,High,8,47|8,Store 47 · DAIRY,30–40
+47,Medium,P2 - Monitor,regular,High,9,47|9,Store 47 · DELI,50–60
+47,Low,P3 - Routine,regular,High,10,47|10,Store 47 · EGGS,30–40
+47,Medium,P2 - Monitor,regular,High,11,47|11,Store 47 · FROZEN FOODS,40–50
+47,Medium,P2 - Monitor,regular,High,12,47|12,Store 47 · GROCERY I,40–50
+47,Medium,P2 - Monitor,regular,Medium,13,47|13,Store 47 · GROCERY II,50–60
+47,High,P2 - Monitor,regular,Low,14,47|14,Store 47 · HARDWARE,60–70
+47,High,P1 - Immediate review,regular,Medium,15,47|15,Store 47 · HOME AND KITCHEN I,60–70
+47,Medium,P2 - Monitor,regular,Medium,16,47|16,Store 47 · HOME AND KITCHEN II,40–50
+47,Medium,P2 - Monitor,regular,Low,17,47|17,Store 47 · HOME APPLIANCES,50–60
+47,Medium,P2 - Monitor,regular,High,18,47|18,Store 47 · HOME CARE,60–70
+47,High,P1 - Immediate review,regular,Medium,19,47|19,Store 47 · LADIESWEAR,70–80
+47,Medium,P2 - Monitor,regular,Medium,20,47|20,Store 47 · LAWN AND GARDEN,40–50
+47,Critical,P1 - Immediate review,regular,Medium,21,47|21,Store 47 · LINGERIE,80–90
+47,Medium,P2 - Monitor,regular,High,22,47|22,"Store 47 · LIQUOR,WINE,BEER",60–70
+47,Low,P3 - Routine,regular,Medium,23,47|23,Store 47 · MAGAZINES,30–40
+47,Medium,P2 - Monitor,regular,High,24,47|24,Store 47 · MEATS,40–50
+47,Medium,P2 - Monitor,regular,High,25,47|25,Store 47 · PERSONAL CARE,50–60
+47,Low,P3 - Routine,regular,Medium,26,47|26,Store 47 · PET SUPPLIES,20–30
+47,Medium,P2 - Monitor,regular,Medium,27,47|27,Store 47 · PLAYERS AND ELECTRONICS,40–50
+47,Medium,P2 - Monitor,regular,High,28,47|28,Store 47 · POULTRY,40–50
+47,Low,P3 - Routine,regular,High,29,47|29,Store 47 · PREPARED FOODS,20–30
+47,Low,P3 - Routine,regular,High,30,47|30,Store 47 · PRODUCE,30–40
+47,High,P1 - Immediate review,regular,High,31,47|31,Store 47 · SCHOOL AND OFFICE SUPPLIES,70–80
+47,Low,P3 - Routine,regular,Medium,32,47|32,Store 47 · SEAFOOD,30–40
+48,Medium,P2 - Monitor,regular,Medium,0,48|0,Store 48 · AUTOMOTIVE,50–60
+48,Low,P3 - Routine,never sold,Low,1,48|1,Store 48 · BABY CARE,10–20
+48,High,P1 - Immediate review,regular,Medium,2,48|2,Store 48 · BEAUTY,60–70
+48,High,P1 - Immediate review,regular,High,3,48|3,Store 48 · BEVERAGES,60–70
+48,Low,P3 - Routine,intermittent,Low,4,48|4,Store 48 · BOOKS,10–20
+48,Low,P3 - Routine,regular,High,5,48|5,Store 48 · BREAD/BAKERY,30–40
+48,Medium,P2 - Monitor,regular,Medium,6,48|6,Store 48 · CELEBRATION,40–50
+48,High,P1 - Immediate review,regular,High,7,48|7,Store 48 · CLEANING,60–70
+48,Medium,P2 - Monitor,regular,High,8,48|8,Store 48 · DAIRY,50–60
+48,Medium,P2 - Monitor,regular,High,9,48|9,Store 48 · DELI,50–60
+48,Medium,P2 - Monitor,regular,Medium,10,48|10,Store 48 · EGGS,50–60
+48,Medium,P2 - Monitor,regular,High,11,48|11,Store 48 · FROZEN FOODS,40–50
+48,Medium,P2 - Monitor,regular,High,12,48|12,Store 48 · GROCERY I,50–60
+48,Medium,P2 - Monitor,regular,Medium,13,48|13,Store 48 · GROCERY II,50–60
+48,Medium,P2 - Monitor,regular,Low,14,48|14,Store 48 · HARDWARE,50–60
+48,Medium,P2 - Monitor,regular,Medium,15,48|15,Store 48 · HOME AND KITCHEN I,50–60
+48,High,P1 - Immediate review,regular,Medium,16,48|16,Store 48 · HOME AND KITCHEN II,80–90
+48,Medium,P2 - Monitor,intermittent,Low,17,48|17,Store 48 · HOME APPLIANCES,40–50
+48,High,P1 - Immediate review,regular,High,18,48|18,Store 48 · HOME CARE,70–80
+48,Medium,P2 - Monitor,regular,Medium,19,48|19,Store 48 · LADIESWEAR,40–50
+48,Low,P3 - Routine,regular,Medium,20,48|20,Store 48 · LAWN AND GARDEN,30–40
+48,Critical,P2 - Monitor,regular,Low,21,48|21,Store 48 · LINGERIE,90–100
+48,High,P1 - Immediate review,regular,Medium,22,48|22,"Store 48 · LIQUOR,WINE,BEER",60–70
+48,Medium,P2 - Monitor,regular,Low,23,48|23,Store 48 · MAGAZINES,50–60
+48,Medium,P2 - Monitor,regular,High,24,48|24,Store 48 · MEATS,50–60
+48,High,P1 - Immediate review,regular,High,25,48|25,Store 48 · PERSONAL CARE,60–70
+48,Low,P3 - Routine,regular,Medium,26,48|26,Store 48 · PET SUPPLIES,30–40
+48,Medium,P2 - Monitor,regular,Medium,27,48|27,Store 48 · PLAYERS AND ELECTRONICS,50–60
+48,Medium,P2 - Monitor,regular,High,28,48|28,Store 48 · POULTRY,50–60
+48,Low,P3 - Routine,regular,Medium,29,48|29,Store 48 · PREPARED FOODS,30–40
+48,Medium,P2 - Monitor,regular,High,30,48|30,Store 48 · PRODUCE,50–60
+48,High,P1 - Immediate review,regular,High,31,48|31,Store 48 · SCHOOL AND OFFICE SUPPLIES,70–80
+48,Medium,P2 - Monitor,regular,Medium,32,48|32,Store 48 · SEAFOOD,40–50
+49,Medium,P2 - Monitor,regular,Medium,0,49|0,Store 49 · AUTOMOTIVE,40–50
+49,Low,P3 - Routine,never sold,Low,1,49|1,Store 49 · BABY CARE,10–20
+49,Medium,P2 - Monitor,regular,Medium,2,49|2,Store 49 · BEAUTY,40–50
+49,Low,P3 - Routine,regular,High,3,49|3,Store 49 · BEVERAGES,30–40
+49,Low,P3 - Routine,intermittent,Low,4,49|4,Store 49 · BOOKS,20–30
+49,Low,P3 - Routine,regular,High,5,49|5,Store 49 · BREAD/BAKERY,20–30
+49,Low,P3 - Routine,regular,Medium,6,49|6,Store 49 · CELEBRATION,30–40
+49,Low,P3 - Routine,regular,High,7,49|7,Store 49 · CLEANING,30–40
+49,Low,P3 - Routine,regular,High,8,49|8,Store 49 · DAIRY,20–30
+49,Medium,P2 - Monitor,regular,High,9,49|9,Store 49 · DELI,40–50
+49,Low,P3 - Routine,regular,High,10,49|10,Store 49 · EGGS,20–30
+49,Low,P3 - Routine,regular,High,11,49|11,Store 49 · FROZEN FOODS,20–30
+49,Low,P3 - Routine,regular,High,12,49|12,Store 49 · GROCERY I,30–40
+49,Low,P3 - Routine,regular,Medium,13,49|13,Store 49 · GROCERY II,30–40
+49,Medium,P2 - Monitor,regular,Low,14,49|14,Store 49 · HARDWARE,50–60
+49,Medium,P2 - Monitor,regular,Medium,15,49|15,Store 49 · HOME AND KITCHEN I,50–60
+49,High,P1 - Immediate review,regular,Medium,16,49|16,Store 49 · HOME AND KITCHEN II,60–70
+49,Medium,P2 - Monitor,regular,Low,17,49|17,Store 49 · HOME APPLIANCES,50–60
+49,Medium,P2 - Monitor,regular,High,18,49|18,Store 49 · HOME CARE,50–60
+49,Medium,P2 - Monitor,regular,Medium,19,49|19,Store 49 · LADIESWEAR,50–60
+49,Low,P3 - Routine,regular,Medium,20,49|20,Store 49 · LAWN AND GARDEN,30–40
+49,Medium,P2 - Monitor,regular,Medium,21,49|21,Store 49 · LINGERIE,50–60
+49,Medium,P2 - Monitor,regular,High,22,49|22,"Store 49 · LIQUOR,WINE,BEER",50–60
+49,Medium,P2 - Monitor,regular,Medium,23,49|23,Store 49 · MAGAZINES,40–50
+49,Low,P3 - Routine,regular,High,24,49|24,Store 49 · MEATS,20–30
+49,Medium,P2 - Monitor,regular,High,25,49|25,Store 49 · PERSONAL CARE,50–60
+49,Low,P3 - Routine,regular,Medium,26,49|26,Store 49 · PET SUPPLIES,20–30
+49,Low,P3 - Routine,regular,Medium,27,49|27,Store 49 · PLAYERS AND ELECTRONICS,20–30
+49,Low,P3 - Routine,regular,High,28,49|28,Store 49 · POULTRY,20–30
+49,Low,P3 - Routine,regular,High,29,49|29,Store 49 · PREPARED FOODS,10–20
+49,Low,P3 - Routine,regular,High,30,49|30,Store 49 · PRODUCE,40–50
+49,Medium,P2 - Monitor,regular,High,31,49|31,Store 49 · SCHOOL AND OFFICE SUPPLIES,50–60
+49,Low,P3 - Routine,regular,Medium,32,49|32,Store 49 · SEAFOOD,30–40
+50,Medium,P2 - Monitor,regular,Low,0,50|0,Store 50 · AUTOMOTIVE,40–50
+50,Low,P3 - Routine,never sold,Low,1,50|1,Store 50 · BABY CARE,10–20
+50,Medium,P2 - Monitor,regular,Medium,2,50|2,Store 50 · BEAUTY,60–70
+50,Medium,P2 - Monitor,regular,High,3,50|3,Store 50 · BEVERAGES,50–60
+50,Low,P3 - Routine,intermittent,Low,4,50|4,Store 50 · BOOKS,30–40
+50,Low,P3 - Routine,regular,High,5,50|5,Store 50 · BREAD/BAKERY,30–40
+50,Medium,P2 - Monitor,regular,Medium,6,50|6,Store 50 · CELEBRATION,40–50
+50,Medium,P2 - Monitor,regular,High,7,50|7,Store 50 · CLEANING,60–70
+50,Low,P3 - Routine,regular,High,8,50|8,Store 50 · DAIRY,30–40
+50,Medium,P2 - Monitor,regular,High,9,50|9,Store 50 · DELI,40–50
+50,Low,P3 - Routine,regular,Medium,10,50|10,Store 50 · EGGS,30–40
+50,Low,P3 - Routine,regular,Medium,11,50|11,Store 50 · FROZEN FOODS,30–40
+50,Medium,P2 - Monitor,regular,High,12,50|12,Store 50 · GROCERY I,40–50
+50,Medium,P2 - Monitor,regular,Medium,13,50|13,Store 50 · GROCERY II,60–70
+50,High,P2 - Monitor,regular,Low,14,50|14,Store 50 · HARDWARE,60–70
+50,Medium,P2 - Monitor,regular,Medium,15,50|15,Store 50 · HOME AND KITCHEN I,50–60
+50,Medium,P2 - Monitor,regular,Medium,16,50|16,Store 50 · HOME AND KITCHEN II,40–50
+50,Medium,P2 - Monitor,intermittent,Low,17,50|17,Store 50 · HOME APPLIANCES,50–60
+50,High,P1 - Immediate review,regular,High,18,50|18,Store 50 · HOME CARE,60–70
+50,High,P1 - Immediate review,regular,Medium,19,50|19,Store 50 · LADIESWEAR,70–80
+50,Medium,P2 - Monitor,regular,Low,20,50|20,Store 50 · LAWN AND GARDEN,40–50
+50,High,P2 - Monitor,regular,Low,21,50|21,Store 50 · LINGERIE,70–80
+50,Medium,P2 - Monitor,regular,Medium,22,50|22,"Store 50 · LIQUOR,WINE,BEER",50–60
+50,Medium,P2 - Monitor,regular,Low,23,50|23,Store 50 · MAGAZINES,40–50
+50,Low,P3 - Routine,regular,High,24,50|24,Store 50 · MEATS,30–40
+50,Medium,P2 - Monitor,regular,High,25,50|25,Store 50 · PERSONAL CARE,50–60
+50,Medium,P2 - Monitor,regular,Medium,26,50|26,Store 50 · PET SUPPLIES,40–50
+50,Medium,P2 - Monitor,regular,Medium,27,50|27,Store 50 · PLAYERS AND ELECTRONICS,40–50
+50,Low,P3 - Routine,regular,High,28,50|28,Store 50 · POULTRY,30–40
+50,Low,P3 - Routine,regular,Medium,29,50|29,Store 50 · PREPARED FOODS,20–30
+50,Low,P3 - Routine,regular,High,30,50|30,Store 50 · PRODUCE,30–40
+50,High,P1 - Immediate review,regular,High,31,50|31,Store 50 · SCHOOL AND OFFICE SUPPLIES,80–90
+50,Medium,P2 - Monitor,regular,Medium,32,50|32,Store 50 · SEAFOOD,40–50
+51,Medium,P2 - Monitor,regular,Low,0,51|0,Store 51 · AUTOMOTIVE,40–50
+51,Low,P3 - Routine,never sold,Low,1,51|1,Store 51 · BABY CARE,10–20
+51,Medium,P2 - Monitor,regular,Low,2,51|2,Store 51 · BEAUTY,60–70
+51,Low,P3 - Routine,regular,High,3,51|3,Store 51 · BEVERAGES,30–40
+51,Low,P3 - Routine,intermittent,Low,4,51|4,Store 51 · BOOKS,20–30
+51,Low,P3 - Routine,regular,High,5,51|5,Store 51 · BREAD/BAKERY,30–40
+51,Medium,P2 - Monitor,regular,Medium,6,51|6,Store 51 · CELEBRATION,40–50
+51,Medium,P2 - Monitor,regular,High,7,51|7,Store 51 · CLEANING,40–50
+51,Low,P3 - Routine,regular,High,8,51|8,Store 51 · DAIRY,30–40
+51,Low,P3 - Routine,regular,High,9,51|9,Store 51 · DELI,30–40
+51,Low,P3 - Routine,regular,High,10,51|10,Store 51 · EGGS,30–40
+51,Low,P3 - Routine,regular,High,11,51|11,Store 51 · FROZEN FOODS,30–40
+51,Medium,P2 - Monitor,regular,High,12,51|12,Store 51 · GROCERY I,40–50
+51,Medium,P2 - Monitor,regular,Medium,13,51|13,Store 51 · GROCERY II,50–60
+51,High,P2 - Monitor,regular,Low,14,51|14,Store 51 · HARDWARE,60–70
+51,Medium,P2 - Monitor,regular,Medium,15,51|15,Store 51 · HOME AND KITCHEN I,60–70
+51,Low,P3 - Routine,regular,Medium,16,51|16,Store 51 · HOME AND KITCHEN II,30–40
+51,Medium,P2 - Monitor,regular,Low,17,51|17,Store 51 · HOME APPLIANCES,50–60
+51,Medium,P2 - Monitor,regular,High,18,51|18,Store 51 · HOME CARE,50–60
+51,Medium,P2 - Monitor,regular,Low,19,51|19,Store 51 · LADIESWEAR,50–60
+51,Low,P3 - Routine,regular,Medium,20,51|20,Store 51 · LAWN AND GARDEN,20–30
+51,Medium,P2 - Monitor,regular,Low,21,51|21,Store 51 · LINGERIE,60–70
+51,Medium,P2 - Monitor,regular,Medium,22,51|22,"Store 51 · LIQUOR,WINE,BEER",60–70
+51,Medium,P2 - Monitor,regular,Medium,23,51|23,Store 51 · MAGAZINES,40–50
+51,Low,P3 - Routine,regular,High,24,51|24,Store 51 · MEATS,30–40
+51,Medium,P2 - Monitor,regular,High,25,51|25,Store 51 · PERSONAL CARE,40–50
+51,Low,P3 - Routine,regular,Medium,26,51|26,Store 51 · PET SUPPLIES,30–40
+51,Low,P3 - Routine,regular,Medium,27,51|27,Store 51 · PLAYERS AND ELECTRONICS,30–40
+51,Medium,P2 - Monitor,regular,High,28,51|28,Store 51 · POULTRY,50–60
+51,Low,P3 - Routine,regular,Medium,29,51|29,Store 51 · PREPARED FOODS,20–30
+51,Low,P3 - Routine,regular,High,30,51|30,Store 51 · PRODUCE,30–40
+51,High,P2 - Monitor,regular,Low,31,51|31,Store 51 · SCHOOL AND OFFICE SUPPLIES,70–80
+51,Low,P3 - Routine,regular,Medium,32,51|32,Store 51 · SEAFOOD,30–40
+52,Medium,P2 - Monitor,regular,Medium,0,52|0,Store 52 · AUTOMOTIVE,50–60
+52,Low,P3 - Routine,never sold,Low,1,52|1,Store 52 · BABY CARE,10–20
+52,Medium,P2 - Monitor,regular,Low,2,52|2,Store 52 · BEAUTY,50–60
+52,Medium,P2 - Monitor,regular,High,3,52|3,Store 52 · BEVERAGES,40–50
+52,Low,P3 - Routine,never sold,Low,4,52|4,Store 52 · BOOKS,00–10
+52,Low,P3 - Routine,regular,High,5,52|5,Store 52 · BREAD/BAKERY,30–40
+52,Medium,P2 - Monitor,regular,Medium,6,52|6,Store 52 · CELEBRATION,50–60
+52,Medium,P2 - Monitor,regular,High,7,52|7,Store 52 · CLEANING,50–60
+52,Low,P3 - Routine,regular,High,8,52|8,Store 52 · DAIRY,30–40
+52,Low,P3 - Routine,regular,High,9,52|9,Store 52 · DELI,30–40
+52,Low,P3 - Routine,regular,High,10,52|10,Store 52 · EGGS,20–30
+52,Medium,P2 - Monitor,regular,High,11,52|11,Store 52 · FROZEN FOODS,50–60
+52,Low,P3 - Routine,regular,High,12,52|12,Store 52 · GROCERY I,30–40
+52,Medium,P2 - Monitor,regular,Medium,13,52|13,Store 52 · GROCERY II,60–70
+52,Medium,P2 - Monitor,regular,Low,14,52|14,Store 52 · HARDWARE,50–60
+52,Medium,P2 - Monitor,regular,Medium,15,52|15,Store 52 · HOME AND KITCHEN I,40–50
+52,Medium,P2 - Monitor,regular,Medium,16,52|16,Store 52 · HOME AND KITCHEN II,40–50
+52,Medium,P2 - Monitor,intermittent,Low,17,52|17,Store 52 · HOME APPLIANCES,50–60
+52,Medium,P2 - Monitor,regular,High,18,52|18,Store 52 · HOME CARE,50–60
+52,Medium,P2 - Monitor,regular,Low,19,52|19,Store 52 · LADIESWEAR,50–60
+52,Low,P3 - Routine,regular,Medium,20,52|20,Store 52 · LAWN AND GARDEN,20–30
+52,Medium,P2 - Monitor,regular,Low,21,52|21,Store 52 · LINGERIE,50–60
+52,High,P1 - Immediate review,regular,High,22,52|22,"Store 52 · LIQUOR,WINE,BEER",70–80
+52,Medium,P2 - Monitor,regular,Medium,23,52|23,Store 52 · MAGAZINES,40–50
+52,Low,P3 - Routine,regular,High,24,52|24,Store 52 · MEATS,30–40
+52,Medium,P2 - Monitor,regular,High,25,52|25,Store 52 · PERSONAL CARE,40–50
+52,Low,P3 - Routine,regular,Medium,26,52|26,Store 52 · PET SUPPLIES,30–40
+52,Low,P3 - Routine,regular,Medium,27,52|27,Store 52 · PLAYERS AND ELECTRONICS,20–30
+52,Low,P3 - Routine,regular,High,28,52|28,Store 52 · POULTRY,30–40
+52,Low,P3 - Routine,regular,Medium,29,52|29,Store 52 · PREPARED FOODS,20–30
+52,Low,P3 - Routine,regular,High,30,52|30,Store 52 · PRODUCE,30–40
+52,High,P1 - Immediate review,regular,Medium,31,52|31,Store 52 · SCHOOL AND OFFICE SUPPLIES,70–80
+52,Low,P3 - Routine,regular,Low,32,52|32,Store 52 · SEAFOOD,30–40
+53,Medium,P2 - Monitor,regular,Low,0,53|0,Store 53 · AUTOMOTIVE,60–70
+53,Medium,P2 - Monitor,intermittent,Low,1,53|1,Store 53 · BABY CARE,40–50
+53,Medium,P2 - Monitor,regular,Low,2,53|2,Store 53 · BEAUTY,50–60
+53,Medium,P2 - Monitor,regular,High,3,53|3,Store 53 · BEVERAGES,50–60
+53,Low,P3 - Routine,dormant,Low,4,53|4,Store 53 · BOOKS,10–20
+53,Low,P3 - Routine,regular,High,5,53|5,Store 53 · BREAD/BAKERY,30–40
+53,Medium,P2 - Monitor,regular,Low,6,53|6,Store 53 · CELEBRATION,50–60
+53,Medium,P2 - Monitor,regular,High,7,53|7,Store 53 · CLEANING,50–60
+53,Low,P3 - Routine,regular,High,8,53|8,Store 53 · DAIRY,30–40
+53,Low,P3 - Routine,regular,High,9,53|9,Store 53 · DELI,30–40
+53,Low,P3 - Routine,regular,Medium,10,53|10,Store 53 · EGGS,20–30
+53,Medium,P2 - Monitor,regular,Medium,11,53|11,Store 53 · FROZEN FOODS,40–50
+53,Medium,P2 - Monitor,regular,High,12,53|12,Store 53 · GROCERY I,40–50
+53,Medium,P2 - Monitor,regular,Medium,13,53|13,Store 53 · GROCERY II,50–60
+53,Medium,P2 - Monitor,regular,Low,14,53|14,Store 53 · HARDWARE,50–60
+53,Medium,P2 - Monitor,regular,Medium,15,53|15,Store 53 · HOME AND KITCHEN I,60–70
+53,Medium,P2 - Monitor,regular,Medium,16,53|16,Store 53 · HOME AND KITCHEN II,50–60
+53,Medium,P2 - Monitor,intermittent,Low,17,53|17,Store 53 · HOME APPLIANCES,50–60
+53,Medium,P2 - Monitor,regular,High,18,53|18,Store 53 · HOME CARE,60–70
+53,High,P2 - Monitor,regular,Low,19,53|19,Store 53 · LADIESWEAR,60–70
+53,Medium,P2 - Monitor,regular,Medium,20,53|20,Store 53 · LAWN AND GARDEN,50–60
+53,Medium,P2 - Monitor,regular,Low,21,53|21,Store 53 · LINGERIE,60–70
+53,High,P1 - Immediate review,regular,Medium,22,53|22,"Store 53 · LIQUOR,WINE,BEER",70–80
+53,Medium,P2 - Monitor,regular,Low,23,53|23,Store 53 · MAGAZINES,50–60
+53,Low,P3 - Routine,regular,High,24,53|24,Store 53 · MEATS,30–40
+53,Medium,P2 - Monitor,regular,High,25,53|25,Store 53 · PERSONAL CARE,50–60
+53,Medium,P2 - Monitor,regular,Low,26,53|26,Store 53 · PET SUPPLIES,50–60
+53,Medium,P2 - Monitor,regular,Low,27,53|27,Store 53 · PLAYERS AND ELECTRONICS,40–50
+53,Low,P3 - Routine,regular,High,28,53|28,Store 53 · POULTRY,30–40
+53,Low,P3 - Routine,regular,Medium,29,53|29,Store 53 · PREPARED FOODS,30–40
+53,Low,P3 - Routine,regular,High,30,53|30,Store 53 · PRODUCE,30–40
+53,High,P2 - Monitor,intermittent,Low,31,53|31,Store 53 · SCHOOL AND OFFICE SUPPLIES,70–80
+53,Medium,P2 - Monitor,regular,Low,32,53|32,Store 53 · SEAFOOD,50–60
+54,Medium,P2 - Monitor,regular,Low,0,54|0,Store 54 · AUTOMOTIVE,50–60
+54,Low,P3 - Routine,dormant,Low,1,54|1,Store 54 · BABY CARE,10–20
+54,High,P2 - Monitor,regular,Low,2,54|2,Store 54 · BEAUTY,70–80
+54,Medium,P2 - Monitor,regular,High,3,54|3,Store 54 · BEVERAGES,50–60
+54,Low,P3 - Routine,never sold,Low,4,54|4,Store 54 · BOOKS,10–20
+54,Medium,P2 - Monitor,regular,High,5,54|5,Store 54 · BREAD/BAKERY,50–60
+54,Medium,P2 - Monitor,regular,Low,6,54|6,Store 54 · CELEBRATION,50–60
+54,High,P1 - Immediate review,regular,High,7,54|7,Store 54 · CLEANING,60–70
+54,Medium,P2 - Monitor,regular,High,8,54|8,Store 54 · DAIRY,40–50
+54,Medium,P2 - Monitor,regular,High,9,54|9,Store 54 · DELI,40–50
+54,Medium,P2 - Monitor,regular,Medium,10,54|10,Store 54 · EGGS,50–60
+54,Low,P3 - Routine,regular,Medium,11,54|11,Store 54 · FROZEN FOODS,30–40
+54,Low,P3 - Routine,regular,High,12,54|12,Store 54 · GROCERY I,30–40
+54,High,P2 - Monitor,regular,Low,13,54|13,Store 54 · GROCERY II,70–80
+54,High,P2 - Monitor,intermittent,Low,14,54|14,Store 54 · HARDWARE,60–70
+54,High,P1 - Immediate review,regular,Medium,15,54|15,Store 54 · HOME AND KITCHEN I,60–70
+54,Low,P3 - Routine,regular,Medium,16,54|16,Store 54 · HOME AND KITCHEN II,30–40
+54,Medium,P2 - Monitor,intermittent,Low,17,54|17,Store 54 · HOME APPLIANCES,40–50
+54,Medium,P2 - Monitor,regular,High,18,54|18,Store 54 · HOME CARE,50–60
+54,Low,P3 - Routine,never sold,Low,19,54|19,Store 54 · LADIESWEAR,10–20
+54,Low,P3 - Routine,never sold,Low,20,54|20,Store 54 · LAWN AND GARDEN,10–20
+54,Medium,P2 - Monitor,regular,Low,21,54|21,Store 54 · LINGERIE,60–70
+54,High,P1 - Immediate review,regular,Medium,22,54|22,"Store 54 · LIQUOR,WINE,BEER",70–80
+54,High,P2 - Monitor,regular,Low,23,54|23,Store 54 · MAGAZINES,60–70
+54,Low,P3 - Routine,regular,Medium,24,54|24,Store 54 · MEATS,20–30
+54,Medium,P2 - Monitor,regular,High,25,54|25,Store 54 · PERSONAL CARE,40–50
+54,Medium,P2 - Monitor,intermittent,Low,26,54|26,Store 54 · PET SUPPLIES,40–50
+54,Medium,P2 - Monitor,regular,Low,27,54|27,Store 54 · PLAYERS AND ELECTRONICS,40–50
+54,Low,P3 - Routine,regular,Medium,28,54|28,Store 54 · POULTRY,30–40
+54,Low,P3 - Routine,regular,Medium,29,54|29,Store 54 · PREPARED FOODS,30–40
+54,Low,P3 - Routine,regular,High,30,54|30,Store 54 · PRODUCE,20–30
+54,Medium,P2 - Monitor,intermittent,Low,31,54|31,Store 54 · SCHOOL AND OFFICE SUPPLIES,50–60
+54,High,P2 - Monitor,regular,Low,32,54|32,Store 54 · SEAFOOD,70–80

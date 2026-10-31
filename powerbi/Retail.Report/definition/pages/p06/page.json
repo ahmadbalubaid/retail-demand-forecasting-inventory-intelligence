@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "p06",
+  "displayName": "Store & Product Family Explorer",
+  "displayOption": "FitToPage",
+  "height": 810,
+  "width": 1440,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "SeriesDrillFilter",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DimSeries"
+              }
+            },
+            "Property": "series_label"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "ExplorerDrillthrough",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Series",
+        "boundFilter": "SeriesDrillFilter",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DimSeries"
+              }
+            },
+            "Property": "series_label"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#081323'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

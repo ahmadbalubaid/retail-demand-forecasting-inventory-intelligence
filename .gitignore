@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data / model artifacts intentionally excluded from public repo
+train.csv
+train_part_*.csv
+modeling_table.parquet
+modeling_table_parts/
+*.pkl
+*.joblib
+*.bin
+*.ubj
+
+# Power BI local/session files
+**/.pbi/
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

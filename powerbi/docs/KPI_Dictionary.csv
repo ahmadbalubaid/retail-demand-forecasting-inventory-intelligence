@@ -1,0 +1,42 @@
+name,description,displayFolder,expression,formatString,lineageTag
+Total Forecasted Units,"Sum of daily predicted sales in current date and series context. Historical case study, units.",Forecast,SUM(FactForecast[predicted_sales]),"#,0",d401059a-7faa-4812-bf50-78c6df1d3157
+Average Daily Forecast,Selected forecast units / selected calendar days. Risk metrics remain full-horizon snapshots.,Forecast,"DIVIDE([Total Forecasted Units], DISTINCTCOUNT(DimDate[date]))","#,0.0",54a0c1bb-39b8-4b43-8c9c-063c24fee5cf
+Stores,Stores,Coverage,DISTINCTCOUNT(DimSeries[store_nbr]),"#,0",1452378f-7d1f-434a-b37b-e28087d9f426
+Product Families,Product Families,Coverage,DISTINCTCOUNT(DimSeries[family_id]),"#,0",cd6fd089-43de-414a-8cef-71bb584880c4
+Combinations,Number of assessed store-family snapshots; unaffected by date slicers.,Risk,"COALESCE(COUNTROWS(FactInventoryRisk), 0)","#,0",98b59ac9-ef0c-4b86-809d-7de79000a5d2
+Average Risk Score,Unweighted average of source risk scores; never sum scores.,Risk,AVERAGE(FactInventoryRisk[demand_risk_score]),0.0,f5672b94-acb5-4e81-9fb1-2cfc073c49f5
+High Risk Count,High Risk Count,Risk,"CALCULATE([Combinations], KEEPFILTERS(DimRiskCategory[risk_category] = ""High""))","#,0",e0c2d8a6-55d2-4183-bf74-9af1ab318025
+Critical Risk Count,Critical Risk Count,Risk,"CALCULATE([Combinations], KEEPFILTERS(DimRiskCategory[risk_category] = ""Critical""))","#,0",3d7259a3-3d37-4b9c-a6fa-2bd9689b7b3a
+High Critical Count,High Critical Count,Risk,[High Risk Count] + [Critical Risk Count],"#,0",ea4e3959-d591-4fa5-95f2-823776cce99c
+High Critical Percentage,High Critical Percentage,Risk,"DIVIDE([High Critical Count], [Combinations])",0.0%,8e1909d0-60ac-479b-846a-4189e6a63263
+P1 Actions,P1 Actions,Actions,"CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = ""P1 - Immediate review""))","#,0",7642655d-3b49-4d1e-a883-a5926128de14
+P2 Actions,P2 Actions,Actions,"CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = ""P2 - Monitor""))","#,0",67549087-ed8d-4804-8b25-e61297cce77d
+P3 Actions,P3 Actions,Actions,"CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = ""P3 - Routine""))","#,0",3a9fe096-c90c-4150-9bc1-8db4513b9ae2
+Surge Risk,Surge Risk,Risk,AVERAGE(FactInventoryRisk[demand_surge_risk]),0.0,35026d62-64c0-47c9-b87e-34621a8e2ecc
+Decline Risk,Decline Risk,Risk,AVERAGE(FactInventoryRisk[demand_decline_risk]),0.0,2da36df8-e6d5-496c-9e1f-75004f4eb4f0
+Volatility Risk,Volatility Risk,Risk,AVERAGE(FactInventoryRisk[demand_volatility_risk]),0.0,82292225-85e1-427b-a7cd-444ea49c5dbe
+Forecast Uncertainty,Forecast Uncertainty,Risk,AVERAGE(FactInventoryRisk[forecast_uncertainty_score]),0.0,cd6f7a9f-96c1-4ae3-b9f9-41f7f305fde3
+At Risk Forecasted Units,Daily forecast units for series classified High/Critical at origin; respects date selection.,Risk,"CALCULATE([Total Forecasted Units], KEEPFILTERS(DimRiskCategory[risk_category] IN {""High"", ""Critical""}))","#,0",8fdde67f-37c9-4f6a-a206-7e6c716eb32d
+At Risk Exposure Share,At Risk Exposure Share,Risk,"DIVIDE([At Risk Forecasted Units], [Total Forecasted Units])",0.0%,0e5763c9-7c34-425a-9c90-da7d9c06c8f3
+Promotion Associated Units,"Forecast units on rows with at least one promoted item; association, not promotion lift.",Forecast,"CALCULATE([Total Forecasted Units], KEEPFILTERS(FactForecast[onpromotion] > 0))","#,0",24970f5b-b653-4a93-884e-31fbc363a3a1
+Promotion Associated Share,Promotion Associated Share,Forecast,"DIVIDE([Promotion Associated Units], [Total Forecasted Units])",0.0%,79e83173-2630-48ca-bac9-2135ad20e512
+Snapshot Forecast Units,Full 16-day snapshot; intentionally unaffected by DimDate.,Snapshot,SUM(FactInventoryRisk[forecast_16d_total]),"#,0",07a2d86f-3545-465b-aae5-77345403e14e
+Historical Daily Baseline,Sum of origin-time 28-day average daily sales. Not historical daily observations.,Snapshot,SUM(FactInventoryRisk[historical_28d_avg]),"#,0.0",ac884872-b16a-4051-b74d-5d1b708db5de
+Eligible Forecast Growth,"Ratio of aggregate daily forecast to aggregate historical daily mean, active non-sparse series only; full horizon.",Snapshot,"VAR Eligible = FILTER(FactInventoryRisk, FactInventoryRisk[sparse_history] = 0 && RELATED(DimSeries[activity_status]) <> ""dormant"" && RELATED(DimSeries[activity_status]) <> ""never sold"") RETURN DIVIDE(SUMX(Eligible, FactInventoryRisk[forecast_daily_avg]), SUMX(Eligible, FactInventoryRisk[historical_28d_avg])) - 1",0.0%,1958e276-de11-4edf-80c0-9e6403e6e3bb
+Series Forecast Units,Series Forecast Units,Snapshot,SUM(FactInventoryRisk[forecast_16d_total]),"#,0",747fc1a6-2b82-4ddf-bfd1-75175ccead70
+Priority Score,Priority Score,Actions,AVERAGE(FactInventoryRisk[priority_score]),0.0,1f5216a5-8bbb-4bdf-94fa-befd308ef46e
+Store Validation RMSLE,Source pooled validation RMSLE repeated per series; use at store grain.,Validation,AVERAGE(FactInventoryRisk[store_rmsle]),0.000,ee3ba9bd-a229-456c-bf21-542905f49d37
+Family Validation RMSLE,Source pooled validation RMSLE repeated per series; use at family grain.,Validation,AVERAGE(FactInventoryRisk[family_rmsle]),0.000,360bf8bd-5314-4436-a71d-a06ecc7b8899
+Selected Model RMSLE,"Documented fixed mean across five folds, rounded to 4 decimals; risk config has 0.39421.",Validation,"CALCULATE(MAX(ModelPerformance[mean_rmsle]), REMOVEFILTERS(ModelPerformance), ModelPerformance[selected] = 1)",0.0000,a7fa5814-152b-46c8-9a5d-c1f55f5a66c2
+Baseline RMSLE,Baseline RMSLE,Validation,"CALCULATE(MAX(ModelPerformance[mean_rmsle]), REMOVEFILTERS(ModelPerformance), ModelPerformance[model] = ""Baseline · same weekday"")",0.0000,6a32be5a-3276-47be-8241-22a5cbe4412f
+Relative Model Improvement,Relative RMSLE reduction using documented rounded model means; not business savings.,Validation,"1 - DIVIDE([Selected Model RMSLE], [Baseline RMSLE])",0.0%,d766c351-454b-4803-a43f-9f31dcbdb07b
+Model RMSLE,Model RMSLE,Validation,MAX(ModelPerformance[mean_rmsle]),0.0000,9ab20e58-039c-420e-8ff9-59653bb1e0e1
+Fold RMSLE,Fold RMSLE,Validation,MAX(ValidationFolds[ensemble_rmsle]),0.0000,4662c8fc-040d-46cd-abff-b75324c0163d
+Feature Gain Share,Four leading LightGBM features only; rounded documented shares; not full importance distribution.,Validation,SUM(FeatureImportance[gain_share]),0.0%,c6a19fcc-0a1c-45f1-aee9-c9186c38f84e
+Top 10 Store Forecast,Top 10 Store Forecast,Forecast,"IF(RANKX(ALLSELECTED(DimStore[store_label]), [Total Forecasted Units], , DESC, DENSE) <= 10, [Total Forecasted Units])","#,0",33ec2d72-c15b-44f0-93fa-2468e3b0eca6
+Top 10 Family Forecast,Top 10 Family Forecast,Forecast,"IF(RANKX(ALLSELECTED(DimFamily[family]), [Total Forecasted Units], , DESC, DENSE) <= 10, [Total Forecasted Units])","#,0",05386244-f457-409f-836a-e627c4eb0758
+Highest Risk Store,Highest unweighted average risk among current stores; deterministic store-number tie break.,Risk,"VAR T = TOPN(1, ADDCOLUMNS(VALUES(DimStore[store_nbr]), ""Score"", [Average Risk Score]), [Score], DESC, DimStore[store_nbr], ASC) RETURN CONCATENATEX(T, ""Store "" & DimStore[store_nbr], "", "")",,9f873c73-c63b-4074-8b3e-1fd8dc336918
+Highest Risk Family,Highest Risk Family,Risk,"VAR T = TOPN(1, ADDCOLUMNS(VALUES(DimFamily[family]), ""Score"", [Average Risk Score]), [Score], DESC, DimFamily[family], ASC) RETURN CONCATENATEX(T, DimFamily[family], "", "")",,9f195b9e-0dd1-4086-a5d6-2adecb98a96e
+Context Title,Context Title,Labels,"""Forecast • "" & FORMAT(MIN(DimDate[date]), ""dd MMM"") & ""–"" & FORMAT(MAX(DimDate[date]), ""dd MMM yyyy"")",,552c00e0-df7b-4cd7-9206-83ad6244d7b6
+Risk Color,Risk Color,Labels,"SWITCH(SELECTEDVALUE(DimRiskCategory[risk_category]), ""Low"", ""#36D6A0"", ""Medium"", ""#F5C35B"", ""High"", ""#FF9457"", ""Critical"", ""#FF5E70"", ""#4EAEFF"")",,23f25251-56d4-4e25-8f9e-0bdcf17b587e
+Risk Heat Color,Matrix cell fill based on average risk and source right-closed thresholds.,Labels,"SWITCH(TRUE(), [Average Risk Score] <= 40, ""#186F5A"", [Average Risk Score] <= 65, ""#725723"", [Average Risk Score] <= 85, ""#8C4726"", ""#962C45"")",,0de2870f-cb32-4637-b639-17fef68771d9

@@ -1,0 +1,769 @@
+{
+  "static_checks_passed": 152,
+  "checks": [
+    {
+      "check": "Unchanged data: DimDate.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: DimFamily.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: DimPriority.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: DimRiskCategory.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: DimSeries.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: DimStore.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: FactForecast.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: FactInventoryRisk.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: FeatureImportance.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: ModelPerformance.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged data: ValidationFolds.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 41 measure expressions and model format strings unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Seven relationships unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "11 model tables unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Relationship key integrity: DimSeries.store_nbr \u2192 DimStore",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Relationship key integrity: DimSeries.family_id \u2192 DimFamily",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Relationship key integrity: DimSeries.risk_category \u2192 DimRiskCategory",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Relationship key integrity: DimSeries.action_priority \u2192 DimPriority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Relationship key integrity: FactForecast.series_key \u2192 DimSeries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Relationship key integrity: FactInventoryRisk.series_key \u2192 DimSeries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Relationship key integrity: FactForecast.date \u2192 DimDate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "FactForecast no duplicate keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "FactInventoryRisk no duplicate keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v034192e664664ed3871",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v11cfbe84bd994b90b29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v1422d8f9339448fd857",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v1ff72a0c1b134221b52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v29ce22be48ae4564bee",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v30e861469bf44d8a9e5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v3927f65d74c94ce981d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v3a19e30b495d412198c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v4842b4cc3d494d4d891",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v514c2acdef4b4af3a50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v6adb06adba00493b99c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v70fb214550654f5cab6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v7eaf5ad2d81f43d8989",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v866483ad789f4db5898",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v886700c024da4963958",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v91ef368902564953aa4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v9af6df2da2e54097923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vdcb76ff1d4764b5cb5e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vf80d4537f72f4c878f2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v0e21734febd04255899",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v1151d461b5164dd7a59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v17f4c947893f4debb8f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v1dca579e5fb74bd8988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v4a9febcafd014c59b47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v76aa0f5a96ea4152929",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v7a31c78ab01a463fb04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v8020fcbb9ff047e29bb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v8bef20616da547ca813",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v9568d6cfa012452a8ba",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vc71e2f4248164fda948",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vda907d2da48f4120b06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vfa873782ac2d4a83b60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vfc72c30cbc2846f3a17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v05160d31daba4eeba42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v06fa67a7ff52495ab4d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v0cc9402461c94178915",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v1a90826a6c964862bf4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v31265bc4dc964fa8a17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v656d56f7975647949c7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v7f703be82c004937bcf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v81ab96b52795498d93b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v82e7df087e0940ac850",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v8d77a38ffc624f2f828",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v9bb590e49ea54d0fac8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v9d4174c7812a4e0b86e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds va1772aafaf494b4c80e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vcc33f33501cb4900ae9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vd39b3ad11e484bb5a34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vd9ebd4bec8c443518a7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve0f9e0e297ed4c4da1a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve46150e9edda4329a90",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve64e5c115bcf45bfb71",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vfb5ac8e9bcc940659af",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v16870c2d26ad41eb920",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v1b585b663e9a4e098bd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v21b125a018a2447d845",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v3b8ee6374b0a4974bac",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v3e656a8b98df4154993",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v5dacf65ddfdd4f54886",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v67ab8f26a07c4117a72",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v6d2d15e628854d9c8e7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v6e4fb4471952473e949",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v9c983d380cdf4274817",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds va71ca7dc1cf742d6803",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds va9587671de1942bb854",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vce873050e3394560aa3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vdb0b191f98994727862",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v370b291c460e46d8997",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v3967718683f14040815",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v3efa33a9d5c34173b7d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v407053f2b67f4fbd961",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v47d3e0a60ea94f04be7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v4b617ce2307d40ef87b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v62d1bd235361439e989",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v6e8e9ea182fe43a4a91",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve2d90b6eb60c4f11b93",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve52ea0a6d1be45949db",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vf50ee92cff98425cad1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vf8ba4f5cf6444de1ba7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vf9ca1c67944746838b5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v12679dc468e04ad8bab",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v2b174a32b6494d418a8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v46d56d50726e413ebed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v4ce49e5842b049058e2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v5077a75ba6da40fe9c6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v5c7421873b764190b4e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v82775563320640fda33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v90d2a5311aca48b18bf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v94793a2ee6fe45bcb9b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds va162cd098a9b4a8c9ad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds va287a58409a3407ba4b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vb8ea183a3ad54bccaf1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vb8ecd4cfa5244fe3a5f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vc36c5b40899348d9aad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vd3ab7c610ad84cd7a2a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vd86afc4629494ef7bfe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve564a5b8f8e44b6da88",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve6385eb2191d49f6b74",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v0190ba2b38db4ed6920",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v2b4f503b8b6540acbc6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v33cf2328bc6547fc986",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v3f17094677074525970",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v427395af2adc4365947",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v5794ff94569e45b3a91",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v6908d7abc29a44ceb1b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v69186646736a42188a6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v7b56ae1cbddb4d378a8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v7dcac82a340546cfbd3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds v92e0650d049a43c7a2c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vcea6abc05c6d4389854",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vd7cd893009f94ae3a4e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve6a70b92d5b2495a970",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve83050dca7fa44e3b0f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds ve9cf9533af834ab3a96",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds vf0fe9280f0074d8cacc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds tip0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds tip1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds tip2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounds tip3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No broken field bindings",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Seven same-sized native page navigators",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Both risk category visuals are bars",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Forecast card precision 2 decimals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "P1/P2 saved slicer selection without P3 exclusion from options",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Tooltip hidden and designated Tooltip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Tooltip linked only from intended risk page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "DimDate marked with date key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Month labels sort by numeric month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Old risk page name absent from report",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "business_pages": 7,
+  "hidden_tooltip_pages": 1,
+  "visuals": 119,
+  "data_model_values_unchanged": true
+}

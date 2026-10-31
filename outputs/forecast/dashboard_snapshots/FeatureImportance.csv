@@ -1,0 +1,5 @@
+feature,gain_share
+sd_mean_8,0.541
+sd_mean_4,0.264
+roll_mean_7d,0.076
+sd_lag_1,0.055

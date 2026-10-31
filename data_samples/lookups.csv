@@ -1,0 +1,89 @@
+column,code,label
+family_id,0,AUTOMOTIVE
+family_id,1,BABY CARE
+family_id,2,BEAUTY
+family_id,3,BEVERAGES
+family_id,4,BOOKS
+family_id,5,BREAD/BAKERY
+family_id,6,CELEBRATION
+family_id,7,CLEANING
+family_id,8,DAIRY
+family_id,9,DELI
+family_id,10,EGGS
+family_id,11,FROZEN FOODS
+family_id,12,GROCERY I
+family_id,13,GROCERY II
+family_id,14,HARDWARE
+family_id,15,HOME AND KITCHEN I
+family_id,16,HOME AND KITCHEN II
+family_id,17,HOME APPLIANCES
+family_id,18,HOME CARE
+family_id,19,LADIESWEAR
+family_id,20,LAWN AND GARDEN
+family_id,21,LINGERIE
+family_id,22,"LIQUOR,WINE,BEER"
+family_id,23,MAGAZINES
+family_id,24,MEATS
+family_id,25,PERSONAL CARE
+family_id,26,PET SUPPLIES
+family_id,27,PLAYERS AND ELECTRONICS
+family_id,28,POULTRY
+family_id,29,PREPARED FOODS
+family_id,30,PRODUCE
+family_id,31,SCHOOL AND OFFICE SUPPLIES
+family_id,32,SEAFOOD
+store_type,0,A
+store_type,1,B
+store_type,2,C
+store_type,3,D
+store_type,4,E
+city_id,0,Ambato
+city_id,1,Babahoyo
+city_id,2,Cayambe
+city_id,3,Cuenca
+city_id,4,Daule
+city_id,5,El Carmen
+city_id,6,Esmeraldas
+city_id,7,Guaranda
+city_id,8,Guayaquil
+city_id,9,Ibarra
+city_id,10,Latacunga
+city_id,11,Libertad
+city_id,12,Loja
+city_id,13,Machala
+city_id,14,Manta
+city_id,15,Playas
+city_id,16,Puyo
+city_id,17,Quevedo
+city_id,18,Quito
+city_id,19,Riobamba
+city_id,20,Salinas
+city_id,21,Santo Domingo
+state_id,0,Azuay
+state_id,1,Bolivar
+state_id,2,Chimborazo
+state_id,3,Cotopaxi
+state_id,4,El Oro
+state_id,5,Esmeraldas
+state_id,6,Guayas
+state_id,7,Imbabura
+state_id,8,Loja
+state_id,9,Los Rios
+state_id,10,Manabi
+state_id,11,Pastaza
+state_id,12,Pichincha
+state_id,13,Santa Elena
+state_id,14,Santo Domingo de los Tsachilas
+state_id,15,Tungurahua
+hol_type,0,none
+hol_type,1,Holiday
+hol_type,2,Transfer
+hol_type,3,Bridge
+hol_type,4,Additional
+hol_type,5,Work Day
+event,0,none
+event,1,mothers_day
+event,2,black_friday
+event,3,cyber_monday
+event,4,world_cup
+event,5,earthquake

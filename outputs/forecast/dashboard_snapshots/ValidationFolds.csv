@@ -1,0 +1,6 @@
+fold,origin,ensemble_rmsle
+F1 · seasonal twin,2016-08-16,0.3852
+F2 · holiday heavy,2017-04-04,0.4139
+F3 · mid 2017,2017-05-30,0.3812
+F4 · recent,2017-07-11,0.3874
+F5 · latest,2017-07-25,0.4034

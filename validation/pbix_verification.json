@@ -1,0 +1,12 @@
+{
+  "file": "Retail_Demand_Forecasting_Inventory_Intelligence_Polished.pbix",
+  "size_bytes": 1144626,
+  "sha256": "e42f5df7ce5e902abaecc598ad19dcd280b8caf18449f22678340a11e790dc86",
+  "crc_check": "passed",
+  "contains_embedded_DataModel": true,
+  "report_definition_matches_final_PBIP": true,
+  "active_page": "p01",
+  "first_page": "p01",
+  "tooltip_hidden": true,
+  "created_by": "Power BI Desktop Save As PBIX"
+}

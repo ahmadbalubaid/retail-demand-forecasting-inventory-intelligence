@@ -1,0 +1,124 @@
+store_nbr,family,city,state,activity_status,risk_category,demand_risk_score,demand_surge_risk,demand_decline_risk,forecast_uncertainty,forecast_growth_pct,forecast_16d_total,volume_tier,priority_score,recommended_action
+20,CLEANING,Quito,Pichincha,regular,High,80.6,56.3,80.3,Normal,-0.35570067243525133,20768.528250702235,High,89.2,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+21,CLEANING,Santo Domingo,Santo Domingo de los Tsachilas,regular,High,78.4,55.8,78.3,Normal,-0.29545284608731887,20596.530591458963,High,88.4,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+39,CLEANING,Cuenca,Azuay,regular,High,73.9,56.3,79.9,Normal,-0.32679918006245207,23950.56286947415,High,86.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+14,CLEANING,Riobamba,Chimborazo,regular,High,77.9,56.4,80.1,Normal,-0.32591353591754607,16461.577209405197,High,86.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+41,BEVERAGES,Machala,El Oro,regular,High,70.2,53.7,70.0,Normal,-0.17831968485885724,36561.01868796556,High,85.9,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+40,CLEANING,Machala,El Oro,regular,High,71.5,55.9,71.8,Normal,-0.18631002661778848,27910.0301445728,High,85.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+25,BEVERAGES,Salinas,Santa Elena,regular,High,70.4,65.6,50.9,Normal,-0.169300030915482,31487.32538675569,High,85.1,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+48,BEVERAGES,Quito,Pichincha,regular,High,66.2,52.8,64.1,Normal,-0.1455455695648679,70860.1529067193,High,83.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+38,BEVERAGES,Loja,Loja,regular,High,67.5,54.8,71.1,Normal,-0.18069971481497848,36515.04236731993,High,82.3,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+12,CLEANING,Latacunga,Cotopaxi,regular,High,73.6,56.0,79.3,Normal,-0.3157553255070806,12800.849370413536,High,82.2,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+38,CLEANING,Loja,Loja,regular,High,71.1,55.9,75.1,Normal,-0.21357457965008408,14893.54886471048,High,81.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+31,CLEANING,Babahoyo,Los Rios,regular,High,69.5,54.3,67.8,Normal,-0.14922654797264134,19682.522510969353,High,81.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+32,CLEANING,Guayaquil,Guayas,regular,High,76.8,56.3,75.8,Normal,-0.2334959419848359,9410.04171157886,High,80.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+13,CLEANING,Latacunga,Cotopaxi,regular,High,72.5,55.4,74.0,Normal,-0.20603753387415227,11518.353876480865,High,80.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+26,BEVERAGES,Guayaquil,Guayas,regular,High,70.6,53.5,65.9,Normal,-0.13955936298645238,13621.021484223917,High,80.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+26,GROCERY I,Guayaquil,Guayas,regular,High,68.0,52.7,66.6,Normal,-0.15837604427193086,21434.478904482465,High,80.3,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+48,CLEANING,Quito,Pichincha,regular,High,66.7,52.6,66.2,Normal,-0.16059730620177687,30299.079635340662,High,80.2,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+41,CLEANING,Machala,El Oro,regular,High,69.4,54.4,71.0,Normal,-0.1781585040180788,16378.127643565074,High,80.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+10,CLEANING,Quito,Pichincha,regular,High,71.3,55.5,75.2,Normal,-0.23414737968091015,11476.848232537668,High,79.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+48,PERSONAL CARE,Quito,Pichincha,regular,High,68.2,52.8,68.0,Normal,-0.17743041316748567,11588.830264304564,High,76.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+44,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,regular,High,83.0,96.6,17.6,Normal,0.30018979772874943,4737.891622923563,High,76.2,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+30,CLEANING,Guayaquil,Guayas,regular,High,69.4,56.2,67.9,Normal,-0.13414152219848213,9717.900899366196,High,75.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+41,PERSONAL CARE,Machala,El Oro,regular,High,77.0,56.1,78.5,Normal,-0.29041794821691425,5269.15362830863,High,75.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+54,CLEANING,El Carmen,Manabi,regular,High,65.8,54.4,60.8,Normal,-0.11739034099240335,17019.73957713435,High,75.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+48,HOME CARE,Quito,Pichincha,regular,High,70.1,52.9,70.8,Normal,-0.20159594315717483,8450.308537624462,High,75.4,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+50,SCHOOL AND OFFICE SUPPLIES,Ambato,Tungurahua,regular,High,82.4,96.1,17.5,High,0.18758928697300245,4256.320004511241,High,74.3,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+48,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,regular,High,79.5,96.6,17.6,Normal,0.19445858758347165,4341.003697841684,High,74.2,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+45,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,regular,High,77.5,66.7,58.7,Normal,-0.29960093804013677,4451.336307493408,High,73.9,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+26,CLEANING,Guayaquil,Guayas,regular,High,72.0,53.1,67.9,Normal,-0.15790454230642675,5271.99864508633,High,72.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+47,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,regular,High,75.2,69.2,51.1,High,-0.13844547010916788,4144.3233871147395,High,71.9,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+39,EGGS,Cuenca,Azuay,regular,High,68.2,57.3,58.9,Normal,-0.09119035919598872,7054.4400284245785,High,71.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+22,CLEANING,Puyo,Pastaza,regular,High,65.3,53.7,66.2,Normal,-0.17633855615153105,10327.30285953758,High,71.3,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+38,PERSONAL CARE,Loja,Loja,regular,High,69.4,54.8,72.6,Normal,-0.20366989998869886,5688.527299804459,High,71.2,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+40,HOME CARE,Machala,El Oro,regular,High,68.0,54.9,71.4,Normal,-0.1960066885202159,5899.932575931241,High,70.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+25,"LIQUOR,WINE,BEER",Salinas,Santa Elena,regular,Critical,86.6,69.5,58.9,Normal,-0.24967025433366205,3274.8676652648664,High,69.9,Demand Surge Risk (Critical) - Increase inventory allocation / review replenishment urgently.
+50,HOME CARE,Ambato,Tungurahua,regular,High,66.7,53.2,67.3,Normal,-0.15698312344808835,6581.312147845838,High,69.4,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+11,EGGS,Cayambe,Pichincha,regular,High,75.2,55.9,73.5,Normal,-0.31365905981031733,3382.6802523270326,High,67.9,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+25,CLEANING,Salinas,Santa Elena,regular,High,65.4,63.4,46.9,Normal,-0.13942367844263218,6706.5943934581965,High,67.8,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+52,"LIQUOR,WINE,BEER",Manta,Manabi,regular,High,70.7,65.6,47.3,Normal,-0.1280748387246125,3706.9276644349925,High,67.1,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+6,HOME CARE,Quito,Pichincha,regular,High,66.2,52.7,69.2,Normal,-0.17692762093639935,4672.699649951417,High,65.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+33,EGGS,Quevedo,Los Rios,regular,High,73.4,68.5,46.0,Normal,-0.10501511033726306,2842.98352314959,High,64.8,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+27,"LIQUOR,WINE,BEER",Daule,Guayas,regular,High,74.9,66.6,51.7,Normal,-0.15362877609680153,2521.702517974901,Medium,64.0,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+9,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,regular,Critical,87.3,96.2,17.1,High,0.35507036031345923,1896.3242021492156,Medium,63.1,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+29,PERSONAL CARE,Guayaquil,Guayas,regular,High,65.1,54.7,60.7,Normal,-0.10348080241385715,3679.3147868935303,High,60.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+9,EGGS,Quito,Pichincha,regular,High,67.2,52.8,61.8,Normal,-0.1281182292273447,2928.5263438954903,High,60.2,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+43,EGGS,Esmeraldas,Esmeraldas,regular,High,66.4,61.9,53.1,Normal,-0.18371919896439462,3109.7966857988763,High,59.9,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+26,PERSONAL CARE,Guayaquil,Guayas,regular,High,73.6,54.3,72.5,Normal,-0.1980105848714235,1725.4228577773958,Medium,59.0,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+41,"LIQUOR,WINE,BEER",Machala,El Oro,regular,Critical,86.6,57.0,82.2,Normal,-0.49916180576931357,1258.9641586047226,Medium,58.9,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+20,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,regular,Critical,94.6,97.8,17.9,High,1.231606495931653,1229.2963199561573,Medium,58.8,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+30,HOME CARE,Guayaquil,Guayas,regular,High,67.7,55.9,68.5,Normal,-0.18243311473883378,2403.1793760471264,Medium,58.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+38,"LIQUOR,WINE,BEER",Loja,Loja,regular,High,75.1,68.6,48.6,Normal,-0.12627546770428363,1486.3302167522481,Medium,58.5,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+16,EGGS,Santo Domingo,Santo Domingo de los Tsachilas,regular,High,67.4,56.0,58.1,Normal,-0.12417004247923782,2263.1446102336495,Medium,57.3,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+26,HOME CARE,Guayaquil,Guayas,regular,High,77.8,55.0,76.1,Normal,-0.255846630695137,1105.1740350878981,Medium,56.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+44,LINGERIE,Quito,Pichincha,regular,High,82.7,96.9,17.2,Normal,0.7645368131873459,918.5674188367326,Medium,56.3,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+30,EGGS,Guayaquil,Guayas,regular,High,67.3,53.3,58.5,Normal,-0.12709007177541537,2065.055548232096,Medium,56.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+53,"LIQUOR,WINE,BEER",Manta,Manabi,regular,High,70.4,67.6,39.5,Normal,-0.07890350038577787,1426.9100309913642,Medium,55.5,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+25,FROZEN FOODS,Salinas,Santa Elena,regular,High,69.6,51.4,71.2,Normal,-0.24315576524162116,1495.7961987794229,Medium,55.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+22,"LIQUOR,WINE,BEER",Puyo,Pastaza,regular,Critical,89.8,69.2,64.1,Normal,-0.5207734095725454,808.1129784148134,Medium,55.3,Demand Surge Risk (Critical) - Increase inventory allocation / review replenishment urgently.
+43,"LIQUOR,WINE,BEER",Esmeraldas,Esmeraldas,regular,High,69.6,63.5,53.2,Normal,-0.16878958481670672,1179.3688637903856,Medium,53.2,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+48,"LIQUOR,WINE,BEER",Quito,Pichincha,regular,High,65.2,63.2,46.5,Normal,-0.1259323618002539,1863.0126459648504,Medium,52.9,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+35,"LIQUOR,WINE,BEER",Playas,Guayas,regular,High,84.4,67.5,61.0,Normal,-0.24487835894421994,603.2342969310029,Medium,52.8,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+11,SCHOOL AND OFFICE SUPPLIES,Cayambe,Pichincha,regular,Critical,91.4,96.8,17.0,High,1.5394544414232076,593.5067642744813,Medium,52.7,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+48,HOME AND KITCHEN II,Quito,Pichincha,regular,High,83.2,57.8,83.2,Normal,-0.5413676239675966,558.7452958229326,Medium,52.0,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+36,"LIQUOR,WINE,BEER",Libertad,Guayas,regular,High,69.7,66.5,37.6,Normal,-0.06309394430439152,944.4013041411733,Medium,51.9,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+29,"LIQUOR,WINE,BEER",Guayaquil,Guayas,regular,High,65.7,65.6,41.4,Normal,-0.08664104077186309,1510.9567260491237,Medium,51.9,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+13,EGGS,Latacunga,Cotopaxi,regular,High,73.8,55.8,69.9,Normal,-0.1711615864480902,695.2770018017097,Medium,51.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+38,HOME AND KITCHEN II,Loja,Loja,regular,High,78.8,57.1,82.3,Normal,-0.46116079407547705,594.5705846196122,Medium,51.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+49,HOME AND KITCHEN II,Quito,Pichincha,regular,High,69.7,57.2,71.8,Normal,-0.1655051302495245,911.2683977675192,Medium,51.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+18,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,regular,High,83.0,95.7,17.4,High,0.12940437388889633,536.305739039054,Medium,51.2,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+6,HOME AND KITCHEN II,Quito,Pichincha,regular,High,70.7,56.5,77.2,Normal,-0.23823062905059236,756.1104994810084,Medium,50.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+40,"LIQUOR,WINE,BEER",Machala,El Oro,regular,High,79.9,49.2,83.9,Normal,-0.25587288105396117,512.3846603548682,Medium,50.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+17,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,intermittent,Critical,95.1,99.5,18.3,High,3.264834214991132,453.29094620218564,Medium,49.6,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+47,HOME AND KITCHEN I,Quito,Pichincha,regular,High,66.1,64.3,46.3,Normal,-0.11857447035840436,1033.5343771003324,Medium,49.4,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+35,FROZEN FOODS,Playas,Guayas,regular,High,69.1,53.3,67.7,Normal,-0.21160837391917608,708.7298106871289,Medium,49.2,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+19,"LIQUOR,WINE,BEER",Guaranda,Bolivar,regular,High,76.9,45.4,86.9,Normal,-0.47662882626167374,459.66942059988406,Medium,48.2,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+10,EGGS,Quito,Pichincha,regular,High,68.3,56.1,61.6,Normal,-0.220596027767814,626.1954335679858,Medium,47.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+47,LINGERIE,Quito,Pichincha,regular,Critical,87.4,98.9,18.1,Normal,2.3161812807665556,388.4669608757059,Medium,47.6,Demand Surge Risk (Critical) - Increase inventory allocation / review replenishment urgently.
+8,HOME AND KITCHEN II,Quito,Pichincha,regular,High,66.3,54.3,70.9,Normal,-0.1776922565670144,750.4145378100784,Medium,47.2,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+13,"LIQUOR,WINE,BEER",Latacunga,Cotopaxi,regular,High,69.4,55.3,62.8,Normal,-0.1969135125472047,547.4755381630355,Medium,47.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+22,EGGS,Puyo,Pastaza,regular,High,66.1,54.9,60.7,Normal,-0.13259425786562182,759.3517848119942,Medium,47.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+7,HOME AND KITCHEN II,Quito,Pichincha,regular,High,68.6,94.9,17.6,Normal,0.1377164244327519,570.8085931497892,Medium,47.0,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+14,EGGS,Riobamba,Chimborazo,regular,High,70.2,54.8,70.3,Normal,-0.19877251117576636,522.4003227134003,Medium,46.9,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+30,"LIQUOR,WINE,BEER",Guayaquil,Guayas,regular,High,68.8,54.9,62.8,Normal,-0.17744852710736275,542.4139570402184,Medium,46.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+32,"LIQUOR,WINE,BEER",Guayaquil,Guayas,regular,High,72.7,59.7,60.2,High,-0.17949714470430791,447.7601367584377,Medium,46.5,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+54,"LIQUOR,WINE,BEER",El Carmen,Manabi,regular,High,76.8,65.4,55.9,Normal,-0.14448071600725249,380.82829468757495,Medium,45.8,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+17,"LIQUOR,WINE,BEER",Quito,Pichincha,regular,High,65.3,56.2,56.0,Normal,-0.12609817251711714,644.6898700657631,Medium,45.3,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+46,HOME AND KITCHEN I,Quito,Pichincha,regular,High,65.2,59.0,51.8,Normal,-0.1088281549780578,659.9763908297318,Medium,45.2,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+47,LADIESWEAR,Quito,Pichincha,regular,High,70.6,54.8,62.6,Normal,-0.10450842875438336,429.3242330165125,Medium,45.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+41,GROCERY II,Machala,El Oro,regular,High,67.3,36.4,93.3,Normal,-0.3100898389845923,513.2931597954633,Medium,44.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+3,CELEBRATION,Quito,Pichincha,regular,High,65.1,37.7,94.0,Normal,-0.3041581044585394,566.6141088736438,Medium,43.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+36,HOME AND KITCHEN I,Libertad,Guayas,regular,High,72.5,57.8,67.6,Normal,-0.2647906866997085,351.21999836425573,Medium,43.4,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+6,HOME AND KITCHEN I,Quito,Pichincha,regular,High,68.3,50.0,73.6,Normal,-0.20227110608306353,379.2630979887576,Medium,42.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+22,SCHOOL AND OFFICE SUPPLIES,Puyo,Pastaza,intermittent,Critical,97.9,99.4,18.2,High,5.361193650539826,236.27290355347523,Medium,41.9,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+45,LINGERIE,Quito,Pichincha,regular,Critical,86.5,95.9,17.1,High,2.415175600552328,238.0865313036083,Medium,41.6,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+34,HOME AND KITCHEN I,Guayaquil,Guayas,regular,High,66.3,44.0,79.9,Normal,-0.20265537950427748,400.039193692433,Medium,41.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+39,SCHOOL AND OFFICE SUPPLIES,Cuenca,Azuay,regular,Critical,92.7,97.6,17.1,High,2.046190280319649,229.76978778427852,Medium,41.1,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+20,HOME AND KITCHEN I,Quito,Pichincha,regular,High,70.4,45.9,76.5,Normal,-0.1671013433063258,304.6029445674151,Medium,40.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+45,LADIESWEAR,Quito,Pichincha,regular,High,66.0,55.7,54.5,Normal,-0.06570974906903601,387.596988173685,Medium,40.7,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+50,LADIESWEAR,Ambato,Tungurahua,regular,High,73.9,56.2,65.9,Normal,-0.1133814404172377,265.9855678748287,Medium,40.6,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+18,HOME AND KITCHEN I,Quito,Pichincha,regular,High,71.1,46.3,84.1,Normal,-0.2874984362416839,294.77208173310396,Medium,40.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+15,SCHOOL AND OFFICE SUPPLIES,Ibarra,Imbabura,intermittent,Critical,96.0,98.4,18.4,High,4.187725306530123,204.54458931907277,Medium,40.1,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+11,GROCERY II,Cayambe,Pichincha,regular,High,65.4,37.9,90.1,Normal,-0.28720187882855025,374.72816134524,Medium,39.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+48,BEAUTY,Quito,Pichincha,regular,High,67.1,64.1,47.8,Normal,-0.13193429550515318,316.96798774250937,Medium,39.1,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+13,SCHOOL AND OFFICE SUPPLIES,Latacunga,Cotopaxi,intermittent,Critical,96.9,98.3,18.3,High,3.4930349622334362,187.42374903589996,Medium,38.8,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+25,HOME AND KITCHEN II,Salinas,Santa Elena,regular,High,71.7,53.4,73.6,Normal,-0.20552266245658107,236.0732625492553,Medium,38.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+52,SCHOOL AND OFFICE SUPPLIES,Manta,Manabi,regular,High,75.2,77.4,17.0,Normal,1.6627635923693034,213.02108738954428,Medium,38.8,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+31,HOME AND KITCHEN I,Babahoyo,Los Rios,regular,High,65.4,49.1,65.4,Normal,-0.14207241405412627,340.719808963951,Medium,38.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+10,SCHOOL AND OFFICE SUPPLIES,Quito,Pichincha,intermittent,Critical,94.9,97.1,18.4,High,7.152086100766392,181.675068338024,Medium,38.3,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+46,BEAUTY,Quito,Pichincha,regular,High,66.2,66.0,38.4,Normal,-0.08272028085699303,309.2543013120487,Medium,38.2,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+25,GROCERY II,Salinas,Santa Elena,regular,High,67.5,47.2,73.8,High,-0.28640774506573835,279.32038759836496,Medium,38.0,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+19,SCHOOL AND OFFICE SUPPLIES,Guaranda,Bolivar,intermittent,Critical,95.8,96.7,18.1,High,3.14276479249404,163.3432907597392,Medium,37.0,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+19,HOME AND KITCHEN II,Guaranda,Bolivar,regular,High,71.6,40.0,93.5,Normal,-0.334820623126079,203.3548438727883,Medium,37.0,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+25,HOME AND KITCHEN I,Salinas,Santa Elena,regular,High,69.8,52.1,72.5,Normal,-0.3494342822216011,212.2702942426404,Medium,36.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+12,SCHOOL AND OFFICE SUPPLIES,Latacunga,Cotopaxi,intermittent,Critical,94.6,97.9,18.2,High,2.567624701954178,163.09141883487905,Medium,36.8,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+19,GROCERY II,Guaranda,Bolivar,regular,High,76.4,39.8,96.0,High,-0.7340131781138709,177.83118485114142,Medium,36.5,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+54,HOME AND KITCHEN I,El Carmen,Manabi,regular,High,65.3,45.7,77.0,Normal,-0.26874147921140484,285.3997477374234,Medium,36.5,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+10,"LIQUOR,WINE,BEER",Quito,Pichincha,regular,High,69.6,54.5,64.0,Normal,-0.18003911816201515,198.66481330457896,Medium,35.8,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+6,LINGERIE,Quito,Pichincha,regular,High,71.0,93.0,16.4,Normal,0.16277352002546122,182.72154807756795,Medium,35.5,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+46,LINGERIE,Quito,Pichincha,regular,High,72.0,91.6,15.7,Normal,0.15976455550118163,166.34337591711272,Medium,34.6,Demand Surge Risk (High) - Increase inventory allocation / review replenishment.
+21,GROCERY II,Santo Domingo,Santo Domingo de los Tsachilas,regular,High,65.2,37.0,81.3,High,-0.16880223575065442,229.41058293281938,Medium,34.4,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+13,HOME AND KITCHEN I,Latacunga,Cotopaxi,regular,High,69.5,40.5,87.7,Normal,-0.37405457473572334,170.25715567188325,Medium,33.7,Demand Decline Risk - Reduce replenishment / rebalance inventory.
+34,SCHOOL AND OFFICE SUPPLIES,Guayaquil,Guayas,regular,High,68.0,72.9,16.2,High,1.6980180707749835,171.13142750681803,Medium,33.0,Inventory Attention Required - Require planner review before acting (high forecast uncertainty for this store/family).
+23,CELEBRATION,Ambato,Tungurahua,regular,High,66.1,37.0,94.2,Normal,-0.27938408038370827,158.1237233609072,Medium,31.1,Demand Decline Risk - Reduce replenishment / rebalance inventory.

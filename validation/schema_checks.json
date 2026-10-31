@@ -1,0 +1,487 @@
+{
+  "schema_files_validated": 16,
+  "errors": [],
+  "schema_versions_unavailable_publicly": [
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v034192e664664ed3871\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v11cfbe84bd994b90b29\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v1422d8f9339448fd857\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v1ff72a0c1b134221b52\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v29ce22be48ae4564bee\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v30e861469bf44d8a9e5\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v3927f65d74c94ce981d\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v3a19e30b495d412198c\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v4842b4cc3d494d4d891\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v514c2acdef4b4af3a50\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v6adb06adba00493b99c\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v70fb214550654f5cab6\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v7eaf5ad2d81f43d8989\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v866483ad789f4db5898\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v886700c024da4963958\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v91ef368902564953aa4\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\v9af6df2da2e54097923\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\vdcb76ff1d4764b5cb5e\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p01\\visuals\\vf80d4537f72f4c878f2\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v0e21734febd04255899\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v1151d461b5164dd7a59\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v17f4c947893f4debb8f\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v1dca579e5fb74bd8988\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v4a9febcafd014c59b47\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v76aa0f5a96ea4152929\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v7a31c78ab01a463fb04\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v8020fcbb9ff047e29bb\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v8bef20616da547ca813\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\v9568d6cfa012452a8ba\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\vc71e2f4248164fda948\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\vda907d2da48f4120b06\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\vfa873782ac2d4a83b60\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p02\\visuals\\vfc72c30cbc2846f3a17\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v05160d31daba4eeba42\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v06fa67a7ff52495ab4d\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v0cc9402461c94178915\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v1a90826a6c964862bf4\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v31265bc4dc964fa8a17\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v656d56f7975647949c7\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v7f703be82c004937bcf\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v81ab96b52795498d93b\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v82e7df087e0940ac850\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v8d77a38ffc624f2f828\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v9bb590e49ea54d0fac8\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\v9d4174c7812a4e0b86e\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\va1772aafaf494b4c80e\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\vcc33f33501cb4900ae9\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\vd39b3ad11e484bb5a34\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\vd9ebd4bec8c443518a7\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\ve0f9e0e297ed4c4da1a\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\ve46150e9edda4329a90\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\ve64e5c115bcf45bfb71\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p03\\visuals\\vfb5ac8e9bcc940659af\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v16870c2d26ad41eb920\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v1b585b663e9a4e098bd\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v21b125a018a2447d845\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v3b8ee6374b0a4974bac\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v3e656a8b98df4154993\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v5dacf65ddfdd4f54886\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v67ab8f26a07c4117a72\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v6d2d15e628854d9c8e7\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v6e4fb4471952473e949\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\v9c983d380cdf4274817\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\va71ca7dc1cf742d6803\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\va9587671de1942bb854\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\vce873050e3394560aa3\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p04\\visuals\\vdb0b191f98994727862\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\v370b291c460e46d8997\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\v3967718683f14040815\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\v3efa33a9d5c34173b7d\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\v407053f2b67f4fbd961\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\v47d3e0a60ea94f04be7\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\v4b617ce2307d40ef87b\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\v62d1bd235361439e989\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\v6e8e9ea182fe43a4a91\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\ve2d90b6eb60c4f11b93\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\ve52ea0a6d1be45949db\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\vf50ee92cff98425cad1\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\vf8ba4f5cf6444de1ba7\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p05\\visuals\\vf9ca1c67944746838b5\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v12679dc468e04ad8bab\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v2b174a32b6494d418a8\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v46d56d50726e413ebed\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v4ce49e5842b049058e2\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v5077a75ba6da40fe9c6\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v5c7421873b764190b4e\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v82775563320640fda33\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v90d2a5311aca48b18bf\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\v94793a2ee6fe45bcb9b\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\va162cd098a9b4a8c9ad\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\va287a58409a3407ba4b\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\vb8ea183a3ad54bccaf1\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\vb8ecd4cfa5244fe3a5f\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\vc36c5b40899348d9aad\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\vd3ab7c610ad84cd7a2a\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\vd86afc4629494ef7bfe\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\ve564a5b8f8e44b6da88\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p06\\visuals\\ve6385eb2191d49f6b74\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v0190ba2b38db4ed6920\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v2b4f503b8b6540acbc6\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v33cf2328bc6547fc986\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v3f17094677074525970\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v427395af2adc4365947\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v5794ff94569e45b3a91\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v6908d7abc29a44ceb1b\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v69186646736a42188a6\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v7b56ae1cbddb4d378a8\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v7dcac82a340546cfbd3\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\v92e0650d049a43c7a2c\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\vcea6abc05c6d4389854\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\vd7cd893009f94ae3a4e\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\ve6a70b92d5b2495a970\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\ve83050dca7fa44e3b0f\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\ve9cf9533af834ab3a96\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p07\\visuals\\vf0fe9280f0074d8cacc\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p08\\visuals\\tip0\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p08\\visuals\\tip1\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p08\\visuals\\tip2\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.Report\\definition\\pages\\p08\\visuals\\tip3\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json"
+    },
+    {
+      "file": "outputs\\Retail_Demand_Forecasting_Inventory_Intelligence\\Retail.SemanticModel\\.pbi\\localSettings.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/semanticModel/localSettings/1.2.0/schema.json"
+    }
+  ],
+  "note": "Power BI Desktop normalized some schemas to unpublished versions; these were loaded and saved by Desktop, not claimed schema-validated."
+}

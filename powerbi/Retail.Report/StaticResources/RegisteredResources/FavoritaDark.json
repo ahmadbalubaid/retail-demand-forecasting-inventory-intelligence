@@ -1,0 +1,209 @@
+{
+  "name": "Favorita Dark Enterprise",
+  "dataColors": [
+    "#4EAEFF",
+    "#42DDDC",
+    "#F5C35B",
+    "#FF9457",
+    "#FF5E70",
+    "#36D6A0",
+    "#8E9BFF"
+  ],
+  "background": "#081323",
+  "foreground": "#ECF4FF",
+  "tableAccent": "#42DDDC",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#ECF4FF"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#91A5BC"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#ECF4FF"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#101F33"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#22374D"
+              }
+            },
+            "radius": 10
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#ECF4FF"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#91A5BC"
+              }
+            },
+            "fontSize": 10,
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#91A5BC"
+              }
+            },
+            "fontSize": 10,
+            "showAxisTitle": false,
+            "gridlineColor": {
+              "solid": {
+                "color": "#22374D"
+              }
+            }
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#ECF4FF"
+              }
+            },
+            "fontSize": 10,
+            "showTitle": false
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#ECF4FF"
+              }
+            },
+            "fontSize": 26
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#91A5BC"
+              }
+            },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#42DDDC"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#101F33"
+              }
+            },
+            "fontSize": 10
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": {
+              "solid": {
+                "color": "#ECF4FF"
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": "#101F33"
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": "#ECF4FF"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#14263C"
+              }
+            },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#ECF4FF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#101F33"
+              }
+            }
+          }
+        ],
+        "header": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#42DDDC"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

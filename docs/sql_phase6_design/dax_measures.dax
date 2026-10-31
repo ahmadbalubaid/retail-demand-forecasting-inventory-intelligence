@@ -1,0 +1,116 @@
+// ============================================================================================================
+// Phase 6 - DAX measures
+// Organised into a "_Measures" table (a best-practice empty table with no data, just a home for measures so
+// they don't clutter FactForecast / FactDemandRisk in the field list). Every measure reads directly from the
+// star-schema tables - none re-derives or overrides a Phase 4/5 value; the risk score, category and priority
+// are read exactly as Phase 5 computed them.
+// ============================================================================================================
+
+// ------------------------------------------------------------------------------------------------ Core demand
+Total Forecast Demand =
+    SUM ( FactForecast[predicted_sales] )
+    // The headline KPI (Page 1 card, Page 2 trend). Additive over FactForecast's daily grain, so it is
+    // automatically correct under any Store / Family / Date filter or slicer with no extra logic.
+
+Average Daily Forecast =
+    DIVIDE ( [Total Forecast Demand], DISTINCTCOUNT ( FactForecast[date] ) )
+    // Divides by the number of DISTINCT forecast dates in the current filter context (16 with no date filter)
+    // rather than a hard-coded /16, so the measure stays correct if a viewer filters to a subset of days.
+
+// ---------------------------------------------------------------------------------------------- Risk & score
+Average Risk Score =
+    AVERAGE ( FactDemandRisk[demand_risk_score] )
+    // Simple row average of Phase 5's 0-100 score over whatever Store x Family rows are in context.
+
+High Risk Count =
+    CALCULATE ( COUNTROWS ( FactDemandRisk ), FactDemandRisk[risk_category] = "High" )
+
+Critical Risk Count =
+    CALCULATE ( COUNTROWS ( FactDemandRisk ), FactDemandRisk[risk_category] = "Critical" )
+
+High + Critical Count =
+    CALCULATE (
+        COUNTROWS ( FactDemandRisk ),
+        FactDemandRisk[risk_category] IN { "High", "Critical" }
+    )
+    // Written as its own measure (not [High Risk Count] + [Critical Risk Count]) so a single CALCULATE
+    // filter is the one source of truth for "what counts as elevated risk" across every visual that uses it.
+
+High Forecast Uncertainty Count =
+    CALCULATE ( COUNTROWS ( FactDemandRisk ), FactDemandRisk[forecast_uncertainty] = "High" )
+    // Used on Page 3 - series where Phase 4's own five-fold validation error was historically highest for
+    // that family/store, so the risk score there should be read with more caution.
+
+// --------------------------------------------------------------------------------------------- Action priority
+P1 Count =
+    CALCULATE ( COUNTROWS ( FactDemandRisk ), FactDemandRisk[action_priority] = "P1 - Immediate review" )
+
+P1 Share % =
+    DIVIDE ( [P1 Count], COUNTROWS ( FactDemandRisk ) )
+    // % of the CURRENTLY FILTERED series that are P1 - e.g. selecting one store shows that store's own P1
+    // share, not the portfolio's, which is what makes this useful on Page 4 as a slicer changes.
+
+// --------------------------------------------------------------------------------------------- Growth & promo
+Average Forecast Growth % =
+    AVERAGEX (
+        FILTER ( FactDemandRisk, FactDemandRisk[sparse_history] = FALSE ),
+        FactDemandRisk[forecast_growth_pct]
+    )
+    // Excludes "sparse_history" series (historical 28-day average under 1 unit/day) from the average, exactly
+    // as Phase 5's own growth/decline leaderboards do - otherwise a handful of near-zero-base series with
+    // triple-digit % swings would dominate a simple AVERAGE and mislead the reader.
+
+Promotion Exposure % =
+    DIVIDE (
+        SUM ( FactDemandRisk[promotion_days] ),
+        COUNTROWS ( FactDemandRisk ) * 16
+    )
+    // Share of all (series x day) slots in the 16-day window that are on promotion - a portfolio-wide
+    // promotion-intensity figure, not a count of promoted series.
+
+// -------------------------------------------------------------------------------------------- Portfolio mix
+Active Series Count =
+    CALCULATE (
+        COUNTROWS ( FactDemandRisk ),
+        FactDemandRisk[activity_status] <> "dormant",
+        FactDemandRisk[activity_status] <> "never sold"
+    )
+
+Dormant Series Count =
+    CALCULATE ( COUNTROWS ( FactDemandRisk ), FactDemandRisk[activity_status] = "dormant" )
+
+Never Sold Series Count =
+    CALCULATE ( COUNTROWS ( FactDemandRisk ), FactDemandRisk[activity_status] = "never sold" )
+    // Kept separate from Dormant Series Count because Phase 2/3 treat them as distinct activity states
+    // (dormant = used to sell, stopped; never sold = no history at all) - collapsing them would lose that
+    // distinction the moment someone asks "which is it?".
+
+// ------------------------------------------------------------------------------------------- Model performance
+Forecast Model RMSLE =
+    AVERAGE ( FactModelPerformance[model_rmsle] )
+    // Mean of the 5 validation-fold RMSLE values Phase 4 produced - never recomputed, just averaged from the
+    // governed reference table so the KPI card can never drift from what the notebook reported.
+
+Baseline RMSLE =
+    AVERAGE ( FactModelPerformance[baseline_rmsle] )
+
+Model Improvement % =
+    1 - DIVIDE ( [Forecast Model RMSLE], [Baseline RMSLE] )
+    // Should read 16.0% with no filter applied - the same figure Phase 4's executive summary reports.
+
+// -------------------------------------------------------------------------------------------- Dynamic ranking
+Store Rank by Forecast Demand =
+    RANKX ( ALL ( DimStore[store_nbr] ), [Total Forecast Demand], , DESC, Dense )
+    // Recalculates per visual filter context using ALL(DimStore) as the ranking universe, so a Top-N table
+    // stays correct even if the report page also has a Risk Category slicer applied.
+
+Store Rank by Risk Score =
+    RANKX ( ALL ( DimStore[store_nbr] ), [Average Risk Score], , DESC, Dense )
+
+Family Rank by Forecast Demand =
+    RANKX ( ALL ( DimProductFamily[family] ), [Total Forecast Demand], , DESC, Dense )
+
+Family Rank by Risk Score =
+    RANKX ( ALL ( DimProductFamily[family] ), [Average Risk Score], , DESC, Dense )
+    // The four ranking measures above back the "Top N" visuals on Pages 1-3 without needing a separate
+    // static Top-N query per page - changing a slicer re-ranks live.

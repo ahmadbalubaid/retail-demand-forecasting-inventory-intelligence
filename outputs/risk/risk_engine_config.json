@@ -1,0 +1,69 @@
+{
+  "inputs": {
+    "forecast_source": "phase4/outputs/test_predictions.parquet (Phase 4 selected model, unmodified)",
+    "historical_source": "data_products/test_features.parquet (Phase 3, leakage-safe, as of 2017-08-15)"
+  },
+  "low_base_floor_units_per_day": 1.0,
+  "sparse_history_rule": "historical_28d_avg < low_base_floor_units_per_day -> excluded from growth/decline leaderboards, ratios floored not exploded",
+  "risk_dimension_weights": {
+    "demand_surge_risk": {
+      "growth": 50,
+      "momentum": 20,
+      "promotion": 20,
+      "volatility": 10
+    },
+    "demand_decline_risk": {
+      "growth": 50,
+      "momentum": 25,
+      "no_promotion_support_if_declining": 15,
+      "volatility": 10
+    },
+    "demand_volatility_risk": {
+      "historical_cv_28d": 40,
+      "historical_cv_91d": 20,
+      "forecast_cv": 25,
+      "zero_rate_28d": 15
+    },
+    "forecast_uncertainty_score": {
+      "family_rmsle": 40,
+      "store_rmsle": 30,
+      "intermittency": 30
+    }
+  },
+  "forecast_uncertainty_high_threshold": 70.0,
+  "demand_risk_score_weights": {
+    "demand_change": 30,
+    "promotion": 15,
+    "trend": 15,
+    "volatility": 20,
+    "forecast_uncertainty": 20
+  },
+  "demand_risk_score_weights_alt_tested": {
+    "demand_change": 20,
+    "promotion": 20,
+    "trend": 20,
+    "volatility": 20,
+    "forecast_uncertainty": 20
+  },
+  "risk_category_thresholds": {
+    "Low": 0,
+    "Medium": 40,
+    "High": 65,
+    "Critical": 85
+  },
+  "risk_category_thresholds_sensitivity_shift": "-10% on all cut points",
+  "volume_tiers": "terciles of forecast_16d_total among active (non-dormant/never-sold) series",
+  "action_priority_rule": "P1 = risk_category in {High,Critical} AND volume_tier != Low; P2 = risk_category in {Medium,High,Critical} and not P1; P3 = otherwise",
+  "validation": {
+    "surge_vs_growth_spearman": 0.294,
+    "decline_vs_decline_spearman": 0.874,
+    "volatility_vs_cv_spearman": 0.956,
+    "weight_sensitivity_rank_corr": 0.968,
+    "weight_sensitivity_category_agreement": 0.866,
+    "threshold_sensitivity_category_agreement": 0.779
+  },
+  "n_series_assessed": 1782,
+  "phase4_model": "Blend 50/50: LightGBM (selected) + XGBoost",
+  "phase4_validation_rmsle_mean": 0.39421,
+  "generated_from": "Phase 5 - Demand-Based Inventory Risk Engine"
+}

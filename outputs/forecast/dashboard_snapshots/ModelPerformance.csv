@@ -1,0 +1,6 @@
+model,mean_rmsle,selected,provenance
+Baseline · same weekday,0.4693,0,03 notebook §17 / README_1; rounded documented validation result
+Random Forest · tier 1+2,0.4058,0,03 notebook §17 / README_1; rounded documented validation result
+LightGBM · tier 1+2,0.3961,0,03 notebook §17 / README_1; rounded documented validation result
+XGBoost · tier 1+2,0.3959,0,03 notebook §17 / README_1; rounded documented validation result
+Ensemble · 50/50,0.3942,1,03 notebook §17 / README_1; rounded documented validation result

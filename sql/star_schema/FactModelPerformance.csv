@@ -1,0 +1,6 @@
+model_name,fold,model_rmsle,baseline_rmsle,improvement_pct
+Blend 50/50: LightGBM (selected) + XGBoost,F1,0.3852,0.4667,0.1746
+Blend 50/50: LightGBM (selected) + XGBoost,F2,0.4139,0.4634,0.1068
+Blend 50/50: LightGBM (selected) + XGBoost,F3,0.3812,0.4711,0.1908
+Blend 50/50: LightGBM (selected) + XGBoost,F4,0.3874,0.4387,0.1169
+Blend 50/50: LightGBM (selected) + XGBoost,F5,0.4034,0.5063,0.2032

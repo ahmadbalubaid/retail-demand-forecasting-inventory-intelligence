@@ -1,0 +1,72 @@
+[
+  {
+    "name": "f55e54bc-865f-577f-a954-aa4a44fbe52d",
+    "fromTable": "DimSeries",
+    "fromColumn": "store_nbr",
+    "toTable": "DimStore",
+    "toColumn": "store_nbr",
+    "crossFilteringBehavior": "oneDirection",
+    "fromCardinality": "many",
+    "toCardinality": "one"
+  },
+  {
+    "name": "f15529dd-da99-587e-80b3-fd0554a61534",
+    "fromTable": "DimSeries",
+    "fromColumn": "family_id",
+    "toTable": "DimFamily",
+    "toColumn": "family_id",
+    "crossFilteringBehavior": "oneDirection",
+    "fromCardinality": "many",
+    "toCardinality": "one"
+  },
+  {
+    "name": "41583c0f-f925-5348-9942-1e60ae2c3624",
+    "fromTable": "DimSeries",
+    "fromColumn": "risk_category",
+    "toTable": "DimRiskCategory",
+    "toColumn": "risk_category",
+    "crossFilteringBehavior": "oneDirection",
+    "fromCardinality": "many",
+    "toCardinality": "one"
+  },
+  {
+    "name": "e7de485b-f086-552a-a533-64242d9c7760",
+    "fromTable": "DimSeries",
+    "fromColumn": "action_priority",
+    "toTable": "DimPriority",
+    "toColumn": "action_priority",
+    "crossFilteringBehavior": "oneDirection",
+    "fromCardinality": "many",
+    "toCardinality": "one"
+  },
+  {
+    "name": "8e3aaf0d-2950-5e13-bd7f-e3b5d19eb69f",
+    "fromTable": "FactForecast",
+    "fromColumn": "series_key",
+    "toTable": "DimSeries",
+    "toColumn": "series_key",
+    "crossFilteringBehavior": "oneDirection",
+    "fromCardinality": "many",
+    "toCardinality": "one"
+  },
+  {
+    "name": "ae6cd876-e455-5e44-97ee-62ff2761b482",
+    "fromTable": "FactInventoryRisk",
+    "fromColumn": "series_key",
+    "toTable": "DimSeries",
+    "toColumn": "series_key",
+    "crossFilteringBehavior": "oneDirection",
+    "fromCardinality": "many",
+    "toCardinality": "one"
+  },
+  {
+    "name": "d6adcd04-fd59-5852-8e77-a264c9e799eb",
+    "fromTable": "FactForecast",
+    "fromColumn": "date",
+    "toTable": "DimDate",
+    "toColumn": "date",
+    "crossFilteringBehavior": "oneDirection",
+    "fromCardinality": "many",
+    "toCardinality": "one"
+  }
+]

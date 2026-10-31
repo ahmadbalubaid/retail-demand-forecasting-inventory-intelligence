@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24",
+  "saved_opening_page_verified": true,
+  "page": "Executive Overview",
+  "page_number": 1,
+  "first_in_bottom_navigation": true,
+  "fresh_launch_render_verified": true,
+  "status": "passed",
+  "description": "Post-restart verification passed: the final PBIX opened in a fresh Power BI Desktop process directly on Executive Overview; all seven business pages rendered; P1 + P2 remained the saved default; P3 remained available; Risk Snapshot Tooltip remained hidden. No report edits were made during this verification.",
+  "historical_attempt": "validation/history/launch_verification_2026-10-22_incomplete.json"
+}

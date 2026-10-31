@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Retail_Demand_Forecasting_Inventory_Intelligence"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "699c5ea5-3996-4a72-9ee1-e4c17daaf5fa"
+  }
+}

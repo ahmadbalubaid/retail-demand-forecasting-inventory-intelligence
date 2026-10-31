@@ -1,0 +1,22 @@
+{
+  "total_forecast_units": 12563212.295018528,
+  "average_daily_forecast": 785200.768438658,
+  "stores": 54,
+  "families": 33,
+  "series": 1782,
+  "risk_counts": {
+    "Medium": 941,
+    "Low": 537,
+    "High": 286,
+    "Critical": 18
+  },
+  "priorities": {
+    "P2 - Monitor": 1122,
+    "P3 - Routine": 537,
+    "P1 - Immediate review": 123
+  },
+  "average_risk": 48.65701459034793,
+  "high_critical_units": 658722.2887359052,
+  "promotion_associated_units": 11677182.596501438,
+  "inactive_series": 80
+}

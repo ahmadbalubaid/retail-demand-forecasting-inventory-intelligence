@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "status": "passed",
+  "verification_type": "post-restart recovery and fresh Power BI Desktop launch",
+  "pbix_recovered_not_rebuilt": true,
+  "pbix_size_bytes": 1144626,
+  "pbix_sha256": "e42f5df7ce5e902abaecc598ad19dcd280b8caf18449f22678340a11e790dc86",
+  "fresh_launch_render_verified": true,
+  "saved_opening_page_verified": true,
+  "opening_page": "Executive Overview",
+  "page_number": 1,
+  "first_in_bottom_navigation": true,
+  "business_pages_rendered": 7,
+  "p1_p2_default_verified": true,
+  "p3_remains_available": true,
+  "risk_snapshot_tooltip_hidden": true,
+  "static_checks_previously_passed": 152,
+  "desktop_dax_assertions_previously_passed": 23,
+  "report_edits_during_recovery": false,
+  "source": "validation/FINAL_POLISH_VALIDATION.md \u2014 Post-restart recovery verification",
+  "limitations": [
+    "floating tooltip hover not independently exercised in recovery pass",
+    "cloud publication not tested",
+    "mobile layout not tested",
+    "exports not tested"
+  ]
+}

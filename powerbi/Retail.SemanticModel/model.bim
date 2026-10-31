@@ -1,0 +1,1672 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DimStore\",\"DimFamily\",\"DimSeries\",\"DimDate\",\"DimRiskCategory\",\"DimPriority\",\"FactForecast\",\"FactInventoryRisk\",\"ModelPerformance\",\"ValidationFolds\",\"FeatureImportance\",\"DataRoot\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\",\"DaxQueryView_Desktop\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "dimdate.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimDate",
+                    "ConceptualProperty": "date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Forecast date": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimfamily.family": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimFamily",
+                    "ConceptualProperty": "family"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Family": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimpriority.action_priority": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimPriority",
+                    "ConceptualProperty": "action_priority"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Action Priority": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimriskcategory.risk_category": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimRiskCategory",
+                    "ConceptualProperty": "risk_category"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Risk Category": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimseries.activity_status": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimSeries",
+                    "ConceptualProperty": "activity_status"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Activity Status": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimseries.risk_band": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimSeries",
+                    "ConceptualProperty": "risk_band"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Risk Band": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimseries.series_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimSeries",
+                    "ConceptualProperty": "series_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Store / family": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimstore.city": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimStore",
+                    "ConceptualProperty": "city"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "City": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimstore.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimStore",
+                    "ConceptualProperty": "state"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "State": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimstore.store_label": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimStore",
+                    "ConceptualProperty": "store_label"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Store Label": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimstore.store_nbr": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimStore",
+                    "ConceptualProperty": "store_nbr"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Store": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factinventoryrisk.historical_28d_avg": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactInventoryRisk",
+                    "ConceptualProperty": "historical_28d_avg"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "History \u00b7 28d daily avg": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factinventoryrisk.recommended_action": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactInventoryRisk",
+                    "ConceptualProperty": "recommended_action"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Recommended Action": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "featureimportance.feature": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FeatureImportance",
+                    "ConceptualProperty": "feature"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Feature": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "modelperformance.model": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ModelPerformance",
+                    "ConceptualProperty": "model"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Model": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "validationfolds.fold": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ValidationFolds",
+                    "ConceptualProperty": "fold"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Fold": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "DataRoot",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"__SET_DATA_ROOT__\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "3edcbe0d-062e-440f-a209-b4f9a9d6ba0b"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "f55e54bc-865f-577f-a954-aa4a44fbe52d",
+        "fromColumn": "store_nbr",
+        "fromTable": "DimSeries",
+        "toColumn": "store_nbr",
+        "toTable": "DimStore"
+      },
+      {
+        "name": "f15529dd-da99-587e-80b3-fd0554a61534",
+        "fromColumn": "family_id",
+        "fromTable": "DimSeries",
+        "toColumn": "family_id",
+        "toTable": "DimFamily"
+      },
+      {
+        "name": "41583c0f-f925-5348-9942-1e60ae2c3624",
+        "fromColumn": "risk_category",
+        "fromTable": "DimSeries",
+        "toColumn": "risk_category",
+        "toTable": "DimRiskCategory"
+      },
+      {
+        "name": "e7de485b-f086-552a-a533-64242d9c7760",
+        "fromColumn": "action_priority",
+        "fromTable": "DimSeries",
+        "toColumn": "action_priority",
+        "toTable": "DimPriority"
+      },
+      {
+        "name": "8e3aaf0d-2950-5e13-bd7f-e3b5d19eb69f",
+        "fromColumn": "series_key",
+        "fromTable": "FactForecast",
+        "toColumn": "series_key",
+        "toTable": "DimSeries"
+      },
+      {
+        "name": "ae6cd876-e455-5e44-97ee-62ff2761b482",
+        "fromColumn": "series_key",
+        "fromTable": "FactInventoryRisk",
+        "toColumn": "series_key",
+        "toTable": "DimSeries"
+      },
+      {
+        "name": "d6adcd04-fd59-5852-8e77-a264c9e799eb",
+        "fromColumn": "date",
+        "fromTable": "FactForecast",
+        "toColumn": "date",
+        "toTable": "DimDate"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "DimStore",
+        "columns": [
+          {
+            "name": "store_nbr",
+            "dataType": "int64",
+            "lineageTag": "33be38d2-8314-458d-9475-4046362e20be",
+            "sourceColumn": "store_nbr",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "city",
+            "dataType": "string",
+            "lineageTag": "b056af39-fd90-42c0-be44-a33142b97c95",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "state",
+            "dataType": "string",
+            "lineageTag": "4f812b4d-cb18-4b3b-92a3-f8c2ff820363",
+            "sourceColumn": "state",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "store_type",
+            "dataType": "string",
+            "lineageTag": "5f435d6f-b954-40b8-86d7-6baf828507e9",
+            "sourceColumn": "store_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cluster",
+            "dataType": "int64",
+            "lineageTag": "1ca36c76-8336-4482-b274-bd9d61630636",
+            "sourceColumn": "cluster",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "store_label",
+            "dataType": "string",
+            "lineageTag": "9626f1f5-43c3-48a0-974c-4714da127898",
+            "sourceColumn": "store_label",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f610ca5a-ae1f-4660-9b36-906a8ec3ece6",
+        "partitions": [
+          {
+            "name": "DimStore",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/DimStore.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"store_nbr\", Int64.Type}, {\"store_label\", type text}, {\"city\", type text}, {\"state\", type text}, {\"store_type\", type text}, {\"cluster\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimFamily",
+        "columns": [
+          {
+            "name": "family_id",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "24f45e8d-db77-4f8c-95be-6c766df80ba3",
+            "sourceColumn": "family_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "family",
+            "dataType": "string",
+            "lineageTag": "fb77b8cb-dacf-43a2-8e36-e618e77fc7f5",
+            "sourceColumn": "family",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "c1ccf1b5-0e2a-4553-b0d4-40c20487bd83",
+        "partitions": [
+          {
+            "name": "DimFamily",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/DimFamily.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"family_id\", Int64.Type}, {\"family\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimSeries",
+        "columns": [
+          {
+            "name": "store_nbr",
+            "dataType": "int64",
+            "lineageTag": "29eaa8b1-3b0d-45cd-b8dd-0da5139cf51f",
+            "sourceColumn": "store_nbr",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "risk_category",
+            "dataType": "string",
+            "lineageTag": "09936c25-08ad-4423-bd1e-2f70b95e22e7",
+            "sourceColumn": "risk_category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "action_priority",
+            "dataType": "string",
+            "lineageTag": "38d7f61a-e632-453c-8dea-0f513dd4fa4d",
+            "sourceColumn": "action_priority",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "activity_status",
+            "dataType": "string",
+            "lineageTag": "e78ca9d1-ed14-4827-b68f-ed9222fdf92e",
+            "sourceColumn": "activity_status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "volume_tier",
+            "dataType": "string",
+            "lineageTag": "600ca8a8-dc5a-4897-9d87-dd123bea564c",
+            "sourceColumn": "volume_tier",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "family_id",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "00270124-e31e-4c3f-af65-f6020b94f433",
+            "sourceColumn": "family_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "series_key",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "1c64c4c3-6eb7-4ea0-9be0-6ac406d6bece",
+            "sourceColumn": "series_key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "series_label",
+            "dataType": "string",
+            "lineageTag": "7989f6a3-e4dc-44d3-bdad-0babfd042238",
+            "sourceColumn": "series_label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "risk_band",
+            "dataType": "string",
+            "lineageTag": "208a5563-4d99-40e7-99ba-cc6f4ffc61d4",
+            "sourceColumn": "risk_band",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2f7b8ead-97a3-4e8a-a2f5-58f1f4868850",
+        "partitions": [
+          {
+            "name": "DimSeries",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/DimSeries.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"store_nbr\", Int64.Type}, {\"risk_category\", type text}, {\"action_priority\", type text}, {\"activity_status\", type text}, {\"volume_tier\", type text}, {\"family_id\", Int64.Type}, {\"series_key\", type text}, {\"series_label\", type text}, {\"risk_band\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimDate",
+        "columns": [
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "isKey": true,
+            "lineageTag": "81008cbc-cfaf-48b1-ac98-4d85ac0b9ef5",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "lineageTag": "6eac305a-948a-4e6a-a146-fcdbffb9f801",
+            "sourceColumn": "year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "lineageTag": "6be17433-802a-4afe-85d5-b084d48738d9",
+            "sourceColumn": "month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month_name",
+            "dataType": "string",
+            "lineageTag": "e4e0b1d1-f3c1-491f-8cc8-638260bac70d",
+            "sortByColumn": "month",
+            "sourceColumn": "month_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weekday",
+            "dataType": "string",
+            "lineageTag": "e1025fb3-ecb7-478d-b481-28b0068d0d4f",
+            "sortByColumn": "weekday_order",
+            "sourceColumn": "weekday",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weekday_order",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "aca8e104-a512-439b-be1e-6cb4b5f88863",
+            "sourceColumn": "weekday_order",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "week_number",
+            "dataType": "int64",
+            "lineageTag": "1c7d4aea-2722-4e7c-ad39-218b69b08f52",
+            "sourceColumn": "week_number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "quarter",
+            "dataType": "int64",
+            "lineageTag": "54d22cad-1703-481d-9140-555c0ecfd5e1",
+            "sourceColumn": "quarter",
+            "summarizeBy": "none"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "2227ee88-772e-41a2-9182-fcb833d44e90",
+        "partitions": [
+          {
+            "name": "DimDate",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/DimDate.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"date\", type date}, {\"year\", Int64.Type}, {\"month\", Int64.Type}, {\"month_name\", type text}, {\"weekday\", type text}, {\"weekday_order\", Int64.Type}, {\"week_number\", Int64.Type}, {\"quarter\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimRiskCategory",
+        "columns": [
+          {
+            "name": "risk_category",
+            "dataType": "string",
+            "lineageTag": "1afb9e2b-0f7e-498d-8a0b-748765e487d0",
+            "sortByColumn": "severity",
+            "sourceColumn": "risk_category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "severity",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "16a368f8-ac52-4f66-a890-32503cca9df3",
+            "sourceColumn": "severity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "color",
+            "dataType": "string",
+            "lineageTag": "f31d676e-8b6c-4eff-9a32-420578e99ad7",
+            "sourceColumn": "color",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "28a14237-30ab-4aae-8405-5324f85dee42",
+        "partitions": [
+          {
+            "name": "DimRiskCategory",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/DimRiskCategory.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"risk_category\", type text}, {\"severity\", Int64.Type}, {\"color\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimPriority",
+        "columns": [
+          {
+            "name": "action_priority",
+            "dataType": "string",
+            "lineageTag": "e3706f2a-8cab-413a-ab2e-372932aeffb1",
+            "sortByColumn": "priority_order",
+            "sourceColumn": "action_priority",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "priority_order",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "b2d6fe29-cec8-4dad-8f46-f35a06dff231",
+            "sourceColumn": "priority_order",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2a5c2de0-c9e4-4830-bfcf-1a415ae0a756",
+        "partitions": [
+          {
+            "name": "DimPriority",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/DimPriority.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"action_priority\", type text}, {\"priority_order\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FactForecast",
+        "columns": [
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "lineageTag": "92a99bb4-ffe5-4f26-8e21-60765c1287c6",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "series_key",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "10ab49dc-e0a9-46fe-b6f8-dba3b8ddb368",
+            "sourceColumn": "series_key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "predicted_sales",
+            "dataType": "double",
+            "lineageTag": "eb13ac6b-1bfb-4350-8a68-05d7a31d7060",
+            "sourceColumn": "predicted_sales",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "onpromotion",
+            "dataType": "int64",
+            "lineageTag": "80f1130d-b972-4167-8dbb-f41a6dee8661",
+            "sourceColumn": "onpromotion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_horizon",
+            "dataType": "int64",
+            "lineageTag": "952189cd-e1ac-4f14-8a09-f622d17b9c79",
+            "sourceColumn": "forecast_horizon",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0af046e2-92b3-46ee-b141-70ba8a4a7979",
+        "measures": [
+          {
+            "name": "Total Forecasted Units",
+            "description": "Sum of daily predicted sales in current date and series context. Historical case study, units.",
+            "displayFolder": "Forecast",
+            "expression": "SUM(FactForecast[predicted_sales])",
+            "formatString": "#,0",
+            "lineageTag": "d401059a-7faa-4812-bf50-78c6df1d3157"
+          },
+          {
+            "name": "Average Daily Forecast",
+            "description": "Selected forecast units / selected calendar days. Risk metrics remain full-horizon snapshots.",
+            "displayFolder": "Forecast",
+            "expression": "DIVIDE([Total Forecasted Units], DISTINCTCOUNT(DimDate[date]))",
+            "formatString": "#,0.0",
+            "lineageTag": "54a0c1bb-39b8-4b43-8c9c-063c24fee5cf"
+          },
+          {
+            "name": "Stores",
+            "description": "Stores",
+            "displayFolder": "Coverage",
+            "expression": "DISTINCTCOUNT(DimSeries[store_nbr])",
+            "formatString": "#,0",
+            "lineageTag": "1452378f-7d1f-434a-b37b-e28087d9f426"
+          },
+          {
+            "name": "Product Families",
+            "description": "Product Families",
+            "displayFolder": "Coverage",
+            "expression": "DISTINCTCOUNT(DimSeries[family_id])",
+            "formatString": "#,0",
+            "lineageTag": "cd6fd089-43de-414a-8cef-71bb584880c4"
+          },
+          {
+            "name": "Combinations",
+            "description": "Number of assessed store-family snapshots; unaffected by date slicers.",
+            "displayFolder": "Risk",
+            "expression": "COALESCE(COUNTROWS(FactInventoryRisk), 0)",
+            "formatString": "#,0",
+            "lineageTag": "98b59ac9-ef0c-4b86-809d-7de79000a5d2"
+          },
+          {
+            "name": "Average Risk Score",
+            "description": "Unweighted average of source risk scores; never sum scores.",
+            "displayFolder": "Risk",
+            "expression": "AVERAGE(FactInventoryRisk[demand_risk_score])",
+            "formatString": "0.0",
+            "lineageTag": "f5672b94-acb5-4e81-9fb1-2cfc073c49f5"
+          },
+          {
+            "name": "High Risk Count",
+            "description": "High Risk Count",
+            "displayFolder": "Risk",
+            "expression": "CALCULATE([Combinations], KEEPFILTERS(DimRiskCategory[risk_category] = \"High\"))",
+            "formatString": "#,0",
+            "lineageTag": "e0c2d8a6-55d2-4183-bf74-9af1ab318025"
+          },
+          {
+            "name": "Critical Risk Count",
+            "description": "Critical Risk Count",
+            "displayFolder": "Risk",
+            "expression": "CALCULATE([Combinations], KEEPFILTERS(DimRiskCategory[risk_category] = \"Critical\"))",
+            "formatString": "#,0",
+            "lineageTag": "3d7259a3-3d37-4b9c-a6fa-2bd9689b7b3a"
+          },
+          {
+            "name": "High Critical Count",
+            "description": "High Critical Count",
+            "displayFolder": "Risk",
+            "expression": "[High Risk Count] + [Critical Risk Count]",
+            "formatString": "#,0",
+            "lineageTag": "ea4e3959-d591-4fa5-95f2-823776cce99c"
+          },
+          {
+            "name": "High Critical Percentage",
+            "description": "High Critical Percentage",
+            "displayFolder": "Risk",
+            "expression": "DIVIDE([High Critical Count], [Combinations])",
+            "formatString": "0.0%",
+            "lineageTag": "8e1909d0-60ac-479b-846a-4189e6a63263"
+          },
+          {
+            "name": "P1 Actions",
+            "description": "P1 Actions",
+            "displayFolder": "Actions",
+            "expression": "CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = \"P1 - Immediate review\"))",
+            "formatString": "#,0",
+            "lineageTag": "7642655d-3b49-4d1e-a883-a5926128de14"
+          },
+          {
+            "name": "P2 Actions",
+            "description": "P2 Actions",
+            "displayFolder": "Actions",
+            "expression": "CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = \"P2 - Monitor\"))",
+            "formatString": "#,0",
+            "lineageTag": "67549087-ed8d-4804-8b25-e61297cce77d"
+          },
+          {
+            "name": "P3 Actions",
+            "description": "P3 Actions",
+            "displayFolder": "Actions",
+            "expression": "CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = \"P3 - Routine\"))",
+            "formatString": "#,0",
+            "lineageTag": "3a9fe096-c90c-4150-9bc1-8db4513b9ae2"
+          },
+          {
+            "name": "Surge Risk",
+            "description": "Surge Risk",
+            "displayFolder": "Risk",
+            "expression": "AVERAGE(FactInventoryRisk[demand_surge_risk])",
+            "formatString": "0.0",
+            "lineageTag": "35026d62-64c0-47c9-b87e-34621a8e2ecc"
+          },
+          {
+            "name": "Decline Risk",
+            "description": "Decline Risk",
+            "displayFolder": "Risk",
+            "expression": "AVERAGE(FactInventoryRisk[demand_decline_risk])",
+            "formatString": "0.0",
+            "lineageTag": "2da36df8-e6d5-496c-9e1f-75004f4eb4f0"
+          },
+          {
+            "name": "Volatility Risk",
+            "description": "Volatility Risk",
+            "displayFolder": "Risk",
+            "expression": "AVERAGE(FactInventoryRisk[demand_volatility_risk])",
+            "formatString": "0.0",
+            "lineageTag": "82292225-85e1-427b-a7cd-444ea49c5dbe"
+          },
+          {
+            "name": "Forecast Uncertainty",
+            "description": "Forecast Uncertainty",
+            "displayFolder": "Risk",
+            "expression": "AVERAGE(FactInventoryRisk[forecast_uncertainty_score])",
+            "formatString": "0.0",
+            "lineageTag": "cd6f7a9f-96c1-4ae3-b9f9-41f7f305fde3"
+          },
+          {
+            "name": "At Risk Forecasted Units",
+            "description": "Daily forecast units for series classified High/Critical at origin; respects date selection.",
+            "displayFolder": "Risk",
+            "expression": "CALCULATE([Total Forecasted Units], KEEPFILTERS(DimRiskCategory[risk_category] IN {\"High\", \"Critical\"}))",
+            "formatString": "#,0",
+            "lineageTag": "8fdde67f-37c9-4f6a-a206-7e6c716eb32d"
+          },
+          {
+            "name": "At Risk Exposure Share",
+            "description": "At Risk Exposure Share",
+            "displayFolder": "Risk",
+            "expression": "DIVIDE([At Risk Forecasted Units], [Total Forecasted Units])",
+            "formatString": "0.0%",
+            "lineageTag": "0e5763c9-7c34-425a-9c90-da7d9c06c8f3"
+          },
+          {
+            "name": "Promotion Associated Units",
+            "description": "Forecast units on rows with at least one promoted item; association, not promotion lift.",
+            "displayFolder": "Forecast",
+            "expression": "CALCULATE([Total Forecasted Units], KEEPFILTERS(FactForecast[onpromotion] > 0))",
+            "formatString": "#,0",
+            "lineageTag": "24970f5b-b653-4a93-884e-31fbc363a3a1"
+          },
+          {
+            "name": "Promotion Associated Share",
+            "description": "Promotion Associated Share",
+            "displayFolder": "Forecast",
+            "expression": "DIVIDE([Promotion Associated Units], [Total Forecasted Units])",
+            "formatString": "0.0%",
+            "lineageTag": "79e83173-2630-48ca-bac9-2135ad20e512"
+          },
+          {
+            "name": "Snapshot Forecast Units",
+            "description": "Full 16-day snapshot; intentionally unaffected by DimDate.",
+            "displayFolder": "Snapshot",
+            "expression": "SUM(FactInventoryRisk[forecast_16d_total])",
+            "formatString": "#,0",
+            "lineageTag": "07a2d86f-3545-465b-aae5-77345403e14e"
+          },
+          {
+            "name": "Historical Daily Baseline",
+            "description": "Sum of origin-time 28-day average daily sales. Not historical daily observations.",
+            "displayFolder": "Snapshot",
+            "expression": "SUM(FactInventoryRisk[historical_28d_avg])",
+            "formatString": "#,0.0",
+            "lineageTag": "ac884872-b16a-4051-b74d-5d1b708db5de"
+          },
+          {
+            "name": "Eligible Forecast Growth",
+            "description": "Ratio of aggregate daily forecast to aggregate historical daily mean, active non-sparse series only; full horizon.",
+            "displayFolder": "Snapshot",
+            "expression": "VAR Eligible = FILTER(FactInventoryRisk, FactInventoryRisk[sparse_history] = 0 && RELATED(DimSeries[activity_status]) <> \"dormant\" && RELATED(DimSeries[activity_status]) <> \"never sold\") RETURN DIVIDE(SUMX(Eligible, FactInventoryRisk[forecast_daily_avg]), SUMX(Eligible, FactInventoryRisk[historical_28d_avg])) - 1",
+            "formatString": "0.0%",
+            "lineageTag": "1958e276-de11-4edf-80c0-9e6403e6e3bb"
+          },
+          {
+            "name": "Series Forecast Units",
+            "description": "Series Forecast Units",
+            "displayFolder": "Snapshot",
+            "expression": "SUM(FactInventoryRisk[forecast_16d_total])",
+            "formatString": "#,0",
+            "lineageTag": "747fc1a6-2b82-4ddf-bfd1-75175ccead70"
+          },
+          {
+            "name": "Priority Score",
+            "description": "Priority Score",
+            "displayFolder": "Actions",
+            "expression": "AVERAGE(FactInventoryRisk[priority_score])",
+            "formatString": "0.0",
+            "lineageTag": "1f5216a5-8bbb-4bdf-94fa-befd308ef46e"
+          },
+          {
+            "name": "Store Validation RMSLE",
+            "description": "Source pooled validation RMSLE repeated per series; use at store grain.",
+            "displayFolder": "Validation",
+            "expression": "AVERAGE(FactInventoryRisk[store_rmsle])",
+            "formatString": "0.000",
+            "lineageTag": "ee3ba9bd-a229-456c-bf21-542905f49d37"
+          },
+          {
+            "name": "Family Validation RMSLE",
+            "description": "Source pooled validation RMSLE repeated per series; use at family grain.",
+            "displayFolder": "Validation",
+            "expression": "AVERAGE(FactInventoryRisk[family_rmsle])",
+            "formatString": "0.000",
+            "lineageTag": "360bf8bd-5314-4436-a71d-a06ecc7b8899"
+          },
+          {
+            "name": "Selected Model RMSLE",
+            "description": "Documented fixed mean across five folds, rounded to 4 decimals; risk config has 0.39421.",
+            "displayFolder": "Validation",
+            "expression": "CALCULATE(MAX(ModelPerformance[mean_rmsle]), REMOVEFILTERS(ModelPerformance), ModelPerformance[selected] = 1)",
+            "formatString": "0.0000",
+            "lineageTag": "a7fa5814-152b-46c8-9a5d-c1f55f5a66c2"
+          },
+          {
+            "name": "Baseline RMSLE",
+            "description": "Baseline RMSLE",
+            "displayFolder": "Validation",
+            "expression": "CALCULATE(MAX(ModelPerformance[mean_rmsle]), REMOVEFILTERS(ModelPerformance), ModelPerformance[model] = \"Baseline \u00b7 same weekday\")",
+            "formatString": "0.0000",
+            "lineageTag": "6a32be5a-3276-47be-8241-22a5cbe4412f"
+          },
+          {
+            "name": "Relative Model Improvement",
+            "description": "Relative RMSLE reduction using documented rounded model means; not business savings.",
+            "displayFolder": "Validation",
+            "expression": "1 - DIVIDE([Selected Model RMSLE], [Baseline RMSLE])",
+            "formatString": "0.0%",
+            "lineageTag": "d766c351-454b-4803-a43f-9f31dcbdb07b"
+          },
+          {
+            "name": "Model RMSLE",
+            "description": "Model RMSLE",
+            "displayFolder": "Validation",
+            "expression": "MAX(ModelPerformance[mean_rmsle])",
+            "formatString": "0.0000",
+            "lineageTag": "9ab20e58-039c-420e-8ff9-59653bb1e0e1"
+          },
+          {
+            "name": "Fold RMSLE",
+            "description": "Fold RMSLE",
+            "displayFolder": "Validation",
+            "expression": "MAX(ValidationFolds[ensemble_rmsle])",
+            "formatString": "0.0000",
+            "lineageTag": "4662c8fc-040d-46cd-abff-b75324c0163d"
+          },
+          {
+            "name": "Feature Gain Share",
+            "description": "Four leading LightGBM features only; rounded documented shares; not full importance distribution.",
+            "displayFolder": "Validation",
+            "expression": "SUM(FeatureImportance[gain_share])",
+            "formatString": "0.0%",
+            "lineageTag": "c6a19fcc-0a1c-45f1-aee9-c9186c38f84e"
+          },
+          {
+            "name": "Top 10 Store Forecast",
+            "description": "Top 10 Store Forecast",
+            "displayFolder": "Forecast",
+            "expression": "IF(RANKX(ALLSELECTED(DimStore[store_label]), [Total Forecasted Units], , DESC, DENSE) <= 10, [Total Forecasted Units])",
+            "formatString": "#,0",
+            "lineageTag": "33ec2d72-c15b-44f0-93fa-2468e3b0eca6"
+          },
+          {
+            "name": "Top 10 Family Forecast",
+            "description": "Top 10 Family Forecast",
+            "displayFolder": "Forecast",
+            "expression": "IF(RANKX(ALLSELECTED(DimFamily[family]), [Total Forecasted Units], , DESC, DENSE) <= 10, [Total Forecasted Units])",
+            "formatString": "#,0",
+            "lineageTag": "05386244-f457-409f-836a-e627c4eb0758"
+          },
+          {
+            "name": "Highest Risk Store",
+            "description": "Highest unweighted average risk among current stores; deterministic store-number tie break.",
+            "displayFolder": "Risk",
+            "expression": "VAR T = TOPN(1, ADDCOLUMNS(VALUES(DimStore[store_nbr]), \"Score\", [Average Risk Score]), [Score], DESC, DimStore[store_nbr], ASC) RETURN CONCATENATEX(T, \"Store \" & DimStore[store_nbr], \", \")",
+            "lineageTag": "9f873c73-c63b-4074-8b3e-1fd8dc336918"
+          },
+          {
+            "name": "Highest Risk Family",
+            "description": "Highest Risk Family",
+            "displayFolder": "Risk",
+            "expression": "VAR T = TOPN(1, ADDCOLUMNS(VALUES(DimFamily[family]), \"Score\", [Average Risk Score]), [Score], DESC, DimFamily[family], ASC) RETURN CONCATENATEX(T, DimFamily[family], \", \")",
+            "lineageTag": "9f195b9e-0dd1-4086-a5d6-2adecb98a96e"
+          },
+          {
+            "name": "Context Title",
+            "description": "Context Title",
+            "displayFolder": "Labels",
+            "expression": "\"Forecast \u2022 \" & FORMAT(MIN(DimDate[date]), \"dd MMM\") & \"\u2013\" & FORMAT(MAX(DimDate[date]), \"dd MMM yyyy\")",
+            "lineageTag": "552c00e0-df7b-4cd7-9206-83ad6244d7b6"
+          },
+          {
+            "name": "Risk Color",
+            "description": "Risk Color",
+            "displayFolder": "Labels",
+            "expression": "SWITCH(SELECTEDVALUE(DimRiskCategory[risk_category]), \"Low\", \"#36D6A0\", \"Medium\", \"#F5C35B\", \"High\", \"#FF9457\", \"Critical\", \"#FF5E70\", \"#4EAEFF\")",
+            "lineageTag": "23f25251-56d4-4e25-8f9e-0bdcf17b587e"
+          },
+          {
+            "name": "Risk Heat Color",
+            "description": "Matrix cell fill based on average risk and source right-closed thresholds.",
+            "displayFolder": "Labels",
+            "expression": "SWITCH(TRUE(), [Average Risk Score] <= 40, \"#186F5A\", [Average Risk Score] <= 65, \"#725723\", [Average Risk Score] <= 85, \"#8C4726\", \"#962C45\")",
+            "lineageTag": "0de2870f-cb32-4637-b639-17fef68771d9"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "FactForecast",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/FactForecast.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"date\", type date}, {\"series_key\", type text}, {\"predicted_sales\", type number}, {\"onpromotion\", Int64.Type}, {\"forecast_horizon\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FactInventoryRisk",
+        "columns": [
+          {
+            "name": "historical_7d_avg",
+            "dataType": "double",
+            "lineageTag": "968a493f-c740-41ba-bfc7-ba8b2fadee27",
+            "sourceColumn": "historical_7d_avg",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "historical_28d_avg",
+            "dataType": "double",
+            "lineageTag": "9a67ac69-91de-4d39-8a5d-887f1cf98512",
+            "sourceColumn": "historical_28d_avg",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "historical_91d_avg",
+            "dataType": "double",
+            "lineageTag": "9101d2e6-8f63-4db8-bca8-50ca8ddad5b6",
+            "sourceColumn": "historical_91d_avg",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "historical_all_avg",
+            "dataType": "double",
+            "lineageTag": "acfbf8dd-cfbb-4a67-a756-72dea7c18580",
+            "sourceColumn": "historical_all_avg",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "momentum_7_vs_28",
+            "dataType": "double",
+            "lineageTag": "42f9dd23-347e-4f0d-a6a8-50686c8eeddb",
+            "sourceColumn": "momentum_7_vs_28",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "trend_28_vs_91",
+            "dataType": "double",
+            "lineageTag": "efe28edf-5aa8-4fd7-a189-af74add8ff34",
+            "sourceColumn": "trend_28_vs_91",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "volatility_cv_28d",
+            "dataType": "double",
+            "lineageTag": "f2527808-4c14-44cd-913b-8552a09ea11f",
+            "sourceColumn": "volatility_cv_28d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "volatility_cv_91d",
+            "dataType": "double",
+            "lineageTag": "ad408234-22c0-4531-b689-c4f90b6a83a4",
+            "sourceColumn": "volatility_cv_91d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "volatility_std_28d",
+            "dataType": "double",
+            "lineageTag": "4786727a-e417-4520-b586-6537159c39f1",
+            "sourceColumn": "volatility_std_28d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "zero_rate_28d",
+            "dataType": "double",
+            "lineageTag": "56ca21b0-1dd8-404a-91d2-d19352d38406",
+            "sourceColumn": "zero_rate_28d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "zero_rate_91d",
+            "dataType": "double",
+            "lineageTag": "50b1783b-0d53-4046-a35c-1486970b5c77",
+            "sourceColumn": "zero_rate_91d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "zero_rate_all",
+            "dataType": "double",
+            "lineageTag": "952b8c5d-ddf0-424d-b309-5686febccd0d",
+            "sourceColumn": "zero_rate_all",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "promo_intensity_hist_28d",
+            "dataType": "double",
+            "lineageTag": "d2a9c105-be3d-4550-81c1-d0383e4099ae",
+            "sourceColumn": "promo_intensity_hist_28d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "promo_days_share_hist_28d",
+            "dataType": "double",
+            "lineageTag": "486875d3-bfdb-4eb7-9c4e-60820dd5253b",
+            "sourceColumn": "promo_days_share_hist_28d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "days_since_last_sale",
+            "dataType": "double",
+            "lineageTag": "7b6e6818-7cee-4a82-b62d-eb863ed536fc",
+            "sourceColumn": "days_since_last_sale",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_16d_total",
+            "dataType": "double",
+            "lineageTag": "7e58bf17-eda9-413d-9b93-80de8223fc59",
+            "sourceColumn": "forecast_16d_total",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_daily_avg",
+            "dataType": "double",
+            "lineageTag": "d6b3725b-2817-40f3-b4e0-5b05458dca45",
+            "sourceColumn": "forecast_daily_avg",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_max_day",
+            "dataType": "double",
+            "lineageTag": "93868d4b-0431-4ba8-bcb0-452da2119f01",
+            "sourceColumn": "forecast_max_day",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_min_day",
+            "dataType": "double",
+            "lineageTag": "ae019e1a-91ea-44e1-9d40-1d95dc45533d",
+            "sourceColumn": "forecast_min_day",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_std",
+            "dataType": "double",
+            "lineageTag": "c305342d-dd64-4351-bfbc-20b025366bcf",
+            "sourceColumn": "forecast_std",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "promotion_days",
+            "dataType": "int64",
+            "lineageTag": "45ed7c1f-eac3-4350-a08d-5297abe88673",
+            "sourceColumn": "promotion_days",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "same_weekday_baseline_avg",
+            "dataType": "double",
+            "lineageTag": "e0081aca-d606-47f5-8b8f-0d76bd76ffab",
+            "sourceColumn": "same_weekday_baseline_avg",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "peak_expected_demand_date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "lineageTag": "990a821d-061b-493e-ac81-230ac14534ed",
+            "sourceColumn": "peak_expected_demand_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "min_expected_demand_date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "lineageTag": "2d47fcad-13cc-4005-aaa4-5119dad8d9e5",
+            "sourceColumn": "min_expected_demand_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sparse_history",
+            "dataType": "int64",
+            "lineageTag": "714b1269-49f9-46dd-ad60-85ce02c819ac",
+            "sourceColumn": "sparse_history",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_growth_pct",
+            "dataType": "double",
+            "lineageTag": "721b85ce-ff85-41f1-8026-bcf32192bef9",
+            "sourceColumn": "forecast_growth_pct",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_vs_recent",
+            "dataType": "double",
+            "lineageTag": "f88ee4cf-1e70-417f-9d42-a550719a373c",
+            "sourceColumn": "forecast_vs_recent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_vs_same_weekday",
+            "dataType": "double",
+            "lineageTag": "fbb623f1-7385-4083-8ffa-ae587749f1b1",
+            "sourceColumn": "forecast_vs_same_weekday",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "promotion_intensity",
+            "dataType": "double",
+            "lineageTag": "9f9a0ead-9c80-42d4-961b-21c5923ff1ec",
+            "sourceColumn": "promotion_intensity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_cv",
+            "dataType": "double",
+            "lineageTag": "546fe30c-5cb3-4a10-8a74-918d6f5e3f6a",
+            "sourceColumn": "forecast_cv",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "volatility",
+            "dataType": "double",
+            "lineageTag": "36a426ea-594a-4b0b-a890-ceac1899cd56",
+            "sourceColumn": "volatility",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "demand_surge_risk",
+            "dataType": "double",
+            "lineageTag": "52296fc1-9fc0-45df-90a9-090f23527b7b",
+            "sourceColumn": "demand_surge_risk",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "demand_decline_risk",
+            "dataType": "double",
+            "lineageTag": "b04e8548-7c11-4327-ae06-9bcd7df675d3",
+            "sourceColumn": "demand_decline_risk",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "demand_volatility_risk",
+            "dataType": "double",
+            "lineageTag": "524cba70-c0e0-423d-84fd-069752341a4d",
+            "sourceColumn": "demand_volatility_risk",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "family_rmsle",
+            "dataType": "double",
+            "lineageTag": "c89199ce-c690-49d9-b541-f24774e12825",
+            "sourceColumn": "family_rmsle",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "store_rmsle",
+            "dataType": "double",
+            "lineageTag": "645bfe1c-1f45-4b4d-ae5f-ae1d4918feb2",
+            "sourceColumn": "store_rmsle",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_uncertainty_score",
+            "dataType": "double",
+            "lineageTag": "b67c30dc-49a0-4aa1-a39b-79d6efcf607d",
+            "sourceColumn": "forecast_uncertainty_score",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_uncertainty",
+            "dataType": "string",
+            "lineageTag": "d26ed325-e035-4178-81e6-9aab3fcd241b",
+            "sourceColumn": "forecast_uncertainty",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "demand_risk_score",
+            "dataType": "double",
+            "lineageTag": "d083ae3a-8942-4a30-bdba-e96ca580e3e6",
+            "sourceColumn": "demand_risk_score",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "recommended_action",
+            "dataType": "string",
+            "lineageTag": "839af118-682d-4f47-97ef-f377a96c6dc3",
+            "sourceColumn": "recommended_action",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "priority_score",
+            "dataType": "double",
+            "lineageTag": "07344206-1474-4072-bc81-27e6ef31a244",
+            "sourceColumn": "priority_score",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "series_key",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "c710eae2-7828-451c-a9dc-3e5e1ff00bb9",
+            "sourceColumn": "series_key",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "1cbee725-ce6b-4bcd-8e45-3d1bcc2b17c3",
+        "partitions": [
+          {
+            "name": "FactInventoryRisk",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/FactInventoryRisk.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"historical_7d_avg\", type number}, {\"historical_28d_avg\", type number}, {\"historical_91d_avg\", type number}, {\"historical_all_avg\", type number}, {\"momentum_7_vs_28\", type number}, {\"trend_28_vs_91\", type number}, {\"volatility_cv_28d\", type number}, {\"volatility_cv_91d\", type number}, {\"volatility_std_28d\", type number}, {\"zero_rate_28d\", type number}, {\"zero_rate_91d\", type number}, {\"zero_rate_all\", type number}, {\"promo_intensity_hist_28d\", type number}, {\"promo_days_share_hist_28d\", type number}, {\"days_since_last_sale\", type number}, {\"forecast_16d_total\", type number}, {\"forecast_daily_avg\", type number}, {\"forecast_max_day\", type number}, {\"forecast_min_day\", type number}, {\"forecast_std\", type number}, {\"promotion_days\", Int64.Type}, {\"same_weekday_baseline_avg\", type number}, {\"peak_expected_demand_date\", type date}, {\"min_expected_demand_date\", type date}, {\"sparse_history\", Int64.Type}, {\"forecast_growth_pct\", type number}, {\"forecast_vs_recent\", type number}, {\"forecast_vs_same_weekday\", type number}, {\"promotion_intensity\", type number}, {\"forecast_cv\", type number}, {\"volatility\", type number}, {\"demand_surge_risk\", type number}, {\"demand_decline_risk\", type number}, {\"demand_volatility_risk\", type number}, {\"family_rmsle\", type number}, {\"store_rmsle\", type number}, {\"forecast_uncertainty_score\", type number}, {\"forecast_uncertainty\", type text}, {\"demand_risk_score\", type number}, {\"recommended_action\", type text}, {\"priority_score\", type number}, {\"series_key\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ModelPerformance",
+        "columns": [
+          {
+            "name": "model",
+            "dataType": "string",
+            "lineageTag": "56b88a08-e851-4bcc-87f3-ba20d5389625",
+            "sourceColumn": "model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mean_rmsle",
+            "dataType": "double",
+            "lineageTag": "137c4c84-555e-48e0-b4e3-7df33ef734f4",
+            "sourceColumn": "mean_rmsle",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "selected",
+            "dataType": "int64",
+            "lineageTag": "1fdb0be4-79ae-4383-8894-2248928e8f83",
+            "sourceColumn": "selected",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "provenance",
+            "dataType": "string",
+            "lineageTag": "9f597551-8115-4db7-9cd4-6d242de47d8f",
+            "sourceColumn": "provenance",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "4457863f-54cb-41a3-8e48-9c3e99fbcead",
+        "partitions": [
+          {
+            "name": "ModelPerformance",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/ModelPerformance.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"model\", type text}, {\"mean_rmsle\", type number}, {\"selected\", Int64.Type}, {\"provenance\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ValidationFolds",
+        "columns": [
+          {
+            "name": "fold",
+            "dataType": "string",
+            "lineageTag": "d1d0afab-af01-4be4-b6f4-6fd779964d8e",
+            "sourceColumn": "fold",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "lineageTag": "2d356bbb-ab1d-4f77-a198-829d89829197",
+            "sourceColumn": "origin",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ensemble_rmsle",
+            "dataType": "double",
+            "lineageTag": "afe71327-b00e-4c26-b700-95cd5a19afae",
+            "sourceColumn": "ensemble_rmsle",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0f91ec92-03e4-4df8-96ff-7cab7f0a0924",
+        "partitions": [
+          {
+            "name": "ValidationFolds",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/ValidationFolds.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"fold\", type text}, {\"origin\", type date}, {\"ensemble_rmsle\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FeatureImportance",
+        "columns": [
+          {
+            "name": "feature",
+            "dataType": "string",
+            "lineageTag": "e983da87-c0ba-4418-99dd-8f5fc8ca5c15",
+            "sourceColumn": "feature",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gain_share",
+            "dataType": "double",
+            "lineageTag": "7a2c66d9-f26d-4951-9bab-54b67577e21f",
+            "sourceColumn": "gain_share",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2e96ba51-e269-4ed2-b29e-7a2fbbab4215",
+        "partitions": [
+          {
+            "name": "FeatureImportance",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataRoot & \"/FeatureImportance.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"feature\", type text}, {\"gain_share\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

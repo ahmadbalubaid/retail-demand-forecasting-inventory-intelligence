@@ -1,0 +1,5 @@
+risk_category,severity,color
+Low,1,#36D6A0
+Medium,2,#F5C35B
+High,3,#FF9457
+Critical,4,#FF5E70

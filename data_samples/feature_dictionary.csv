@@ -1,0 +1,89 @@
+feature,group,definition,availability,leakage_risk,priority
+horizon,A. Horizon & calendar,Days between origin and target day (1..16),advance,none,1
+dow,A. Horizon & calendar,Weekday of the target day (0=Mon..6=Sun),advance,none,1
+is_weekend,A. Horizon & calendar,Target day is Sat/Sun,advance,none,2
+day_of_month,A. Horizon & calendar,Day of month of the target day,advance,none,1
+week_of_year,A. Horizon & calendar,ISO week of the target day,advance,none,2
+month,A. Horizon & calendar,Month of the target day,advance,none,2
+year,A. Horizon & calendar,Calendar year of the target day,advance,trees cannot extrapolate a new year; behaves like a time index,3
+is_payday,A. Horizon & calendar,Target day is the 15th or month-end (public-sector pay days),advance,none,1
+days_to_payday,A. Horizon & calendar,Days until the next pay day,advance,none,2
+days_since_payday,A. Horizon & calendar,Days since the last pay day,advance,none,2
+store_nbr,B. Store & product identity,Store number (1..54),advance,none,1
+family_id,B. Store & product identity,"Product family code (0..32, see lookups.csv)",advance,none,1
+store_type,B. Store & product identity,Store type A-E (coded),advance,none,2
+store_cluster,B. Store & product identity,Store cluster (1..17),advance,none,2
+city_id,B. Store & product identity,City (coded),advance,none; near-duplicate of store_nbr,3
+state_id,B. Store & product identity,State (coded),advance,none; near-duplicate of store_nbr,3
+hol_national,C. Holidays & events,National holiday on the target day (transfers resolved),advance,none,1
+hol_regional,C. Holidays & events,Regional (state-level) holiday matching the store's state,advance,none,1
+hol_local,C. Holidays & events,Local (city-level) holiday matching the store's city,advance,none,1
+hol_any,C. Holidays & events,Any of the three above,advance,none,1
+bridge,C. Holidays & events,Bridge day (extra day off attached to a holiday),advance,none,2
+additional,C. Holidays & events,Additional holiday day,advance,none,2
+work_day,C. Holidays & events,Make-up working day (a Saturday worked to compensate a bridge),advance,none,2
+hol_type,C. Holidays & events,"Highest-priority holiday type code (0 none, 1 Holiday, 2 Transfer, 3 Bridge, 4 Additional, 5 Work Day)",advance,none,2
+event,C. Holidays & events,"One-off event code (Mother's Day, Black Friday, Cyber Monday, World Cup, earthquake)",advance,none,2
+days_to_holiday,C. Holidays & events,Days to the store's next holiday (capped at 30),advance,none,2
+days_since_holiday,C. Holidays & events,Days since the store's last holiday (capped at 30),advance,none,2
+pre_holiday,C. Holidays & events,Day before a holiday (stock-up effect),advance,none,2
+post_holiday,C. Holidays & events,Day after a holiday,advance,none,2
+onpromotion,D. Promotions,Number of items of the family on promotion in the store on the target day,advance,promo policy drifts over time (coverage 0% in 2013 -> ~47% in 2017); use recent training data,1
+promo_flag,D. Promotions,onpromotion > 0,advance,same drift as above,1
+promo_vs_28d,D. Promotions,onpromotion minus the store x family's average promo count over the last 28 valid days,advance + origin,none,1
+promo_ratio_28d,D. Promotions,onpromotion / (recent promo mean + 1),advance + origin,none,2
+promo_mean_28d,D. Promotions,Mean onpromotion over the last 28 valid days (<= origin),origin,none,2
+promo_days_share_28d,D. Promotions,Share of the last 28 valid days with a promotion,origin,none,2
+fam_promo_share_D,D. Promotions,Share of the 54 stores promoting this family on the target day (chain-wide campaign),advance,same drift,2
+store_promo_share_D,D. Promotions,Share of the 33 families promoted in this store on the target day,advance,same drift,2
+lag_1d,E. Origin-relative lags,Sales on the origin day,origin,none (index = t),1
+lag_7d,E. Origin-relative lags,Sales 6 days before the origin (7 days before the first forecast day),origin,none,1
+lag_14d,E. Origin-relative lags,Sales 13 days before the origin,origin,none,1
+lag_28d,E. Origin-relative lags,Sales 27 days before the origin,origin,none,2
+sd_lag_1,F. Horizon-aligned same-weekday lags,Sales on the newest same-weekday date <= origin (i.e. target - 7*ceil(h/7)),origin,index asserted <= t for every horizon (section 7),1
+sd_lag_2,F. Horizon-aligned same-weekday lags,"Same weekday, one week earlier than sd_lag_1",origin,none,1
+sd_lag_3,F. Horizon-aligned same-weekday lags,"Same weekday, two weeks earlier",origin,none,1
+sd_lag_4,F. Horizon-aligned same-weekday lags,"Same weekday, three weeks earlier",origin,none,1
+sd_mean_4,F. Horizon-aligned same-weekday lags,Mean of sd_lag_1..4 (ignores masked days),origin,none,1
+sd_mean_8,F. Horizon-aligned same-weekday lags,Mean of the 8 newest same-weekday values,origin,none,1
+dow_ratio_8,F. Horizon-aligned same-weekday lags,sd_mean_8 / 91-day mean: how strong this weekday is for this series (series-specific weekday amplitude),origin,none,1
+roll_mean_7d,G. Rolling level,Mean sales over the last 7 valid days ending at the origin,origin,windows end at t,1
+roll_mean_14d,G. Rolling level,Mean over the last 14 days,origin,windows end at t,1
+roll_mean_28d,G. Rolling level,Mean over the last 28 days,origin,windows end at t,1
+roll_mean_56d,G. Rolling level,Mean over the last 56 days,origin,windows end at t,2
+roll_median_28d,G. Rolling level,Median over the last 28 days (robust to spikes),origin,windows end at t,2
+roll_std_7d,H. Volatility,Std of sales over 7 days,origin,none,2
+roll_std_14d,H. Volatility,Std over 14 days,origin,none,2
+roll_std_28d,H. Volatility,Std over 28 days,origin,none,2
+roll_std_91d,H. Volatility,Std over 91 days,origin,none,2
+cv_28d,H. Volatility,"Coefficient of variation (std / mean), 28 days",origin,none,2
+cv_91d,H. Volatility,"Coefficient of variation, 91 days",origin,none,2
+growth_7_vs_28,I. Growth & year-ago,7-day mean / 28-day mean (momentum),origin,none,2
+growth_28_vs_prev28,I. Growth & year-ago,Last 28 days / the 28 days before,origin,none,2
+growth_28_vs_91,I. Growth & year-ago,28-day mean / 91-day mean,origin,none,2
+yoy_lag_364,I. Growth & year-ago,Sales on the same weekday one year (364 days) before the target day,origin,index = target - 364 <= origin,2
+yoy_mean_15d,I. Growth & year-ago,Mean of the 15 days centred on that year-ago date (annual seasonality),origin,index <= origin,1
+yoy_trend_28d,I. Growth & year-ago,Current 28-day mean / the same 28 days one year earlier (like-for-like growth),origin,none,2
+roll_zero_rate_28d,J. Activity & intermittency,"Share of valid days with zero sales, last 28",origin,none,1
+roll_zero_rate_91d,J. Activity & intermittency,"Same, last 91 days",origin,none,2
+valid_days_28d,J. Activity & intermittency,Number of unmasked days in the last 28 (data coverage / cold-start indicator),origin,"depends on the offline masks (section 7, risk R3)",2
+days_since_last_sale,J. Activity & intermittency,Days since the last day with sales > 0,origin,none,1
+sf_zero_rate_all,J. Activity & intermittency,Zero rate over the full history up to the origin,origin,none,2
+sf_age_days,J. Activity & intermittency,Days since the combination's first sale,origin,none,2
+sf_mean_91d,J. Activity & intermittency,Mean sales over 91 days (long-run level),origin,none,2
+sf_mean_all,J. Activity & intermittency,Mean sales over the whole history up to the origin (Store x Family historical average),origin,"expanding window, no future",2
+store_mean_7d,K. Store-level context,"Store's mean daily total sales, last 7 days (stable families only)",origin,none,2
+store_mean_28d,K. Store-level context,"Store's mean daily total sales, last 28 days",origin,none,2
+store_growth_7_vs_28,K. Store-level context,Store momentum (7d / 28d),origin,none,2
+store_growth_28_vs_91,K. Store-level context,Store trend (28d / 91d),origin,none,2
+store_age_days,K. Store-level context,Days since the store's first sale (maturity),origin,none,3
+store_tx_mean_7d,L. Store transactions (lagged),"Mean daily transactions, last 7 days up to the origin",origin,same-day transactions are NEVER used,3
+store_tx_mean_28d,L. Store transactions (lagged),"Mean daily transactions, last 28 days",origin,same,3
+store_tx_growth_7_vs_28,L. Store transactions (lagged),Transactions momentum,origin,same,3
+store_sales_per_tx_28d,L. Store transactions (lagged),"Units per transaction, last 28 days (basket size)",origin,same,3
+fam_mean_7d,M. Family-level context,"Chain-wide mean daily sales of the family, last 7 days",origin,none,2
+fam_mean_28d,M. Family-level context,"Chain-wide mean daily sales of the family, last 28 days",origin,none,2
+fam_growth_7_vs_28,M. Family-level context,Family momentum,origin,none,2
+sf_share_of_family_28d,M. Family-level context,This store's share of the family's chain-wide sales,origin,none,2
+oil_price,N. Macro,Oil price on the origin day (forward-filled over weekends),origin,only the 2013-01-01 value is back-filled,3
+oil_pct_chg_28d,N. Macro,% change of the oil price over the 28 days to the origin,origin,none,3

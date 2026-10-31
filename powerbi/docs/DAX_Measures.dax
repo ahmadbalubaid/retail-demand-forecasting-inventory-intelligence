@@ -1,0 +1,163 @@
+// Sum of daily predicted sales in current date and series context. Historical case study, units.
+Total Forecasted Units =
+SUM(FactForecast[predicted_sales])
+
+// Selected forecast units / selected calendar days. Risk metrics remain full-horizon snapshots.
+Average Daily Forecast =
+DIVIDE([Total Forecasted Units], DISTINCTCOUNT(DimDate[date]))
+
+// Stores
+Stores =
+DISTINCTCOUNT(DimSeries[store_nbr])
+
+// Product Families
+Product Families =
+DISTINCTCOUNT(DimSeries[family_id])
+
+// Number of assessed store-family snapshots; unaffected by date slicers.
+Combinations =
+COALESCE(COUNTROWS(FactInventoryRisk), 0)
+
+// Unweighted average of source risk scores; never sum scores.
+Average Risk Score =
+AVERAGE(FactInventoryRisk[demand_risk_score])
+
+// High Risk Count
+High Risk Count =
+CALCULATE([Combinations], KEEPFILTERS(DimRiskCategory[risk_category] = "High"))
+
+// Critical Risk Count
+Critical Risk Count =
+CALCULATE([Combinations], KEEPFILTERS(DimRiskCategory[risk_category] = "Critical"))
+
+// High Critical Count
+High Critical Count =
+[High Risk Count] + [Critical Risk Count]
+
+// High Critical Percentage
+High Critical Percentage =
+DIVIDE([High Critical Count], [Combinations])
+
+// P1 Actions
+P1 Actions =
+CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = "P1 - Immediate review"))
+
+// P2 Actions
+P2 Actions =
+CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = "P2 - Monitor"))
+
+// P3 Actions
+P3 Actions =
+CALCULATE([Combinations], KEEPFILTERS(DimPriority[action_priority] = "P3 - Routine"))
+
+// Surge Risk
+Surge Risk =
+AVERAGE(FactInventoryRisk[demand_surge_risk])
+
+// Decline Risk
+Decline Risk =
+AVERAGE(FactInventoryRisk[demand_decline_risk])
+
+// Volatility Risk
+Volatility Risk =
+AVERAGE(FactInventoryRisk[demand_volatility_risk])
+
+// Forecast Uncertainty
+Forecast Uncertainty =
+AVERAGE(FactInventoryRisk[forecast_uncertainty_score])
+
+// Daily forecast units for series classified High/Critical at origin; respects date selection.
+At Risk Forecasted Units =
+CALCULATE([Total Forecasted Units], KEEPFILTERS(DimRiskCategory[risk_category] IN {"High", "Critical"}))
+
+// At Risk Exposure Share
+At Risk Exposure Share =
+DIVIDE([At Risk Forecasted Units], [Total Forecasted Units])
+
+// Forecast units on rows with at least one promoted item; association, not promotion lift.
+Promotion Associated Units =
+CALCULATE([Total Forecasted Units], KEEPFILTERS(FactForecast[onpromotion] > 0))
+
+// Promotion Associated Share
+Promotion Associated Share =
+DIVIDE([Promotion Associated Units], [Total Forecasted Units])
+
+// Full 16-day snapshot; intentionally unaffected by DimDate.
+Snapshot Forecast Units =
+SUM(FactInventoryRisk[forecast_16d_total])
+
+// Sum of origin-time 28-day average daily sales. Not historical daily observations.
+Historical Daily Baseline =
+SUM(FactInventoryRisk[historical_28d_avg])
+
+// Ratio of aggregate daily forecast to aggregate historical daily mean, active non-sparse series only; full horizon.
+Eligible Forecast Growth =
+VAR Eligible = FILTER(FactInventoryRisk, FactInventoryRisk[sparse_history] = 0 && RELATED(DimSeries[activity_status]) <> "dormant" && RELATED(DimSeries[activity_status]) <> "never sold") RETURN DIVIDE(SUMX(Eligible, FactInventoryRisk[forecast_daily_avg]), SUMX(Eligible, FactInventoryRisk[historical_28d_avg])) - 1
+
+// Series Forecast Units
+Series Forecast Units =
+SUM(FactInventoryRisk[forecast_16d_total])
+
+// Priority Score
+Priority Score =
+AVERAGE(FactInventoryRisk[priority_score])
+
+// Source pooled validation RMSLE repeated per series; use at store grain.
+Store Validation RMSLE =
+AVERAGE(FactInventoryRisk[store_rmsle])
+
+// Source pooled validation RMSLE repeated per series; use at family grain.
+Family Validation RMSLE =
+AVERAGE(FactInventoryRisk[family_rmsle])
+
+// Documented fixed mean across five folds, rounded to 4 decimals; risk config has 0.39421.
+Selected Model RMSLE =
+CALCULATE(MAX(ModelPerformance[mean_rmsle]), REMOVEFILTERS(ModelPerformance), ModelPerformance[selected] = 1)
+
+// Baseline RMSLE
+Baseline RMSLE =
+CALCULATE(MAX(ModelPerformance[mean_rmsle]), REMOVEFILTERS(ModelPerformance), ModelPerformance[model] = "Baseline · same weekday")
+
+// Relative RMSLE reduction using documented rounded model means; not business savings.
+Relative Model Improvement =
+1 - DIVIDE([Selected Model RMSLE], [Baseline RMSLE])
+
+// Model RMSLE
+Model RMSLE =
+MAX(ModelPerformance[mean_rmsle])
+
+// Fold RMSLE
+Fold RMSLE =
+MAX(ValidationFolds[ensemble_rmsle])
+
+// Four leading LightGBM features only; rounded documented shares; not full importance distribution.
+Feature Gain Share =
+SUM(FeatureImportance[gain_share])
+
+// Top 10 Store Forecast
+Top 10 Store Forecast =
+IF(RANKX(ALLSELECTED(DimStore[store_label]), [Total Forecasted Units], , DESC, DENSE) <= 10, [Total Forecasted Units])
+
+// Top 10 Family Forecast
+Top 10 Family Forecast =
+IF(RANKX(ALLSELECTED(DimFamily[family]), [Total Forecasted Units], , DESC, DENSE) <= 10, [Total Forecasted Units])
+
+// Highest unweighted average risk among current stores; deterministic store-number tie break.
+Highest Risk Store =
+VAR T = TOPN(1, ADDCOLUMNS(VALUES(DimStore[store_nbr]), "Score", [Average Risk Score]), [Score], DESC, DimStore[store_nbr], ASC) RETURN CONCATENATEX(T, "Store " & DimStore[store_nbr], ", ")
+
+// Highest Risk Family
+Highest Risk Family =
+VAR T = TOPN(1, ADDCOLUMNS(VALUES(DimFamily[family]), "Score", [Average Risk Score]), [Score], DESC, DimFamily[family], ASC) RETURN CONCATENATEX(T, DimFamily[family], ", ")
+
+// Context Title
+Context Title =
+"Forecast • " & FORMAT(MIN(DimDate[date]), "dd MMM") & "–" & FORMAT(MAX(DimDate[date]), "dd MMM yyyy")
+
+// Risk Color
+Risk Color =
+SWITCH(SELECTEDVALUE(DimRiskCategory[risk_category]), "Low", "#36D6A0", "Medium", "#F5C35B", "High", "#FF9457", "Critical", "#FF5E70", "#4EAEFF")
+
+// Matrix cell fill based on average risk and source right-closed thresholds.
+Risk Heat Color =
+SWITCH(TRUE(), [Average Risk Score] <= 40, "#186F5A", [Average Risk Score] <= 65, "#725723", [Average Risk Score] <= 85, "#8C4726", "#962C45")

@@ -1,0 +1,30 @@
+[
+  {
+    "relationship": "f55e54bc-865f-577f-a954-aa4a44fbe52d",
+    "unique_dimension_key_and_no_orphans": true
+  },
+  {
+    "relationship": "f15529dd-da99-587e-80b3-fd0554a61534",
+    "unique_dimension_key_and_no_orphans": true
+  },
+  {
+    "relationship": "41583c0f-f925-5348-9942-1e60ae2c3624",
+    "unique_dimension_key_and_no_orphans": true
+  },
+  {
+    "relationship": "e7de485b-f086-552a-a533-64242d9c7760",
+    "unique_dimension_key_and_no_orphans": true
+  },
+  {
+    "relationship": "8e3aaf0d-2950-5e13-bd7f-e3b5d19eb69f",
+    "unique_dimension_key_and_no_orphans": true
+  },
+  {
+    "relationship": "ae6cd876-e455-5e44-97ee-62ff2761b482",
+    "unique_dimension_key_and_no_orphans": true
+  },
+  {
+    "relationship": "d6adcd04-fd59-5852-8e77-a264c9e799eb",
+    "unique_dimension_key_and_no_orphans": true
+  }
+]
